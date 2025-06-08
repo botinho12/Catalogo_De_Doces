@@ -1,0 +1,36 @@
+﻿@model IEnumerable<CatalogoDeDoces.Models.ProdutoModel>
+@{
+    ViewBag.Title = "Catálogo de Doces";
+    var categorias = ViewBag.Categorias as List<CatalogoDeDoces.Models.CategoriaModel>;
+}
+
+<div style="display: flex;">
+    <!-- Menu lateral -->
+    <aside style="width: 20%; padding: 10px;">
+        <h3>Categorias</h3>
+        <ul style="list-style-type: none; padding: 0;">
+            <li><a href="@Url.Action("Index", "Produtos")">Todas</a></li>
+            @foreach (var cat in categorias)
+            {
+                    <li>
+                        <a href="@Url.Action("Index", "Produtos", new { categoriaId = cat.Id })">
+                        @cat.Nome
+                        </a>
+                    </li>
+            }
+        </ul>
+    </aside>
+
+    <!-- Lista de produtos -->
+    <section style="width: 80%; display: flex; flex-wrap: wrap; gap: 20px;">
+        @foreach (var produto in Model)
+        {
+                <div style="border: 1px solid #ccc; border-radius: 5px; width: 200px; padding: 10px;">
+                    <img src="@produto.ImagemUrl" alt="@produto.Nome" style="width: 100%; height: auto;" />
+                    <h4>@produto.Nome</h4>
+                    <p>@produto.Descricao</p>
+                    <strong>R$ @produto.Preco.ToString("F2")</strong>
+                </div>
+        }
+    </section>
+</div>
