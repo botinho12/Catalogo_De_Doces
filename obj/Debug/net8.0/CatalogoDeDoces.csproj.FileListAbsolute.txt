@@ -146,3 +146,4 @@ C:\Users\botiv\source\repos\CatalogoDeDoces\CatalogoDeDoces\CatalogoDeDoces\bin\
 C:\Users\botiv\source\repos\CatalogoDeDoces\CatalogoDeDoces\CatalogoDeDoces\obj\Debug\net8.0\CatalogoDeDoces.csproj.AssemblyReference.cache
 C:\Users\botiv\source\repos\CatalogoDeDoces\CatalogoDeDoces\CatalogoDeDoces\obj\Debug\net8.0\Catalogo.30E54765.Up2Date
 C:\Users\botiv\source\repos\CatalogoDeDoces\CatalogoDeDoces\CatalogoDeDoces\obj\Debug\net8.0\CatalogoDeDoces.sourcelink.json
+C:\Users\botiv\source\repos\CatalogoDeDoces\CatalogoDeDoces\CatalogoDeDoces\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
