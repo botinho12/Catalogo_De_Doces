@@ -28,5 +28,15 @@ namespace CatalogoDeDoces.Controllers
 
             return View(produtos.ToList());
         }
+
+        public async Task<IActionResult> FiltrarPorCategoria(int id)
+        {
+            var produtos = await _docesContext.Produtos
+                .Include(p => p.Categoria)
+                .Where(p => p.CategoriaId == id)
+                .ToListAsync();
+
+            return View("Index", produtos); // Ou uma view específica, se preferir
+        }
     }
 }

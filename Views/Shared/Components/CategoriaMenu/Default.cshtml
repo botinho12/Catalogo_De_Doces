@@ -1,0 +1,12 @@
+﻿@model List<CatalogoDeDoces.Models.CategoriaModel>
+
+<ul class="dropdown-menu">
+    @foreach (var categoria in Model)
+    {
+        <li>
+            <a class="dropdown-item" asp-controller="Produto" asp-action="FiltrarPorCategoria" asp-route-id="@categoria.Id">
+                @categoria.Nome
+            </a>
+        </li>
+    }
+</ul>
