@@ -6,3 +6,16 @@
 <div class="text-center">
 	<h1 class="display-4"> Criar Produtos </h1>
 </div>
+
+<form asp-controller="Produto" asp-action="Criar" method="post">
+
+	<div class="form-group">
+		<label for="nome">Nome</label>
+		<input type="text" asp-for="Nome" class="form-control" placeholder="Digite o nome do produto">
+		<label for="descrição">Descrição</label>
+		<input type="text" asp-for="Descricao" class="form-control" placeholder="Digite a descrição do produto">
+		<label for="preço">Preço</label>
+		<input type="text" asp-for="Preco" class="form-control" placeholder="Informe o preço do produto">
+	</div>
+
+</form>

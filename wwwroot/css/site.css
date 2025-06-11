@@ -18,6 +18,10 @@ html {
 }
 
 body {
-  margin-bottom: 60px;
-  background-color: rosybrown;
+    margin-bottom: 60px;
+    background-color: #9049BF;
+}
+
+#navColor {
+    background-color: #3B0273;
 }

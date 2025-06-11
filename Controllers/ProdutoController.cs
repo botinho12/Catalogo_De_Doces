@@ -38,5 +38,10 @@ namespace CatalogoDeDoces.Controllers
 
             return View("Index", produtos); // Ou uma view específica, se preferir
         }
+
+        public IActionResult Criar()
+        {
+            return View();
+        }
     }
 }

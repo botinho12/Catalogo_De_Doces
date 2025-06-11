@@ -1,6 +1,8 @@
-﻿namespace CatalogoDeDoces.Repository.Interfaces
+﻿using CatalogoDeDoces.Models;
+
+namespace CatalogoDeDoces.Repository.Interfaces
 {
-    public interface ICategoriaRepository
+    public interface ICategoriaRepository : IRepositoryGeneric<CategoriaModel>
     {
     }
 }
