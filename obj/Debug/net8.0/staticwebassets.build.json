@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "gi2bVd1PBFyFB4EH0Ol2HmwOPJhv6gROEd7H53igxuE=",
+  "Hash": "MDUd/l1zmwaNxRllM3f4h6/mEXnDkOJcFUQIYtucOCo=",
   "Source": "CatalogoDeDoces",
   "BasePath": "_content/CatalogoDeDoces",
   "Mode": "Default",
@@ -73,8 +73,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "jtyrhdkzis",
-      "Integrity": "B+4jBZsEgWYoaFuHKyn5iuNQI36nwqZve05WLMuV44Y=",
+      "Fingerprint": "dsayoa7t39",
+      "Integrity": "42S4kIbUuK7D1WIwc8pjv01Pvb2WCCcnO7rWE/1B3i4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -120,6 +120,48 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Img\\Logo.png"
+    },
+    {
+      "Identity": "C:\\Users\\botiv\\source\\repos\\CatalogoDeDoces\\CatalogoDeDoces\\CatalogoDeDoces\\wwwroot\\Img\\LogoJujuba.jpg",
+      "SourceId": "CatalogoDeDoces",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\botiv\\source\\repos\\CatalogoDeDoces\\CatalogoDeDoces\\CatalogoDeDoces\\wwwroot\\",
+      "BasePath": "_content/CatalogoDeDoces",
+      "RelativePath": "Img/LogoJujuba#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "im0ucq7v46",
+      "Integrity": "qsK8zuaVJrkISyypRgMIu2mcT7qyxMe4+zNRVgBhyIE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Img\\LogoJujuba.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\botiv\\source\\repos\\CatalogoDeDoces\\CatalogoDeDoces\\CatalogoDeDoces\\wwwroot\\Img\\LogoWhatssap.png",
+      "SourceId": "CatalogoDeDoces",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\botiv\\source\\repos\\CatalogoDeDoces\\CatalogoDeDoces\\CatalogoDeDoces\\wwwroot\\",
+      "BasePath": "_content/CatalogoDeDoces",
+      "RelativePath": "Img/LogoWhatssap#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "7v7j41p9si",
+      "Integrity": "k6brJfsJighLwl3WGUCt7JaoTP50C7UqjH4brJDjc0c=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Img\\LogoWhatssap.png"
     },
     {
       "Identity": "C:\\Users\\botiv\\source\\repos\\CatalogoDeDoces\\CatalogoDeDoces\\CatalogoDeDoces\\wwwroot\\js\\site.js",
@@ -1516,7 +1558,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "446"
+          "Value": "2279"
         },
         {
           "Name": "Content-Type",
@@ -1524,11 +1566,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"B+4jBZsEgWYoaFuHKyn5iuNQI36nwqZve05WLMuV44Y=\""
+          "Value": "\"42S4kIbUuK7D1WIwc8pjv01Pvb2WCCcnO7rWE/1B3i4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 11 Jun 2025 03:43:35 GMT"
+          "Value": "Thu, 12 Jun 2025 02:51:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1538,12 +1580,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-B+4jBZsEgWYoaFuHKyn5iuNQI36nwqZve05WLMuV44Y="
+          "Value": "sha256-42S4kIbUuK7D1WIwc8pjv01Pvb2WCCcnO7rWE/1B3i4="
         }
       ]
     },
     {
-      "Route": "css/site.jtyrhdkzis.css",
+      "Route": "css/site.dsayoa7t39.css",
       "AssetFile": "C:\\Users\\botiv\\source\\repos\\CatalogoDeDoces\\CatalogoDeDoces\\CatalogoDeDoces\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -1553,7 +1595,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "446"
+          "Value": "2279"
         },
         {
           "Name": "Content-Type",
@@ -1561,11 +1603,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"B+4jBZsEgWYoaFuHKyn5iuNQI36nwqZve05WLMuV44Y=\""
+          "Value": "\"42S4kIbUuK7D1WIwc8pjv01Pvb2WCCcnO7rWE/1B3i4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 11 Jun 2025 03:43:35 GMT"
+          "Value": "Thu, 12 Jun 2025 02:51:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1575,7 +1617,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "jtyrhdkzis"
+          "Value": "dsayoa7t39"
         },
         {
           "Name": "label",
@@ -1583,7 +1625,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-B+4jBZsEgWYoaFuHKyn5iuNQI36nwqZve05WLMuV44Y="
+          "Value": "sha256-42S4kIbUuK7D1WIwc8pjv01Pvb2WCCcnO7rWE/1B3i4="
         }
       ]
     },
@@ -1748,6 +1790,170 @@
         {
           "Name": "integrity",
           "Value": "sha256-SqiD17NMMmkDk66u9TiLeXxn8+jieFZcT7wppbT3+rA="
+        }
+      ]
+    },
+    {
+      "Route": "Img/LogoJujuba.im0ucq7v46.jpg",
+      "AssetFile": "C:\\Users\\botiv\\source\\repos\\CatalogoDeDoces\\CatalogoDeDoces\\CatalogoDeDoces\\wwwroot\\Img\\LogoJujuba.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "40625"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qsK8zuaVJrkISyypRgMIu2mcT7qyxMe4+zNRVgBhyIE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Jun 2025 14:50:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "im0ucq7v46"
+        },
+        {
+          "Name": "label",
+          "Value": "Img/LogoJujuba.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-qsK8zuaVJrkISyypRgMIu2mcT7qyxMe4+zNRVgBhyIE="
+        }
+      ]
+    },
+    {
+      "Route": "Img/LogoJujuba.jpg",
+      "AssetFile": "C:\\Users\\botiv\\source\\repos\\CatalogoDeDoces\\CatalogoDeDoces\\CatalogoDeDoces\\wwwroot\\Img\\LogoJujuba.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "40625"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qsK8zuaVJrkISyypRgMIu2mcT7qyxMe4+zNRVgBhyIE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Jun 2025 14:50:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-qsK8zuaVJrkISyypRgMIu2mcT7qyxMe4+zNRVgBhyIE="
+        }
+      ]
+    },
+    {
+      "Route": "Img/LogoWhatssap.7v7j41p9si.png",
+      "AssetFile": "C:\\Users\\botiv\\source\\repos\\CatalogoDeDoces\\CatalogoDeDoces\\CatalogoDeDoces\\wwwroot\\Img\\LogoWhatssap.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "68991"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"k6brJfsJighLwl3WGUCt7JaoTP50C7UqjH4brJDjc0c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 12 Jun 2025 02:39:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7v7j41p9si"
+        },
+        {
+          "Name": "label",
+          "Value": "Img/LogoWhatssap.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-k6brJfsJighLwl3WGUCt7JaoTP50C7UqjH4brJDjc0c="
+        }
+      ]
+    },
+    {
+      "Route": "Img/LogoWhatssap.png",
+      "AssetFile": "C:\\Users\\botiv\\source\\repos\\CatalogoDeDoces\\CatalogoDeDoces\\CatalogoDeDoces\\wwwroot\\Img\\LogoWhatssap.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "68991"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"k6brJfsJighLwl3WGUCt7JaoTP50C7UqjH4brJDjc0c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 12 Jun 2025 02:39:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-k6brJfsJighLwl3WGUCt7JaoTP50C7UqjH4brJDjc0c="
         }
       ]
     },

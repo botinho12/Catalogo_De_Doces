@@ -9,6 +9,14 @@
       "PackagePath": "staticwebassets\\Img\\Logo.png"
     },
     {
+      "Id": "C:\\Users\\botiv\\source\\repos\\CatalogoDeDoces\\CatalogoDeDoces\\CatalogoDeDoces\\wwwroot\\Img\\LogoJujuba.jpg",
+      "PackagePath": "staticwebassets\\Img\\LogoJujuba.jpg"
+    },
+    {
+      "Id": "C:\\Users\\botiv\\source\\repos\\CatalogoDeDoces\\CatalogoDeDoces\\CatalogoDeDoces\\wwwroot\\Img\\LogoWhatssap.png",
+      "PackagePath": "staticwebassets\\Img\\LogoWhatssap.png"
+    },
+    {
       "Id": "C:\\Users\\botiv\\source\\repos\\CatalogoDeDoces\\CatalogoDeDoces\\CatalogoDeDoces\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

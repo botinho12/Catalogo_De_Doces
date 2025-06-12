@@ -1,27 +1,127 @@
-html {
-  font-size: 14px;
-}
-
-@media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
-}
-
-.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
-  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
-}
-
-html {
-  position: relative;
-  min-height: 100%;
+* {
+    box-sizing: border-box;
 }
 
 body {
-    margin-bottom: 60px;
-    background-color: #9049BF;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    background-color: #fff6f0;
+    color: #4a004e;
 }
 
-#navColor {
-    background-color: #3B0273;
+header {
+    background-color: #fff;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    margin: 0 1rem;
+    color: #4a004e;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.logo-img {
+    height: 100px;
+    width: auto;
+}
+
+.whatsapp-icon {
+    width: 32px;
+    height: 32px;
+}
+
+.welcome-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh; /* altura de quase toda a tela */
+    text-align: center;
+}
+
+.hero {
+    background-color: #ffe0cc;
+    text-align: center;
+    padding: 4rem 2rem;
+    background-image: url('muffin.png'); /* opcional */
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+    .hero h1 {
+        font-size: 3rem;
+        color: #4a004e;
+    }
+
+.btn-orange {
+    background-color: #ff6b00;
+    color: #fff;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 20px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.destaques {
+    padding: 3rem 2rem;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 1rem;
+    width: 150px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+    .card h3 {
+        font-size: 1.2rem;
+        color: #4a004e;
+    }
+
+    .card button {
+        margin-top: 0.5rem;
+        background-color: #ff6b00;
+        color: white;
+        border: none;
+        padding: 0.5rem 1rem;
+        border-radius: 12px;
+        cursor: pointer;
+    }
+
+.quote {
+    background-color: #fff0e6;
+    text-align: center;
+    padding: 2rem;
+    font-style: italic;
+}
+
+.cta {
+    background-color: #ff6b00;
+    text-align: center;
+    color: white;
+    padding: 3rem 2rem;
+}
+
+.btn-purple {
+    background-color: #4a004e;
+    color: white;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 20px;
+    font-size: 1rem;
+    margin-top: 1rem;
 }

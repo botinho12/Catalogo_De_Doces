@@ -167,6 +167,170 @@
       ]
     },
     {
+      "Route": "Img/LogoJujuba.im0ucq7v46.jpg",
+      "AssetFile": "Img/LogoJujuba.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "40625"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qsK8zuaVJrkISyypRgMIu2mcT7qyxMe4+zNRVgBhyIE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Jun 2025 14:50:56 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "im0ucq7v46"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-qsK8zuaVJrkISyypRgMIu2mcT7qyxMe4+zNRVgBhyIE="
+        },
+        {
+          "Name": "label",
+          "Value": "Img/LogoJujuba.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "Img/LogoJujuba.jpg",
+      "AssetFile": "Img/LogoJujuba.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "40625"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qsK8zuaVJrkISyypRgMIu2mcT7qyxMe4+zNRVgBhyIE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Jun 2025 14:50:56 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-qsK8zuaVJrkISyypRgMIu2mcT7qyxMe4+zNRVgBhyIE="
+        }
+      ]
+    },
+    {
+      "Route": "Img/LogoWhatssap.7v7j41p9si.png",
+      "AssetFile": "Img/LogoWhatssap.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "68991"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"k6brJfsJighLwl3WGUCt7JaoTP50C7UqjH4brJDjc0c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 12 Jun 2025 02:39:05 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7v7j41p9si"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-k6brJfsJighLwl3WGUCt7JaoTP50C7UqjH4brJDjc0c="
+        },
+        {
+          "Name": "label",
+          "Value": "Img/LogoWhatssap.png"
+        }
+      ]
+    },
+    {
+      "Route": "Img/LogoWhatssap.png",
+      "AssetFile": "Img/LogoWhatssap.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "68991"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"k6brJfsJighLwl3WGUCt7JaoTP50C7UqjH4brJDjc0c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 12 Jun 2025 02:39:05 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-k6brJfsJighLwl3WGUCt7JaoTP50C7UqjH4brJDjc0c="
+        }
+      ]
+    },
+    {
       "Route": "css/site.css",
       "AssetFile": "css/site.css",
       "Selectors": [],
@@ -181,7 +345,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "446"
+          "Value": "2279"
         },
         {
           "Name": "Content-Type",
@@ -189,22 +353,22 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"B+4jBZsEgWYoaFuHKyn5iuNQI36nwqZve05WLMuV44Y=\""
+          "Value": "\"42S4kIbUuK7D1WIwc8pjv01Pvb2WCCcnO7rWE/1B3i4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 11 Jun 2025 03:43:35 GMT"
+          "Value": "Thu, 12 Jun 2025 02:51:32 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-B+4jBZsEgWYoaFuHKyn5iuNQI36nwqZve05WLMuV44Y="
+          "Value": "sha256-42S4kIbUuK7D1WIwc8pjv01Pvb2WCCcnO7rWE/1B3i4="
         }
       ]
     },
     {
-      "Route": "css/site.jtyrhdkzis.css",
+      "Route": "css/site.dsayoa7t39.css",
       "AssetFile": "css/site.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -218,7 +382,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "446"
+          "Value": "2279"
         },
         {
           "Name": "Content-Type",
@@ -226,21 +390,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"B+4jBZsEgWYoaFuHKyn5iuNQI36nwqZve05WLMuV44Y=\""
+          "Value": "\"42S4kIbUuK7D1WIwc8pjv01Pvb2WCCcnO7rWE/1B3i4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 11 Jun 2025 03:43:35 GMT"
+          "Value": "Thu, 12 Jun 2025 02:51:32 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "jtyrhdkzis"
+          "Value": "dsayoa7t39"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-B+4jBZsEgWYoaFuHKyn5iuNQI36nwqZve05WLMuV44Y="
+          "Value": "sha256-42S4kIbUuK7D1WIwc8pjv01Pvb2WCCcnO7rWE/1B3i4="
         },
         {
           "Name": "label",

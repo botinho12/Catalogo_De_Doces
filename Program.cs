@@ -1,7 +1,11 @@
 using CatalogoDeDoces.Database;
+using CatalogoDeDoces.Infra;
 using Microsoft.EntityFrameworkCore;
 
+
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddInfrastructure(builder.Configuration);
 
 builder.Services.AddDbContext<DocesContext>(option => option.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 

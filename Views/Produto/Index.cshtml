@@ -1,5 +1,6 @@
 ﻿@model IEnumerable<CatalogoDeDoces.Models.ProdutoModel>
 @{
+	Layout = "~/Views/Shared/_Layout.cshtml";
 	ViewBag.Title = "Catálogo de Doces";
 	var categorias = ViewBag.Categorias as List<CatalogoDeDoces.Models.CategoriaModel>;
 }
@@ -7,21 +8,27 @@
 <div class="text-center">
 
 	<div class="d-grid gap-2 d-md-flex justify-content-md-start">
-		<a class="btn btn-primary" role="button" asp-controller="Produto" asp-action="Criar">Adicionar novo Produto</a>
+		<a class="btn btn-primary" style="margin-left: -100px" role="button" asp-controller="Produto" asp-action="Criar">Adicionar novo Produto</a>
 	</div>
-	<br />
-	<br />
-	<br />
 
-	<h1 class="display-4"> Listagem de Produtos</h1>
+	<h1 class="display-4 mb-4"> Listagem de Produtos</h1>
 
-	<table class="table" id="table-produtos">
+
+	<table class="table mt-5" id="table-produtos">
 		<thead>
 			<tr>
-				<th scope="col">#</th>
-				<th scope="col">Nome</th>
-				<th scope="col">Descricao</th>
-				<th scope="col">Preco</th>
+				<th>
+					@Html.DisplayNameFor(model => model.Nome)
+				</th>
+				<th>
+					@Html.DisplayNameFor(model => model.Descricao)
+				</th>
+				<th>
+					@Html.DisplayNameFor(model => model.Preco)
+				</th>
+				<th>
+					@Html.DisplayNameFor(model => model.Categoria)
+				</th>
 			</tr>
 		</thead>
 		<tbody>
@@ -30,13 +37,22 @@
 				foreach (ProdutoModel produto in Model)
 				{
 					<tr>
-						<th scope="row">@produto.Id</th>
-						<td>@produto.Nome</td>
-						<td>@produto.Descricao</td>
-						<td>@produto.Preco</td>
+						<td>
+							@Html.DisplayFor(modelItem => produto.Nome)
+						</td>
+						<td>
+							@Html.DisplayFor(modelItem => produto.Preco)
+						</td>
+						<td>
+							@Html.DisplayFor(modelItem => produto.Descricao)
+						</td>
+						<td>
+							@Html.DisplayFor(modelItem => produto.Categoria.Nome)
+						</td>
 						<td>
 							<div class="btn-group" role="group">
 								<a role="button" class="btn btn-primary" asp-route-id="@produto.Id" asp-controller="Produto" asp-action="Editar">Editar</a>
+								<a role="button" class="btn btn-success" asp-route-id="@produto.Id" asp-action="Details">Detalhes</a>
 								<a role="button" class="btn btn-danger" asp-route-id="@produto.Id" asp-controller="Produto" asp-action="ApagarConfirmacao">Apagar</a>
 							</div>
 						</td>

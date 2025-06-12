@@ -1,83 +1,43 @@
-﻿@using Microsoft.AspNetCore.Http
-@inject IHttpContextAccessor HttpContextAccessor
-
-<!DOCTYPE html>
-<html lang="en">
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
 <head>
-	<meta charset="utf-8" />
+	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<title>@ViewData["Title"] - Catalogo de Doces</title>
-	<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-	<link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-	<link rel="stylesheet" href="~/CatalogoDeDoces.styles.css" asp-append-version="true" />
+	<title>@ViewBag.Title - Jujuba - Casa de Doces</title>
+	<link rel="stylesheet" href="@Url.Content("~/css/site.css")" />
 </head>
 <body>
 	<header>
-		<nav id="navColor" class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light  bg-#3D0B74 border-bottom box-shadow mb-3">
-			<div class="container-fluid">
-				<a asp-Controller="Home" asp-action="Index">
-					<img src="~/Img/Logo.png" class="mx-auto d-block mb-3" style="width: 100px;"  />
-				</a>		
-				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-						aria-expanded="false" aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon"></span>
-				</button>
-				<div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-					<ul class="navbar-nav flex-grow-1">
-						<li class="nav-item">
-							<a class="nav-link text-white" asp-area="" asp-controller="Home" asp-action="Index">Pagina Inicial</a>
-						</li>
-						<li class="nav-item dropdown">
-							<a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown">
-								Categorias
-							</a>
-							@await Component.InvokeAsync("CategoriasMenu")
-						</li>
-						<li class="nav-item">
-							<a class="nav-link text-white" asp-area="" asp-controller="Produto" asp-action="Index">Produtos</a>
-						</li>
-					</ul>
-
-					<ul class="navbar-nav ms-auto">
-						@{
-							var nomeUsuario = HttpContextAccessor.HttpContext?.Session.GetString("UsuarioNome");
-						}
-
-						@if (!string.IsNullOrEmpty(nomeUsuario))
-						{
-							<li class="nav-item">
-								<span class="nav-link text-dark">Olá, @nomeUsuario!</span>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link text-white" asp-controller="Login" asp-action="Logout">Sair</a>
-							</li>
-						}
-						else
-						{
-							<li class="nav-item">
-								<a class="nav-link text-white" asp-controller="Login" asp-action="Index">Entrar</a>
-							</li>
-						}
-					</ul>
-				</div>
-			</div>
+		<div class="logo">
+			<img src="~/Img/LogoJujuba.jpg" alt="Logo Jujuba" class="logo-img" />
+		</div>
+		<nav>
+			<a asp-controller="Home" asp-action="Index">Início</a>
+			<a asp-controller="Produto" asp-action="Index">Catálogo</a>
+			<a asp-controller="Home" asp-action="QuemSomos">Quem Somos</a>
+			<a asp-controller="Home" asp-action="Contato">Contato</a>
 		</nav>
+		<div class="whatsapp">
+			<a href="https://wa.me/+551436444490" target="_blank">
+			<img src="~/Img/LogoWhatssap.png" alt="Logo WhatsApp" class="whatsapp-icon"/>
+			</a>
+		</div>
 	</header>
 
-	<div class="container">
-		<main role="main" class="pb-3">
-			@RenderBody()
-		</main>
-	</div>
+	<main>
+		@RenderBody()
+	</main>
 
-	<footer class="border-top footer text-muted">
-		<div class="container">
-			&copy; 2025 - Catalogo de Doces
-		</div>
+	<section class="quote">
+		<blockquote>“Lorem ipsum dolor sit amet, consectetur adipiscing elit.”</blockquote>
+		<div class="smiley">😊</div>
+	</section>
+
+	<footer class="cta">
+		<h2>Veja nosso catálogo completo</h2>
+		<button class="btn-purple" type="submit">Ver Catálogo</button>
 	</footer>
-	<script src="~/lib/jquery/dist/jquery.min.js"></script>
-	<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-	<script src="~/js/site.js" asp-append-version="true"></script>
-	@await RenderSectionAsync("Scripts", required: false)
+
+	@RenderSection("Scripts", required: false)
 </body>
 </html>
