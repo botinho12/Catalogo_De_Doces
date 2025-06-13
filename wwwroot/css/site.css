@@ -1,10 +1,15 @@
 * {
     box-sizing: border-box;
 }
+@media (max-width: 768px){
+    .welcome-title{
+        font-size: 40px;
+    }
+}
 
 body {
     font-family: 'Poppins', sans-serif;
-    margin: 0;
+    margin: 50px;
     background-color: #fff6f0;
     color: #4a004e;
 }
@@ -19,7 +24,7 @@ header {
 
 nav a {
     margin: 0 1rem;
-    color: #4a004e;
+    color: #3F2E87;
     text-decoration: none;
     font-weight: bold;
 }
@@ -39,8 +44,20 @@ nav a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 50vh; /* altura de quase toda a tela */
+    height: 100vh; /* altura de quase toda a tela */
     text-align: center;
+}
+
+.welcome-title {
+    font-size: 4rem !important; /* tamanho grande */
+    font-weight: 800;
+    color: #3B0A72; /* roxo semelhante ao da imagem */
+    font-family: 'Baloo 2', cursive; /* fonte arredondada e divertida */
+    line-height: 1.2;
+    margin-bottom: 1rem;
+    height: 100vh;
+
+    
 }
 
 .hero {
@@ -117,11 +134,19 @@ nav a {
 }
 
 .btn-purple {
-    background-color: #4a004e;
+    background-color: #3F2E87;
     color: white;
     padding: 1rem 2rem;
     border: none;
     border-radius: 20px;
     font-size: 1rem;
     margin-top: 1rem;
+}
+
+.form-group{
+    
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
 }
