@@ -1,0 +1,18 @@
+﻿@model CatalogoDeDoces.Models.CategoriaModel
+
+@{
+	ViewData["title"] = "Editar";
+}
+
+<h1>Editar categoria</h1>
+
+<form asp-controller="Categoria" asp-action="Editar" method="post">
+
+	<div class="form-group">
+		<label for="nome">Nome</label>
+		<input type="text" asp-for="Nome" class="form-control" placeholder="Digite o novo nome da categoria">
+	</div>
+	<button type="submit" class="btn btn-primary  w-100">Salvar</button>
+	<a class="btn btn-secondary w-100 " asp-controller="Categoria" asp-action="Index" role="button">Voltar</a>
+
+</form>

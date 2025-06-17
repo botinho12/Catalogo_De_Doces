@@ -10,6 +10,5 @@ namespace CatalogoDeDoces.Models
         [StringLength(50)]
         public string? Nome { get; set; }
 
-        public virtual ICollection<ProdutoModel> Produtos { get; set; }
     }
 }

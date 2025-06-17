@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "+8zapIdr8oMLUrDQIJqvmuNyPk2lrw892bFbdx0xgEE=",
+  "Hash": "FiZlvT72ZLB+ZwPWHM8NEoxzxaPYIbVRL4cdGRo0FH8=",
   "Source": "CatalogoDeDoces",
   "BasePath": "_content/CatalogoDeDoces",
   "Mode": "Default",
@@ -73,8 +73,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "zkhmx4bfbk",
-      "Integrity": "g8MeZwRs9YU35Pm+HKRdSeGxuuEG+NEDUaTz0GpayCs=",
+      "Fingerprint": "aukoacvk2a",
+      "Integrity": "fpbEhzaI6O29IDMDPFntuKI4P8W+J18Ezvs8oBj0Lco=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -101,12 +101,12 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\botiv\\source\\repos\\CatalogoDeDoces\\CatalogoDeDoces\\CatalogoDeDoces\\wwwroot\\Img\\Logo.png",
+      "Identity": "C:\\Users\\botiv\\source\\repos\\CatalogoDeDoces\\CatalogoDeDoces\\CatalogoDeDoces\\wwwroot\\Img\\LogoJujuba.png",
       "SourceId": "CatalogoDeDoces",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\botiv\\source\\repos\\CatalogoDeDoces\\CatalogoDeDoces\\CatalogoDeDoces\\wwwroot\\",
       "BasePath": "_content/CatalogoDeDoces",
-      "RelativePath": "Img/Logo#[.{fingerprint}]?.png",
+      "RelativePath": "Img/LogoJujuba#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -115,32 +115,11 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "qwzufawntf",
-      "Integrity": "SqiD17NMMmkDk66u9TiLeXxn8+jieFZcT7wppbT3+rA=",
+      "Fingerprint": "rxwh1v9qc1",
+      "Integrity": "AbJFcOPl8ymSuPqfUZv2jUU2kR4trcZiFssN4pAXyUE=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Img\\Logo.png"
-    },
-    {
-      "Identity": "C:\\Users\\botiv\\source\\repos\\CatalogoDeDoces\\CatalogoDeDoces\\CatalogoDeDoces\\wwwroot\\Img\\LogoJujuba.jpg",
-      "SourceId": "CatalogoDeDoces",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\botiv\\source\\repos\\CatalogoDeDoces\\CatalogoDeDoces\\CatalogoDeDoces\\wwwroot\\",
-      "BasePath": "_content/CatalogoDeDoces",
-      "RelativePath": "Img/LogoJujuba#[.{fingerprint}]?.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "im0ucq7v46",
-      "Integrity": "qsK8zuaVJrkISyypRgMIu2mcT7qyxMe4+zNRVgBhyIE=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Img\\LogoJujuba.jpg"
+      "OriginalItemSpec": "wwwroot\\Img\\LogoJujuba.png"
     },
     {
       "Identity": "C:\\Users\\botiv\\source\\repos\\CatalogoDeDoces\\CatalogoDeDoces\\CatalogoDeDoces\\wwwroot\\Img\\LogoWhatssap.png",
@@ -1548,6 +1527,51 @@
       ]
     },
     {
+      "Route": "css/site.aukoacvk2a.css",
+      "AssetFile": "C:\\Users\\botiv\\source\\repos\\CatalogoDeDoces\\CatalogoDeDoces\\CatalogoDeDoces\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7702"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fpbEhzaI6O29IDMDPFntuKI4P8W+J18Ezvs8oBj0Lco=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 15 Jun 2025 01:02:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "aukoacvk2a"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-fpbEhzaI6O29IDMDPFntuKI4P8W+J18Ezvs8oBj0Lco="
+        }
+      ]
+    },
+    {
       "Route": "css/site.css",
       "AssetFile": "C:\\Users\\botiv\\source\\repos\\CatalogoDeDoces\\CatalogoDeDoces\\CatalogoDeDoces\\wwwroot\\css\\site.css",
       "Selectors": [],
@@ -1558,7 +1582,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2870"
+          "Value": "7702"
         },
         {
           "Name": "Content-Type",
@@ -1566,11 +1590,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"g8MeZwRs9YU35Pm+HKRdSeGxuuEG+NEDUaTz0GpayCs=\""
+          "Value": "\"fpbEhzaI6O29IDMDPFntuKI4P8W+J18Ezvs8oBj0Lco=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 13 Jun 2025 02:18:37 GMT"
+          "Value": "Sun, 15 Jun 2025 01:02:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1580,52 +1604,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-g8MeZwRs9YU35Pm+HKRdSeGxuuEG+NEDUaTz0GpayCs="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.zkhmx4bfbk.css",
-      "AssetFile": "C:\\Users\\botiv\\source\\repos\\CatalogoDeDoces\\CatalogoDeDoces\\CatalogoDeDoces\\wwwroot\\css\\site.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2870"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"g8MeZwRs9YU35Pm+HKRdSeGxuuEG+NEDUaTz0GpayCs=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 13 Jun 2025 02:18:37 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "zkhmx4bfbk"
-        },
-        {
-          "Name": "label",
-          "Value": "css/site.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-g8MeZwRs9YU35Pm+HKRdSeGxuuEG+NEDUaTz0GpayCs="
+          "Value": "sha256-fpbEhzaI6O29IDMDPFntuKI4P8W+J18Ezvs8oBj0Lco="
         }
       ]
     },
@@ -1712,8 +1691,8 @@
       ]
     },
     {
-      "Route": "Img/Logo.png",
-      "AssetFile": "C:\\Users\\botiv\\source\\repos\\CatalogoDeDoces\\CatalogoDeDoces\\CatalogoDeDoces\\wwwroot\\Img\\Logo.png",
+      "Route": "Img/LogoJujuba.png",
+      "AssetFile": "C:\\Users\\botiv\\source\\repos\\CatalogoDeDoces\\CatalogoDeDoces\\CatalogoDeDoces\\wwwroot\\Img\\LogoJujuba.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1722,7 +1701,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "8594"
+          "Value": "849789"
         },
         {
           "Name": "Content-Type",
@@ -1730,11 +1709,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"SqiD17NMMmkDk66u9TiLeXxn8+jieFZcT7wppbT3+rA=\""
+          "Value": "\"AbJFcOPl8ymSuPqfUZv2jUU2kR4trcZiFssN4pAXyUE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 08 Jun 2025 17:25:30 GMT"
+          "Value": "Sun, 15 Jun 2025 01:08:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1744,13 +1723,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-SqiD17NMMmkDk66u9TiLeXxn8+jieFZcT7wppbT3+rA="
+          "Value": "sha256-AbJFcOPl8ymSuPqfUZv2jUU2kR4trcZiFssN4pAXyUE="
         }
       ]
     },
     {
-      "Route": "Img/Logo.qwzufawntf.png",
-      "AssetFile": "C:\\Users\\botiv\\source\\repos\\CatalogoDeDoces\\CatalogoDeDoces\\CatalogoDeDoces\\wwwroot\\Img\\Logo.png",
+      "Route": "Img/LogoJujuba.rxwh1v9qc1.png",
+      "AssetFile": "C:\\Users\\botiv\\source\\repos\\CatalogoDeDoces\\CatalogoDeDoces\\CatalogoDeDoces\\wwwroot\\Img\\LogoJujuba.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1759,7 +1738,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "8594"
+          "Value": "849789"
         },
         {
           "Name": "Content-Type",
@@ -1767,11 +1746,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"SqiD17NMMmkDk66u9TiLeXxn8+jieFZcT7wppbT3+rA=\""
+          "Value": "\"AbJFcOPl8ymSuPqfUZv2jUU2kR4trcZiFssN4pAXyUE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 08 Jun 2025 17:25:30 GMT"
+          "Value": "Sun, 15 Jun 2025 01:08:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1781,97 +1760,15 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "qwzufawntf"
+          "Value": "rxwh1v9qc1"
         },
         {
           "Name": "label",
-          "Value": "Img/Logo.png"
+          "Value": "Img/LogoJujuba.png"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-SqiD17NMMmkDk66u9TiLeXxn8+jieFZcT7wppbT3+rA="
-        }
-      ]
-    },
-    {
-      "Route": "Img/LogoJujuba.im0ucq7v46.jpg",
-      "AssetFile": "C:\\Users\\botiv\\source\\repos\\CatalogoDeDoces\\CatalogoDeDoces\\CatalogoDeDoces\\wwwroot\\Img\\LogoJujuba.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "40625"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"qsK8zuaVJrkISyypRgMIu2mcT7qyxMe4+zNRVgBhyIE=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 11 Jun 2025 14:50:56 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "im0ucq7v46"
-        },
-        {
-          "Name": "label",
-          "Value": "Img/LogoJujuba.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-qsK8zuaVJrkISyypRgMIu2mcT7qyxMe4+zNRVgBhyIE="
-        }
-      ]
-    },
-    {
-      "Route": "Img/LogoJujuba.jpg",
-      "AssetFile": "C:\\Users\\botiv\\source\\repos\\CatalogoDeDoces\\CatalogoDeDoces\\CatalogoDeDoces\\wwwroot\\Img\\LogoJujuba.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "40625"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"qsK8zuaVJrkISyypRgMIu2mcT7qyxMe4+zNRVgBhyIE=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 11 Jun 2025 14:50:56 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-qsK8zuaVJrkISyypRgMIu2mcT7qyxMe4+zNRVgBhyIE="
+          "Value": "sha256-AbJFcOPl8ymSuPqfUZv2jUU2kR4trcZiFssN4pAXyUE="
         }
       ]
     },

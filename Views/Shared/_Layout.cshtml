@@ -1,4 +1,6 @@
-﻿<!DOCTYPE html>
+﻿@inject IHttpContextAccessor HttpContextAccessor
+
+<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
 	<meta charset="UTF-8" />
@@ -12,37 +14,49 @@
 	<div id="Cor-Borda">
 		<header>
 			<div class="logo">
-				<img src="~/Img/LogoJujuba.jpg" alt="Logo Jujuba" class="logo-img" />
+				<img src="~/Img/LogoJujuba.png" alt="Logo Jujuba" class="logo-img" />
 			</div>
 			<nav>
 				<a asp-controller="Home" asp-action="Index">Início</a>
-				<a asp-controller="Produto" asp-action="Index">Catálogo</a>
+				<a asp-controller="Produto" asp-action="Index">Produtos</a>
+				<a asp-controller="Categoria" asp-action="Index">Categorias</a>
 				<a asp-controller="Home" asp-action="QuemSomos">Quem Somos</a>
 				<a asp-controller="Home" asp-action="Contato">Contato</a>
 			</nav>
-			<div class="whatsapp">
-				<a href="https://wa.me/+551436444490" target="_blank">
-					<img src="~/Img/LogoWhatssap.png" alt="Logo WhatsApp" class="whatsapp-icon" />
-				</a>
-			</div>
+
+			<ul class="navbar-nav d-flex flex-row">
+				@{
+					var nomeUsuario = HttpContextAccessor.HttpContext?.Session.GetString("UsuarioNome");
+				}
+
+				@if (!string.IsNullOrEmpty(nomeUsuario))
+				{
+					<li class="nav-item">
+						<span class="nav-link text-dark">Olá, @nomeUsuario!</span>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link text-dark" asp-controller="Login" asp-action="Logout">Sair</a>
+					</li>
+				}
+				else
+				{
+					<li class="nav-item">
+						<a class="nav-link text-dark" asp-controller="Login" asp-action="Index">Entrar</a>
+					</li>
+				}
+			</ul>
 		</header>
 
 		<main>
 			@RenderBody()
 		</main>
 
-		<section class="quote">
-			<h4 class="text-black text-orange">Destaques do Catálogo</h4>
-			<blockquote>“Lorem ipsum dolor sit amet, consectetur adipiscing elit.”</blockquote>
-			<div class="smiley">😊</div>
-		</section>
-
 		<footer class="cta">
-			<h2>Veja nosso catálogo completo</h2>
-			<button class="btn-purple" type="submit">Ver Catálogo</button>
+
 		</footer>
 
 		@RenderSection("Scripts", required: false)
 	</div>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

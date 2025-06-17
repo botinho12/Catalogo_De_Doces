@@ -20,6 +20,18 @@ build_property._RazorSourceGeneratorDebug =
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
+[C:/Users/botiv/source/repos/CatalogoDeDoces/CatalogoDeDoces/CatalogoDeDoces/Views/Categoria/Criar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhXENyaWFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/botiv/source/repos/CatalogoDeDoces/CatalogoDeDoces/CatalogoDeDoces/Views/Categoria/Deletar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhXERlbGV0YXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/botiv/source/repos/CatalogoDeDoces/CatalogoDeDoces/CatalogoDeDoces/Views/Categoria/Editar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhXEVkaXRhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/botiv/source/repos/CatalogoDeDoces/CatalogoDeDoces/CatalogoDeDoces/Views/Categoria/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -30,6 +42,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/botiv/source/repos/CatalogoDeDoces/CatalogoDeDoces/CatalogoDeDoces/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/botiv/source/repos/CatalogoDeDoces/CatalogoDeDoces/CatalogoDeDoces/Views/Home/QuemSomos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxRdWVtU29tb3MuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/botiv/source/repos/CatalogoDeDoces/CatalogoDeDoces/CatalogoDeDoces/Views/Login/Index.cshtml]
@@ -66,6 +82,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/botiv/source/repos/CatalogoDeDoces/CatalogoDeDoces/CatalogoDeDoces/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/botiv/source/repos/CatalogoDeDoces/CatalogoDeDoces/CatalogoDeDoces/Views/Usuario/CadastraUsuario.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xDYWRhc3RyYVVzdWFyaW8uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/botiv/source/repos/CatalogoDeDoces/CatalogoDeDoces/CatalogoDeDoces/Views/_ViewImports.cshtml]
