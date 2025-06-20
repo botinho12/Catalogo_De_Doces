@@ -19,6 +19,7 @@ namespace CatalogoDeDoces.Infra
             #region [ Repositories ]
             services.AddScoped<IProdutoRepository, ProdutoRepository>();
             services.AddScoped<ICategoriaRepository, CategoriaRepository>();
+            services.AddScoped<IUsuarioRepository, UsuarioRepository>();
             #endregion
 
             #region [ Services ]

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CatalogoDeDoces")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+796de1766b6397d2cf61dd465c567033dfaff1bf")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bd02cd1b9d3fb55aa80381659f3f3d4dd510e50b")]
 [assembly: System.Reflection.AssemblyProductAttribute("CatalogoDeDoces")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CatalogoDeDoces")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
