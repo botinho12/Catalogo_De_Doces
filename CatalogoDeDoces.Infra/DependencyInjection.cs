@@ -2,6 +2,8 @@
 using CatalogoDeDoces.Database;
 using CatalogoDeDoces.Repository;
 using CatalogoDeDoces.Repository.Interfaces;
+using CatalogoDeDoces.Services;
+using CatalogoDeDoces.Services.Interfaces;
 using Microsoft.EntityFrameworkCore;
 
 namespace CatalogoDeDoces.Infra
@@ -23,7 +25,7 @@ namespace CatalogoDeDoces.Infra
             #endregion
 
             #region [ Services ]
-
+            services.AddScoped<IProdutoService, ProdutoService>();
             #endregion
 
             return services;

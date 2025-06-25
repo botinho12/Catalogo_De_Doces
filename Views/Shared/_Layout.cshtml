@@ -18,10 +18,10 @@
 			</div>
 			<nav>
 				<a asp-controller="Home" asp-action="Index">Início</a>
+				<a asp-controller="Home" asp-action="Index">Catalogo</a>
+				<a asp-controller="Home" asp-action="QuemSomos">Quem Somos</a>
 				<a asp-controller="Produto" asp-action="Index">Produtos</a>
 				<a asp-controller="Categoria" asp-action="Index">Categorias</a>
-				<a asp-controller="Home" asp-action="QuemSomos">Quem Somos</a>
-				<a asp-controller="Home" asp-action="Contato">Contato</a>
 			</nav>
 
 			<ul class="navbar-nav d-flex flex-row">
@@ -31,11 +31,17 @@
 
 				@if (!string.IsNullOrEmpty(nomeUsuario))
 				{
-					<li class="nav-item">
-						<span class="nav-link text-dark">Olá, @nomeUsuario!</span>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link text-dark btn btn-primary" asp-controller="Login" asp-action="Logout" >Sair</a>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle text-dark" href="#" id="userDropdown" role="button" data-bs-toggle="dropdown">
+							<i class="bi bi-person-circle"></i> @nomeUsuario
+						</a>
+						<ul class="dropdown-menu dropdown-menu-end">
+							<li>
+								<a class="dropdown-item text-danger" asp-controller="Login" asp-action="Logout">
+									<i class="bi bi-box-arrow-right"></i> Sair
+								</a>
+							</li>
+						</ul>
 					</li>
 				}
 				else

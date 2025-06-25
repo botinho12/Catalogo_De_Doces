@@ -4,16 +4,16 @@
 }
 
 <!-- Carrossel de Destaques -->
-<div id="carouselDestaques" class="carousel slide mb-5" data-bs-ride="carousel">
+<div id="carouselDestaques" class="carousel slide mb-5" data-bs-ride="carousel" data-bs-interval="2000">
     <div class="carousel-inner">
         <div class="carousel-item active">
-            <img src="~/Img/LogoJujuba.png" class="d-block w-100 destaque-img" alt="Destaque 1">
+            <img src="~/Img/carrosel1.jpg" class="d-block w-100 destaque-img" alt="Destaque 1">
         </div>
         <div class="carousel-item">
-            <img src="~/Img/LogoJujuba.png" class="d-block w-100 destaque-img" alt="Destaque 2">
+            <img src="~/Img/carrosel2.jpg" class="d-block w-100 destaque-img" alt="Destaque 2">
         </div>
         <div class="carousel-item">
-            <img src="~/Img/LogoJujuba.png" class="d-block w-100 destaque-img" alt="Destaque 3">
+            <img src="~/Img/carrosel3.jpg" class="d-block w-100 destaque-img" alt="Destaque 3">
         </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselDestaques" data-bs-slide="prev">
@@ -29,14 +29,27 @@
 <!-- Seção de Destaques fixos -->
 <section class="quote">
     <h4 class="text-black text-orange">Destaques do Catálogo</h4>
+    @{
+        var imagens = new List<string>
+    {
+    "~/Img/jujuba/img1.jpg",
+    "~/Img/jujuba/img2.jpg",
+    "~/Img/jujuba/img3.jpg",
+    "~/Img/jujuba/img4.jpg",
+    "~/Img/jujuba/img5.jpg",
+    "~/Img/jujuba/img6.jpg"
+    };
+    }
+
     <div class="cards">
-        @for (int i = 0; i < 6; i++)
+        @foreach (var img in imagens)
         {
             <div class="card-img">
-                <img src="~/Img/LogoJujuba.png" alt="Produto em destaque" />
+                <img src="@Url.Content(img)" alt="Produto em destaque" />
             </div>
         }
     </div>
+
     <h2>Veja nosso catálogo completo</h2>
     <button class="btn-purple" type="submit">Ver Catálogo</button>
 </section>

@@ -13,6 +13,42 @@
       "PackagePath": "staticwebassets\\Img\\LogoWhatssap.png"
     },
     {
+      "Id": "C:\\Users\\botiv\\source\\repos\\CatalogoDeDoces\\CatalogoDeDoces\\CatalogoDeDoces\\wwwroot\\Img\\carrosel1.jpg",
+      "PackagePath": "staticwebassets\\Img\\carrosel1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\botiv\\source\\repos\\CatalogoDeDoces\\CatalogoDeDoces\\CatalogoDeDoces\\wwwroot\\Img\\carrosel2.jpg",
+      "PackagePath": "staticwebassets\\Img\\carrosel2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\botiv\\source\\repos\\CatalogoDeDoces\\CatalogoDeDoces\\CatalogoDeDoces\\wwwroot\\Img\\carrosel3.jpg",
+      "PackagePath": "staticwebassets\\Img\\carrosel3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\botiv\\source\\repos\\CatalogoDeDoces\\CatalogoDeDoces\\CatalogoDeDoces\\wwwroot\\Img\\jujuba\\img1.jpg",
+      "PackagePath": "staticwebassets\\Img\\jujuba\\img1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\botiv\\source\\repos\\CatalogoDeDoces\\CatalogoDeDoces\\CatalogoDeDoces\\wwwroot\\Img\\jujuba\\img2.jpg",
+      "PackagePath": "staticwebassets\\Img\\jujuba\\img2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\botiv\\source\\repos\\CatalogoDeDoces\\CatalogoDeDoces\\CatalogoDeDoces\\wwwroot\\Img\\jujuba\\img3.jpg",
+      "PackagePath": "staticwebassets\\Img\\jujuba\\img3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\botiv\\source\\repos\\CatalogoDeDoces\\CatalogoDeDoces\\CatalogoDeDoces\\wwwroot\\Img\\jujuba\\img4.jpg",
+      "PackagePath": "staticwebassets\\Img\\jujuba\\img4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\botiv\\source\\repos\\CatalogoDeDoces\\CatalogoDeDoces\\CatalogoDeDoces\\wwwroot\\Img\\jujuba\\img5.jpg",
+      "PackagePath": "staticwebassets\\Img\\jujuba\\img5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\botiv\\source\\repos\\CatalogoDeDoces\\CatalogoDeDoces\\CatalogoDeDoces\\wwwroot\\Img\\jujuba\\img6.jpg",
+      "PackagePath": "staticwebassets\\Img\\jujuba\\img6.jpg"
+    },
+    {
       "Id": "C:\\Users\\botiv\\source\\repos\\CatalogoDeDoces\\CatalogoDeDoces\\CatalogoDeDoces\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

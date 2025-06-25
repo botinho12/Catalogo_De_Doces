@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "FiZlvT72ZLB+ZwPWHM8NEoxzxaPYIbVRL4cdGRo0FH8=",
+  "Hash": "y0MMC3MOsfAcc1OjxNbG1s5zyV4Sq1S1MT/o0ctcDPQ=",
   "Source": "CatalogoDeDoces",
   "BasePath": "_content/CatalogoDeDoces",
   "Mode": "Default",
@@ -99,6 +99,195 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\botiv\\source\\repos\\CatalogoDeDoces\\CatalogoDeDoces\\CatalogoDeDoces\\wwwroot\\Img\\carrosel1.jpg",
+      "SourceId": "CatalogoDeDoces",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\botiv\\source\\repos\\CatalogoDeDoces\\CatalogoDeDoces\\CatalogoDeDoces\\wwwroot\\",
+      "BasePath": "_content/CatalogoDeDoces",
+      "RelativePath": "Img/carrosel1#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "2gwvegtfzn",
+      "Integrity": "/qt+pGhRJtmJAAo1ojQBopcRZ7m1bwwmfZMHMu0QSms=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Img\\carrosel1.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\botiv\\source\\repos\\CatalogoDeDoces\\CatalogoDeDoces\\CatalogoDeDoces\\wwwroot\\Img\\carrosel2.jpg",
+      "SourceId": "CatalogoDeDoces",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\botiv\\source\\repos\\CatalogoDeDoces\\CatalogoDeDoces\\CatalogoDeDoces\\wwwroot\\",
+      "BasePath": "_content/CatalogoDeDoces",
+      "RelativePath": "Img/carrosel2#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "it0fbz51xi",
+      "Integrity": "GmfUwwlVNLGcZbiIc6+aqjxnUd1JUC9Qo+f1Y7CPKkc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Img\\carrosel2.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\botiv\\source\\repos\\CatalogoDeDoces\\CatalogoDeDoces\\CatalogoDeDoces\\wwwroot\\Img\\carrosel3.jpg",
+      "SourceId": "CatalogoDeDoces",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\botiv\\source\\repos\\CatalogoDeDoces\\CatalogoDeDoces\\CatalogoDeDoces\\wwwroot\\",
+      "BasePath": "_content/CatalogoDeDoces",
+      "RelativePath": "Img/carrosel3#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "45bdi7c3kg",
+      "Integrity": "qMfEGpV/bSVz5L0RfNggj10FDpo1gccVYxoyh5UamTQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Img\\carrosel3.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\botiv\\source\\repos\\CatalogoDeDoces\\CatalogoDeDoces\\CatalogoDeDoces\\wwwroot\\Img\\jujuba\\img1.jpg",
+      "SourceId": "CatalogoDeDoces",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\botiv\\source\\repos\\CatalogoDeDoces\\CatalogoDeDoces\\CatalogoDeDoces\\wwwroot\\",
+      "BasePath": "_content/CatalogoDeDoces",
+      "RelativePath": "Img/jujuba/img1#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1jyega302u",
+      "Integrity": "s7G554uu8vbI5ajPVN78YAvjlhS44ZhL+qcd6MStTic=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Img\\jujuba\\img1.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\botiv\\source\\repos\\CatalogoDeDoces\\CatalogoDeDoces\\CatalogoDeDoces\\wwwroot\\Img\\jujuba\\img2.jpg",
+      "SourceId": "CatalogoDeDoces",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\botiv\\source\\repos\\CatalogoDeDoces\\CatalogoDeDoces\\CatalogoDeDoces\\wwwroot\\",
+      "BasePath": "_content/CatalogoDeDoces",
+      "RelativePath": "Img/jujuba/img2#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "hk0iyilmm9",
+      "Integrity": "YY2jwhFmwCpry4oKFy595PQ0TquoxHmR6L8K2o496BA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Img\\jujuba\\img2.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\botiv\\source\\repos\\CatalogoDeDoces\\CatalogoDeDoces\\CatalogoDeDoces\\wwwroot\\Img\\jujuba\\img3.jpg",
+      "SourceId": "CatalogoDeDoces",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\botiv\\source\\repos\\CatalogoDeDoces\\CatalogoDeDoces\\CatalogoDeDoces\\wwwroot\\",
+      "BasePath": "_content/CatalogoDeDoces",
+      "RelativePath": "Img/jujuba/img3#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "br5v78w2uc",
+      "Integrity": "5zVbZUrzjUF3HcPySUSUhjpweDjoAUF8kkt5JedY564=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Img\\jujuba\\img3.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\botiv\\source\\repos\\CatalogoDeDoces\\CatalogoDeDoces\\CatalogoDeDoces\\wwwroot\\Img\\jujuba\\img4.jpg",
+      "SourceId": "CatalogoDeDoces",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\botiv\\source\\repos\\CatalogoDeDoces\\CatalogoDeDoces\\CatalogoDeDoces\\wwwroot\\",
+      "BasePath": "_content/CatalogoDeDoces",
+      "RelativePath": "Img/jujuba/img4#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "rkyo2na1z2",
+      "Integrity": "9VxG4SRP6Eu9TembMbA1Tz4mXBiMdR5sIdCDEKbZ5q4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Img\\jujuba\\img4.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\botiv\\source\\repos\\CatalogoDeDoces\\CatalogoDeDoces\\CatalogoDeDoces\\wwwroot\\Img\\jujuba\\img5.jpg",
+      "SourceId": "CatalogoDeDoces",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\botiv\\source\\repos\\CatalogoDeDoces\\CatalogoDeDoces\\CatalogoDeDoces\\wwwroot\\",
+      "BasePath": "_content/CatalogoDeDoces",
+      "RelativePath": "Img/jujuba/img5#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "69u6qqdzmb",
+      "Integrity": "qnAMWgv65oxT1m7xq/AScBxTOA2QsEsX0lYklOjMnbY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Img\\jujuba\\img5.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\botiv\\source\\repos\\CatalogoDeDoces\\CatalogoDeDoces\\CatalogoDeDoces\\wwwroot\\Img\\jujuba\\img6.jpg",
+      "SourceId": "CatalogoDeDoces",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\botiv\\source\\repos\\CatalogoDeDoces\\CatalogoDeDoces\\CatalogoDeDoces\\wwwroot\\",
+      "BasePath": "_content/CatalogoDeDoces",
+      "RelativePath": "Img/jujuba/img6#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "40vcsf4fzx",
+      "Integrity": "9F9/IIljhv9pE/dJbN0/W/8b0I8e3RUqxoL5nPucTG0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Img\\jujuba\\img6.jpg"
     },
     {
       "Identity": "C:\\Users\\botiv\\source\\repos\\CatalogoDeDoces\\CatalogoDeDoces\\CatalogoDeDoces\\wwwroot\\Img\\LogoJujuba.png",
@@ -1687,6 +1876,744 @@
         {
           "Name": "integrity",
           "Value": "sha256-Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM="
+        }
+      ]
+    },
+    {
+      "Route": "Img/carrosel1.2gwvegtfzn.jpg",
+      "AssetFile": "C:\\Users\\botiv\\source\\repos\\CatalogoDeDoces\\CatalogoDeDoces\\CatalogoDeDoces\\wwwroot\\Img\\carrosel1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "270978"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/qt+pGhRJtmJAAo1ojQBopcRZ7m1bwwmfZMHMu0QSms=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 20 Jun 2025 22:20:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2gwvegtfzn"
+        },
+        {
+          "Name": "label",
+          "Value": "Img/carrosel1.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-/qt+pGhRJtmJAAo1ojQBopcRZ7m1bwwmfZMHMu0QSms="
+        }
+      ]
+    },
+    {
+      "Route": "Img/carrosel1.jpg",
+      "AssetFile": "C:\\Users\\botiv\\source\\repos\\CatalogoDeDoces\\CatalogoDeDoces\\CatalogoDeDoces\\wwwroot\\Img\\carrosel1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "270978"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/qt+pGhRJtmJAAo1ojQBopcRZ7m1bwwmfZMHMu0QSms=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 20 Jun 2025 22:20:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-/qt+pGhRJtmJAAo1ojQBopcRZ7m1bwwmfZMHMu0QSms="
+        }
+      ]
+    },
+    {
+      "Route": "Img/carrosel2.it0fbz51xi.jpg",
+      "AssetFile": "C:\\Users\\botiv\\source\\repos\\CatalogoDeDoces\\CatalogoDeDoces\\CatalogoDeDoces\\wwwroot\\Img\\carrosel2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "137017"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GmfUwwlVNLGcZbiIc6+aqjxnUd1JUC9Qo+f1Y7CPKkc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 20 Jun 2025 22:23:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "it0fbz51xi"
+        },
+        {
+          "Name": "label",
+          "Value": "Img/carrosel2.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-GmfUwwlVNLGcZbiIc6+aqjxnUd1JUC9Qo+f1Y7CPKkc="
+        }
+      ]
+    },
+    {
+      "Route": "Img/carrosel2.jpg",
+      "AssetFile": "C:\\Users\\botiv\\source\\repos\\CatalogoDeDoces\\CatalogoDeDoces\\CatalogoDeDoces\\wwwroot\\Img\\carrosel2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "137017"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GmfUwwlVNLGcZbiIc6+aqjxnUd1JUC9Qo+f1Y7CPKkc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 20 Jun 2025 22:23:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-GmfUwwlVNLGcZbiIc6+aqjxnUd1JUC9Qo+f1Y7CPKkc="
+        }
+      ]
+    },
+    {
+      "Route": "Img/carrosel3.45bdi7c3kg.jpg",
+      "AssetFile": "C:\\Users\\botiv\\source\\repos\\CatalogoDeDoces\\CatalogoDeDoces\\CatalogoDeDoces\\wwwroot\\Img\\carrosel3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1001010"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qMfEGpV/bSVz5L0RfNggj10FDpo1gccVYxoyh5UamTQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 20 Jun 2025 22:20:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "45bdi7c3kg"
+        },
+        {
+          "Name": "label",
+          "Value": "Img/carrosel3.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-qMfEGpV/bSVz5L0RfNggj10FDpo1gccVYxoyh5UamTQ="
+        }
+      ]
+    },
+    {
+      "Route": "Img/carrosel3.jpg",
+      "AssetFile": "C:\\Users\\botiv\\source\\repos\\CatalogoDeDoces\\CatalogoDeDoces\\CatalogoDeDoces\\wwwroot\\Img\\carrosel3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1001010"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qMfEGpV/bSVz5L0RfNggj10FDpo1gccVYxoyh5UamTQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 20 Jun 2025 22:20:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-qMfEGpV/bSVz5L0RfNggj10FDpo1gccVYxoyh5UamTQ="
+        }
+      ]
+    },
+    {
+      "Route": "Img/jujuba/img1.1jyega302u.jpg",
+      "AssetFile": "C:\\Users\\botiv\\source\\repos\\CatalogoDeDoces\\CatalogoDeDoces\\CatalogoDeDoces\\wwwroot\\Img\\jujuba\\img1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "108720"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"s7G554uu8vbI5ajPVN78YAvjlhS44ZhL+qcd6MStTic=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 20 Jun 2025 22:22:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1jyega302u"
+        },
+        {
+          "Name": "label",
+          "Value": "Img/jujuba/img1.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-s7G554uu8vbI5ajPVN78YAvjlhS44ZhL+qcd6MStTic="
+        }
+      ]
+    },
+    {
+      "Route": "Img/jujuba/img1.jpg",
+      "AssetFile": "C:\\Users\\botiv\\source\\repos\\CatalogoDeDoces\\CatalogoDeDoces\\CatalogoDeDoces\\wwwroot\\Img\\jujuba\\img1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "108720"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"s7G554uu8vbI5ajPVN78YAvjlhS44ZhL+qcd6MStTic=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 20 Jun 2025 22:22:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-s7G554uu8vbI5ajPVN78YAvjlhS44ZhL+qcd6MStTic="
+        }
+      ]
+    },
+    {
+      "Route": "Img/jujuba/img2.hk0iyilmm9.jpg",
+      "AssetFile": "C:\\Users\\botiv\\source\\repos\\CatalogoDeDoces\\CatalogoDeDoces\\CatalogoDeDoces\\wwwroot\\Img\\jujuba\\img2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "127025"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YY2jwhFmwCpry4oKFy595PQ0TquoxHmR6L8K2o496BA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 20 Jun 2025 22:22:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hk0iyilmm9"
+        },
+        {
+          "Name": "label",
+          "Value": "Img/jujuba/img2.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-YY2jwhFmwCpry4oKFy595PQ0TquoxHmR6L8K2o496BA="
+        }
+      ]
+    },
+    {
+      "Route": "Img/jujuba/img2.jpg",
+      "AssetFile": "C:\\Users\\botiv\\source\\repos\\CatalogoDeDoces\\CatalogoDeDoces\\CatalogoDeDoces\\wwwroot\\Img\\jujuba\\img2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "127025"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YY2jwhFmwCpry4oKFy595PQ0TquoxHmR6L8K2o496BA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 20 Jun 2025 22:22:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-YY2jwhFmwCpry4oKFy595PQ0TquoxHmR6L8K2o496BA="
+        }
+      ]
+    },
+    {
+      "Route": "Img/jujuba/img3.br5v78w2uc.jpg",
+      "AssetFile": "C:\\Users\\botiv\\source\\repos\\CatalogoDeDoces\\CatalogoDeDoces\\CatalogoDeDoces\\wwwroot\\Img\\jujuba\\img3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "137195"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5zVbZUrzjUF3HcPySUSUhjpweDjoAUF8kkt5JedY564=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 20 Jun 2025 22:22:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "br5v78w2uc"
+        },
+        {
+          "Name": "label",
+          "Value": "Img/jujuba/img3.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-5zVbZUrzjUF3HcPySUSUhjpweDjoAUF8kkt5JedY564="
+        }
+      ]
+    },
+    {
+      "Route": "Img/jujuba/img3.jpg",
+      "AssetFile": "C:\\Users\\botiv\\source\\repos\\CatalogoDeDoces\\CatalogoDeDoces\\CatalogoDeDoces\\wwwroot\\Img\\jujuba\\img3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "137195"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5zVbZUrzjUF3HcPySUSUhjpweDjoAUF8kkt5JedY564=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 20 Jun 2025 22:22:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-5zVbZUrzjUF3HcPySUSUhjpweDjoAUF8kkt5JedY564="
+        }
+      ]
+    },
+    {
+      "Route": "Img/jujuba/img4.jpg",
+      "AssetFile": "C:\\Users\\botiv\\source\\repos\\CatalogoDeDoces\\CatalogoDeDoces\\CatalogoDeDoces\\wwwroot\\Img\\jujuba\\img4.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "97854"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9VxG4SRP6Eu9TembMbA1Tz4mXBiMdR5sIdCDEKbZ5q4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 20 Jun 2025 22:22:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-9VxG4SRP6Eu9TembMbA1Tz4mXBiMdR5sIdCDEKbZ5q4="
+        }
+      ]
+    },
+    {
+      "Route": "Img/jujuba/img4.rkyo2na1z2.jpg",
+      "AssetFile": "C:\\Users\\botiv\\source\\repos\\CatalogoDeDoces\\CatalogoDeDoces\\CatalogoDeDoces\\wwwroot\\Img\\jujuba\\img4.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "97854"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9VxG4SRP6Eu9TembMbA1Tz4mXBiMdR5sIdCDEKbZ5q4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 20 Jun 2025 22:22:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "rkyo2na1z2"
+        },
+        {
+          "Name": "label",
+          "Value": "Img/jujuba/img4.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-9VxG4SRP6Eu9TembMbA1Tz4mXBiMdR5sIdCDEKbZ5q4="
+        }
+      ]
+    },
+    {
+      "Route": "Img/jujuba/img5.69u6qqdzmb.jpg",
+      "AssetFile": "C:\\Users\\botiv\\source\\repos\\CatalogoDeDoces\\CatalogoDeDoces\\CatalogoDeDoces\\wwwroot\\Img\\jujuba\\img5.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "179865"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qnAMWgv65oxT1m7xq/AScBxTOA2QsEsX0lYklOjMnbY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 20 Jun 2025 22:22:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "69u6qqdzmb"
+        },
+        {
+          "Name": "label",
+          "Value": "Img/jujuba/img5.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-qnAMWgv65oxT1m7xq/AScBxTOA2QsEsX0lYklOjMnbY="
+        }
+      ]
+    },
+    {
+      "Route": "Img/jujuba/img5.jpg",
+      "AssetFile": "C:\\Users\\botiv\\source\\repos\\CatalogoDeDoces\\CatalogoDeDoces\\CatalogoDeDoces\\wwwroot\\Img\\jujuba\\img5.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "179865"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qnAMWgv65oxT1m7xq/AScBxTOA2QsEsX0lYklOjMnbY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 20 Jun 2025 22:22:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-qnAMWgv65oxT1m7xq/AScBxTOA2QsEsX0lYklOjMnbY="
+        }
+      ]
+    },
+    {
+      "Route": "Img/jujuba/img6.40vcsf4fzx.jpg",
+      "AssetFile": "C:\\Users\\botiv\\source\\repos\\CatalogoDeDoces\\CatalogoDeDoces\\CatalogoDeDoces\\wwwroot\\Img\\jujuba\\img6.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "174385"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9F9/IIljhv9pE/dJbN0/W/8b0I8e3RUqxoL5nPucTG0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 20 Jun 2025 22:22:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "40vcsf4fzx"
+        },
+        {
+          "Name": "label",
+          "Value": "Img/jujuba/img6.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-9F9/IIljhv9pE/dJbN0/W/8b0I8e3RUqxoL5nPucTG0="
+        }
+      ]
+    },
+    {
+      "Route": "Img/jujuba/img6.jpg",
+      "AssetFile": "C:\\Users\\botiv\\source\\repos\\CatalogoDeDoces\\CatalogoDeDoces\\CatalogoDeDoces\\wwwroot\\Img\\jujuba\\img6.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "174385"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9F9/IIljhv9pE/dJbN0/W/8b0I8e3RUqxoL5nPucTG0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 20 Jun 2025 22:22:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-9F9/IIljhv9pE/dJbN0/W/8b0I8e3RUqxoL5nPucTG0="
         }
       ]
     },

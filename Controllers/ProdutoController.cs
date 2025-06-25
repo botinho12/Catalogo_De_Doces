@@ -1,6 +1,7 @@
 ﻿using CatalogoDeDoces.Database;
 using CatalogoDeDoces.Models;
 using CatalogoDeDoces.Repository.Interfaces;
+using CatalogoDeDoces.Services.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
@@ -10,12 +11,12 @@ namespace CatalogoDeDoces.Controllers
     public class ProdutoController : Controller
     {
         private readonly DocesContext _docesContext;
-        private readonly IProdutoRepository _produtoRepository;
+        private readonly IProdutoService _produtoService;
 
-        public ProdutoController(DocesContext docesContext, IProdutoRepository produto)
+        public ProdutoController(DocesContext docesContext, IProdutoService produtoService)
         {
             _docesContext = docesContext;
-            _produtoRepository = produto;
+            _produtoService = produtoService;
         }
 
         public IActionResult Index(int? categoriaId)
@@ -57,7 +58,7 @@ namespace CatalogoDeDoces.Controllers
             {
                 if (ModelState.IsValid)
                 {
-                    produto = await _produtoRepository.CreateAsync(produto);
+                    produto = await _produtoService.CriarAsync(produto);
 
                     TempData["MensagemSucesso"] = "Produto cadastrado com sucesso!";
                     return RedirectToAction("Index");
@@ -103,7 +104,7 @@ namespace CatalogoDeDoces.Controllers
             {
                 try
                 {
-                    await _produtoRepository.UpdateAsync(produto);
+                    await _produtoService.AtualizarAsync(produto);
                 }
                 catch (DbUpdateConcurrencyException)
                 {
@@ -155,10 +156,12 @@ namespace CatalogoDeDoces.Controllers
         public async Task<IActionResult> Deletar(int id)
         {
             var produto = await _docesContext.Produtos.FindAsync(id);
-            if (produto != null)
+            if (produto == null)
             {
-               await _produtoRepository.DeleteAsync(produto);
+                throw new Exception("Produto não encontrado");
             }
+            else
+                await _produtoService.DeletarAsync(id);
 
             return RedirectToAction(nameof(Index));
         }

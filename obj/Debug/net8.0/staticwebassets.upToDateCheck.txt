@@ -1,5 +1,14 @@
 wwwroot\css\site.css
 wwwroot\favicon.ico
+wwwroot\Img\carrosel1.jpg
+wwwroot\Img\carrosel2.jpg
+wwwroot\Img\carrosel3.jpg
+wwwroot\Img\jujuba\img1.jpg
+wwwroot\Img\jujuba\img2.jpg
+wwwroot\Img\jujuba\img3.jpg
+wwwroot\Img\jujuba\img4.jpg
+wwwroot\Img\jujuba\img5.jpg
+wwwroot\Img\jujuba\img6.jpg
 wwwroot\Img\LogoJujuba.png
 wwwroot\Img\LogoWhatssap.png
 wwwroot\js\site.js

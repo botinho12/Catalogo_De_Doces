@@ -1,6 +1,7 @@
 ﻿using CatalogoDeDoces.Database;
 using CatalogoDeDoces.Models;
 using CatalogoDeDoces.Repository.Interfaces;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
@@ -24,11 +25,10 @@ namespace CatalogoDeDoces.Controllers
             var categorias = _docesContext.Categorias.ToList();
             ViewBag.Categorias = new SelectList(categorias, "id", "Nome");
 
-
             return View(categorias.ToList());
         }
 
-        public IActionResult Criar()
+        public IActionResult Criar()       
         {
           return View();    
         }
