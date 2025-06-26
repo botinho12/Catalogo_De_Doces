@@ -26,6 +26,7 @@ namespace CatalogoDeDoces.Infra
 
             #region [ Services ]
             services.AddScoped<IProdutoService, ProdutoService>();
+            services.AddScoped<ICategoriaService, CategoriaService>();
             #endregion
 
             return services;

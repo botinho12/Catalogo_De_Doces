@@ -1,6 +1,7 @@
 ﻿using CatalogoDeDoces.Database;
 using CatalogoDeDoces.Models;
 using CatalogoDeDoces.Repository.Interfaces;
+using CatalogoDeDoces.Services.Interfaces;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
@@ -12,12 +13,12 @@ namespace CatalogoDeDoces.Controllers
     public class CategoriaController : Controller
     {
         private readonly DocesContext _docesContext;
-        private readonly ICategoriaRepository _categoriaRepository;
+        private readonly ICategoriaService _categoriaService;
 
-        public CategoriaController(DocesContext docesContext, ICategoriaRepository categoriaRepository)
+        public CategoriaController(DocesContext docesContext, ICategoriaService categoriaService)
         {
             _docesContext = docesContext;
-            _categoriaRepository = categoriaRepository;
+            _categoriaService = categoriaService;
         }
 
         public IActionResult Index()
@@ -40,7 +41,7 @@ namespace CatalogoDeDoces.Controllers
             {
                 if (ModelState.IsValid)
                 {
-                    await _categoriaRepository.CreateAsync(categoria);                   
+                    await _categoriaService.CriarAsync(categoria);                   
 
                     TempData["MensagemSucesso"] = "Produto cadastrado com sucesso!";
                     return RedirectToAction("Index");
@@ -78,7 +79,7 @@ namespace CatalogoDeDoces.Controllers
             {
                 if (ModelState.IsValid)
                 {
-                    await _categoriaRepository.UpdateAsync(categoria);
+                    await _categoriaService.AtualizarAsync(categoria);
 
                     TempData["MensagemSucesso"] = "Categoria alterada!";
                     return RedirectToAction("Index");
@@ -110,13 +111,13 @@ namespace CatalogoDeDoces.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> Deletar (CategoriaModel categoria)
+        public async Task<IActionResult> Deletar (int id)
         {
             try
             {
                 if(ModelState.IsValid)
                 {
-                    await _categoriaRepository.DeleteAsync(categoria);
+                    await _categoriaService.DeletarAsync(id);
 
                     TempData["MensagemSucesso"] = "Categoria deletada com sucesso";
                     return RedirectToAction("Index");

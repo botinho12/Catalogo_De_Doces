@@ -36,7 +36,7 @@ namespace CatalogoDeDoces.Services
 
         public async Task<ProdutoModel> DeletarAsync(int Id)
         {
-            var itemEcluir = await _produtoRepository.GetAsync(c => c.Id == Id);
+            var itemEcluir = await _produtoRepository.GetAsync(p => p.Id == Id);
             if (itemEcluir == null)
             {
                 throw new Exception("Item não encontrado para exclusão");
