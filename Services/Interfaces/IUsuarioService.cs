@@ -1,6 +1,9 @@
-﻿namespace CatalogoDeDoces.Services.Interfaces
+﻿using CatalogoDeDoces.Models;
+
+namespace CatalogoDeDoces.Services.Interfaces
 {
-    public class IUsuarioService
+    public interface IUsuarioService
     {
+        Task<UsuarioModel> CriarAsync(UsuarioModel usuario);
     }
 }

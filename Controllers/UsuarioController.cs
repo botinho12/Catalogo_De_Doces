@@ -1,6 +1,7 @@
 ﻿using CatalogoDeDoces.Database;
 using CatalogoDeDoces.Models;
 using CatalogoDeDoces.Repository.Interfaces;
+using CatalogoDeDoces.Services.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 
@@ -9,12 +10,12 @@ namespace CatalogoDeDoces.Controllers
     public class UsuarioController : Controller
     {
         private readonly DocesContext _docesContext;
-        private readonly IUsuarioRepository _usuarioRepository;
+        private readonly IUsuarioService _usuarioService;
 
-        public UsuarioController(DocesContext docesContext, IUsuarioRepository usuarioRepository)
+        public UsuarioController(DocesContext docesContext, IUsuarioService usuarioService)
         {
             _docesContext = docesContext;
-            _usuarioRepository = usuarioRepository;
+            _usuarioService = usuarioService;
         }
 
         public IActionResult Index()
@@ -34,7 +35,7 @@ namespace CatalogoDeDoces.Controllers
             {
                 if (ModelState.IsValid)
                 {
-                    await _usuarioRepository.CreateAsync(usuario);
+                    await _usuarioService.CriarAsync(usuario);
 
                     TempData["MensagemSucesso"] = "Usuario cadastrado com sucesso! ";
 

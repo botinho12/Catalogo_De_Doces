@@ -34,9 +34,15 @@
 			</div>
 
 			<button type="submit" class="btn btn-primary  btn-block">Adicionar</button>
-			<a class="btn btn-secondary btn-block " asp-controller="usuario" asp-action="Index" role="button">Voltar</a>
+			<a class="btn btn-secondary btn-block " asp-controller="Login" asp-action="Index" role="button">Voltar</a>
 		</div>
 	</div>
 
 	<br />
 </form>
+
+@section Scripts {
+	<script src="~/lib/jquery/dist/jquery.min.js"></script>
+	<script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+	<script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+}
