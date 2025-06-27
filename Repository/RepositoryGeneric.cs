@@ -7,7 +7,7 @@ namespace CatalogoDeDoces.Repository
 {
     public class RepositoryGeneric<T> : IRepositoryGeneric<T> where T : class
     {
-        private readonly DocesContext _context;
+        protected readonly DocesContext _context;
 
         public RepositoryGeneric(DocesContext context)
         {

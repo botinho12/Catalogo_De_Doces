@@ -13,6 +13,11 @@ namespace CatalogoDeDoces.Services
             _usuarioRepository = usuarioRepository;
         }
 
+        public async Task<UsuarioModel> BuscarUsuarioPorEmailAsync(string email)
+        {
+            return await _usuarioRepository.BuscarUsuarioPorEmailAsync(email);
+        }
+
         public async Task<UsuarioModel> CriarAsync(UsuarioModel usuario)
         {
             return await _usuarioRepository.CreateAsync(usuario);

@@ -1,16 +1,19 @@
 ﻿using CatalogoDeDoces.Models;
-using CatalogoDeDoces.Database; 
+using CatalogoDeDoces.Database;
 using Microsoft.AspNetCore.Mvc;
+using CatalogoDeDoces.Services.Interfaces;
 
 namespace CatalogoDeDoces.Controllers
 {
     public class LoginController : Controller
     {
         private readonly DocesContext _context;
+        private readonly IUsuarioService _usuarioService;
 
-        public LoginController(DocesContext context)
+        public LoginController(DocesContext context, IUsuarioService usuarioService)
         {
             _context = context;
+            _usuarioService = usuarioService;
         }
 
         [HttpGet]
@@ -39,6 +42,40 @@ namespace CatalogoDeDoces.Controllers
         {
             HttpContext.Session.Clear();
             return RedirectToAction("Index", "Home");
+        }
+
+        public IActionResult RedefinirSenha()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> EnviarLinkParaRedefinirSenha(RedefinirSenhaModel redefinirSenhaModel)
+        {
+            try
+            {
+                if (ModelState.IsValid)
+                {
+                    var usuario = await _usuarioService.BuscarUsuarioPorEmailAsync(redefinirSenhaModel.Email);
+
+                    if (usuario != null)
+                    {
+                        TempData["SucessMensage"] = "Um link de redefinição foi enviado para o seu e-mail.";
+                    }
+                    else
+                    {
+                        TempData["MensagemErro"] = "E-mail não encontrado.";
+                    }
+
+                    return RedirectToAction("Index", "Login");
+                }
+                return View(redefinirSenhaModel);
+            }
+            catch (Exception ex)
+            {
+                TempData["MensagemErro"] = $"Erro ao enviar link: {ex.Message}";
+                return View(redefinirSenhaModel);
+            }
         }
     }
 }

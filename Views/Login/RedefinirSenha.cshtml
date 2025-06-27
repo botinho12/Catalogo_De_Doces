@@ -1,17 +1,20 @@
-﻿@model UsuarioModel
+﻿@model RedefinirSenhaModel
 @{
-	ViewData["title"] = "Cadastro do usuario";
+	ViewData["title"] = "Redefinir senha do usuário";
 }
+
 <div class="text-center">
 
-	<h1 class="display-4"> Criar Usuario</h1>
+	<h1 class="display-4"> Alterar Senha</h1>
 
 </div>
 
-<form asp-controller="Usuario" asp-action="Criar" method="post">
+<form asp-controller="Login" asp-action="EnviarLinkParaRedefinirSenha" method="post">
+	@Html.AntiForgeryToken()
+
 	<div class="container d-flex align-items-center justify-content-center" style="min-height: 80vh;">
 		<div class="card shadow p-4" style="max-width: 400px; width: 100%;">
-			<h2 class="text-center mb-4">Entrar</h2>
+			<h2 class="text-center mb-4">Redefinir Senha</h2>
 			<div class="mb-3">
 				<label asp-for="NomeUsuario" class="form-label">NomeUsuario</label>
 				<input asp-for="NomeUsuario" class="form-control" placeholder="Digite o nome de usuario" />
@@ -22,22 +25,11 @@
 				<input asp-for="Email" class="form-control" placeholder="Digite seu email" />
 				<span asp-validation-for="Email" class="text-danger"></span>
 			</div>
-			<div class="mb-3">
-				<label asp-for="Senha" class="form-label">Senha</label>
-				<input asp-for="Senha" class="form-control" type="password" placeholder="Digite sua senha" />
-				<span asp-validation-for="Senha" class="text-danger"></span>
-			</div>
-			<div class="mb-3">
-				<label asp-for="Telefone" class="form-label">Telefone</label>
-				<input asp-for="Telefone" class="form-control" placeholder="Digite seu telefone" />
-				<span asp-validation-for="Telefone" class="text-danger"></span>
-			</div>
 
-			<button type="submit" class="btn btn-primary  btn-block">Adicionar</button>
+			<button type="submit" class="btn btn-primary  btn-block">Redefinir Senha</button>
 			<a class="btn btn-secondary btn-block " asp-controller="Login" asp-action="Index" role="button">Voltar</a>
 		</div>
 	</div>
-
 	<br />
 </form>
 
