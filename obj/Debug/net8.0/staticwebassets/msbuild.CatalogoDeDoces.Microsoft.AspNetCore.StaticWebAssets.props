@@ -30,8 +30,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>aukoacvk2a</Fingerprint>
-      <Integrity>fpbEhzaI6O29IDMDPFntuKI4P8W+J18Ezvs8oBj0Lco=</Integrity>
+      <Fingerprint>tnxi0cyxbm</Fingerprint>
+      <Integrity>F3X5wVyt07Oa2BlccJbaOuJy6dzNxgvQ2WdsNafIzRk=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</OriginalItemSpec>
@@ -54,59 +54,59 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\favicon.ico'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Img\carrosel1.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Img\Banner.png'))">
       <SourceType>Package</SourceType>
       <SourceId>CatalogoDeDoces</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/CatalogoDeDoces</BasePath>
-      <RelativePath>Img/carrosel1.jpg</RelativePath>
+      <RelativePath>Img/Banner.png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>2gwvegtfzn</Fingerprint>
-      <Integrity>/qt+pGhRJtmJAAo1ojQBopcRZ7m1bwwmfZMHMu0QSms=</Integrity>
+      <Fingerprint>yqhwclwgrw</Fingerprint>
+      <Integrity>Jt7U4MFtf0+Vta+loAsiFfR7vjeWwfoTC/ZHTfNvdAI=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Img\carrosel1.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Img\Banner.png'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Img\carrosel2.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Img\Banner2.png'))">
       <SourceType>Package</SourceType>
       <SourceId>CatalogoDeDoces</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/CatalogoDeDoces</BasePath>
-      <RelativePath>Img/carrosel2.jpg</RelativePath>
+      <RelativePath>Img/Banner2.png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>it0fbz51xi</Fingerprint>
-      <Integrity>GmfUwwlVNLGcZbiIc6+aqjxnUd1JUC9Qo+f1Y7CPKkc=</Integrity>
+      <Fingerprint>okinxwiekm</Fingerprint>
+      <Integrity>yJ5VXq7Qy7wHbqij7wuMKX/W2FzAIU8+xUepzRnuzrY=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Img\carrosel2.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Img\Banner2.png'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Img\carrosel3.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Img\Banner3.png'))">
       <SourceType>Package</SourceType>
       <SourceId>CatalogoDeDoces</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/CatalogoDeDoces</BasePath>
-      <RelativePath>Img/carrosel3.jpg</RelativePath>
+      <RelativePath>Img/Banner3.png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>45bdi7c3kg</Fingerprint>
-      <Integrity>qMfEGpV/bSVz5L0RfNggj10FDpo1gccVYxoyh5UamTQ=</Integrity>
+      <Fingerprint>o4z08emu3y</Fingerprint>
+      <Integrity>2JEExRmX7r5SocLm/q6YfxE8oy7mx6vBrJqbDpm2Mbs=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Img\carrosel3.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Img\Banner3.png'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Img\jujuba\img1.jpg'))">
       <SourceType>Package</SourceType>

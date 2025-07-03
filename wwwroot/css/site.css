@@ -107,9 +107,10 @@ nav a {
    Carrossel (Bootstrap)
    ======================================================================== */
 .carousel-inner img.destaque-img {
-    max-height: 400px; /* Altura máxima das imagens do carrossel */
-    object-fit: contain; /* Mantém proporção sem cortar */
-    border-radius: 10px;
+   width: 200px;
+   height: 600px;
+   object-fit:cover;
+   border-radius:0;
 }
 
 /* ========================================================================

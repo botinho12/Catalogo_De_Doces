@@ -1,8 +1,8 @@
 wwwroot\css\site.css
 wwwroot\favicon.ico
-wwwroot\Img\carrosel1.jpg
-wwwroot\Img\carrosel2.jpg
-wwwroot\Img\carrosel3.jpg
+wwwroot\Img\Banner.png
+wwwroot\Img\Banner2.png
+wwwroot\Img\Banner3.png
 wwwroot\Img\jujuba\img1.jpg
 wwwroot\Img\jujuba\img2.jpg
 wwwroot\Img\jujuba\img3.jpg

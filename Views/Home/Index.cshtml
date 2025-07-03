@@ -7,13 +7,13 @@
 <div id="carouselDestaques" class="carousel slide mb-5" data-bs-ride="carousel" data-bs-interval="2000">
     <div class="carousel-inner">
         <div class="carousel-item active">
-            <img src="~/Img/carrosel1.jpg" class="d-block w-100 destaque-img" alt="Destaque 1">
+            <img src="~/Img/Banner.png" class="d-block w-100 destaque-img" alt="Destaque 1">
         </div>
         <div class="carousel-item">
-            <img src="~/Img/carrosel2.jpg" class="d-block w-100 destaque-img" alt="Destaque 2">
+            <img src="~/img/Banner2.png" class="d-block w-100 destaque-img" alt="Destaque 2">
         </div>
         <div class="carousel-item">
-            <img src="~/Img/carrosel3.jpg" class="d-block w-100 destaque-img" alt="Destaque 3">
+            <img src="~/Img/Banner3.png" class="d-block w-100 destaque-img" alt="Destaque 3">
         </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselDestaques" data-bs-slide="prev">
@@ -51,5 +51,7 @@
     </div>
 
     <h2>Veja nosso catálogo completo</h2>
-    <button class="btn-purple" type="submit">Ver Catálogo</button>
+    <form asp-controller="Catalogo" asp-action="Index" method="post">
+        <button class="btn-purple" type="submit">Ver Catálogo</button>
+    </form>
 </section>
