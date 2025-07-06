@@ -20,7 +20,6 @@ namespace CatalogoDeDoces.Models
         [Range(0.01, double.MaxValue, ErrorMessage = "Informe um preço válido.")]
         public decimal Preco { get; set; }
 
-        [Required(ErrorMessage = "A categoria é obrigatória.")]
         public int CategoriaId { get; set; }
 
         public virtual CategoriaModel? Categoria { get; set; }
