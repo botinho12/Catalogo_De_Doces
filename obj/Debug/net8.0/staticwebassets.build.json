@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "aw2M33/0gHxmruVo2hpONfGET68XtWyZd72gY60lqqo=",
+  "Hash": "+wB6hv5m1JnDBpAm7I8bFOcEiQIffhwMTlhabo4rDNY=",
   "Source": "CatalogoDeDoces",
   "BasePath": "_content/CatalogoDeDoces",
   "Mode": "Default",
@@ -99,6 +99,48 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\botiv\\source\\repos\\CatalogoDeDoces\\CatalogoDeDoces\\CatalogoDeDoces\\wwwroot\\imagens\\2b17b7a8-0371-4ad7-8132-f00a682f22db.jpg",
+      "SourceId": "CatalogoDeDoces",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\botiv\\source\\repos\\CatalogoDeDoces\\CatalogoDeDoces\\CatalogoDeDoces\\wwwroot\\",
+      "BasePath": "_content/CatalogoDeDoces",
+      "RelativePath": "imagens/2b17b7a8-0371-4ad7-8132-f00a682f22db#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "cs3fga9y05",
+      "Integrity": "7Ejv9XhVW8ANVqfhE23E+JjZGihB0xw+WTFD2TpvaWw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imagens\\2b17b7a8-0371-4ad7-8132-f00a682f22db.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\botiv\\source\\repos\\CatalogoDeDoces\\CatalogoDeDoces\\CatalogoDeDoces\\wwwroot\\imagens\\580bd5e4-2ca7-4cef-bfcf-a26f25099b9e.jpg",
+      "SourceId": "CatalogoDeDoces",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\botiv\\source\\repos\\CatalogoDeDoces\\CatalogoDeDoces\\CatalogoDeDoces\\wwwroot\\",
+      "BasePath": "_content/CatalogoDeDoces",
+      "RelativePath": "imagens/580bd5e4-2ca7-4cef-bfcf-a26f25099b9e#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "rnsktjdaba",
+      "Integrity": "6XjKi5eWVmTa8AGt5pKpouACmy6ycL73f+/ioRV61YE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imagens\\580bd5e4-2ca7-4cef-bfcf-a26f25099b9e.jpg"
     },
     {
       "Identity": "C:\\Users\\botiv\\source\\repos\\CatalogoDeDoces\\CatalogoDeDoces\\CatalogoDeDoces\\wwwroot\\Img\\Banner.png",
@@ -1876,6 +1918,170 @@
         {
           "Name": "integrity",
           "Value": "sha256-Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM="
+        }
+      ]
+    },
+    {
+      "Route": "imagens/2b17b7a8-0371-4ad7-8132-f00a682f22db.cs3fga9y05.jpg",
+      "AssetFile": "C:\\Users\\botiv\\source\\repos\\CatalogoDeDoces\\CatalogoDeDoces\\CatalogoDeDoces\\wwwroot\\imagens\\2b17b7a8-0371-4ad7-8132-f00a682f22db.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6829"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7Ejv9XhVW8ANVqfhE23E+JjZGihB0xw+WTFD2TpvaWw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 07 Jul 2025 00:47:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cs3fga9y05"
+        },
+        {
+          "Name": "label",
+          "Value": "imagens/2b17b7a8-0371-4ad7-8132-f00a682f22db.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-7Ejv9XhVW8ANVqfhE23E+JjZGihB0xw+WTFD2TpvaWw="
+        }
+      ]
+    },
+    {
+      "Route": "imagens/2b17b7a8-0371-4ad7-8132-f00a682f22db.jpg",
+      "AssetFile": "C:\\Users\\botiv\\source\\repos\\CatalogoDeDoces\\CatalogoDeDoces\\CatalogoDeDoces\\wwwroot\\imagens\\2b17b7a8-0371-4ad7-8132-f00a682f22db.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6829"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7Ejv9XhVW8ANVqfhE23E+JjZGihB0xw+WTFD2TpvaWw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 07 Jul 2025 00:47:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-7Ejv9XhVW8ANVqfhE23E+JjZGihB0xw+WTFD2TpvaWw="
+        }
+      ]
+    },
+    {
+      "Route": "imagens/580bd5e4-2ca7-4cef-bfcf-a26f25099b9e.jpg",
+      "AssetFile": "C:\\Users\\botiv\\source\\repos\\CatalogoDeDoces\\CatalogoDeDoces\\CatalogoDeDoces\\wwwroot\\imagens\\580bd5e4-2ca7-4cef-bfcf-a26f25099b9e.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "328224"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6XjKi5eWVmTa8AGt5pKpouACmy6ycL73f+/ioRV61YE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 07 Jul 2025 01:12:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-6XjKi5eWVmTa8AGt5pKpouACmy6ycL73f+/ioRV61YE="
+        }
+      ]
+    },
+    {
+      "Route": "imagens/580bd5e4-2ca7-4cef-bfcf-a26f25099b9e.rnsktjdaba.jpg",
+      "AssetFile": "C:\\Users\\botiv\\source\\repos\\CatalogoDeDoces\\CatalogoDeDoces\\CatalogoDeDoces\\wwwroot\\imagens\\580bd5e4-2ca7-4cef-bfcf-a26f25099b9e.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "328224"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6XjKi5eWVmTa8AGt5pKpouACmy6ycL73f+/ioRV61YE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 07 Jul 2025 01:12:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "rnsktjdaba"
+        },
+        {
+          "Name": "label",
+          "Value": "imagens/580bd5e4-2ca7-4cef-bfcf-a26f25099b9e.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-6XjKi5eWVmTa8AGt5pKpouACmy6ycL73f+/ioRV61YE="
         }
       ]
     },

@@ -10,6 +10,13 @@
             <div class="card shadow p-4 rounded-4">
                 <h2 class="text-center mb-4" style="color: #3F2E87;">@Model.Nome</h2>
 
+                @if (!string.IsNullOrEmpty(Model.ImagemUrl))
+                {
+                    <div class="text-center mb-4">
+                        <img src="@Url.Content(Model.ImagemUrl)" alt="@Model.Nome" class="img-fluid rounded" style="max-height: 300px;" />
+                    </div>
+                }
+
                 <div class="mb-3">
                     <strong>Descrição:</strong>
                     <p>@Model.Descricao</p>

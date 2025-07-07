@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace CatalogoDeDoces.Models
 {
@@ -19,6 +20,9 @@ namespace CatalogoDeDoces.Models
         [Required(ErrorMessage = "O preço é obrigatório.")]
         [Range(0.01, double.MaxValue, ErrorMessage = "Informe um preço válido.")]
         public decimal Preco { get; set; }
+
+        [NotMapped]
+        public IFormFile? ArquivoImagem { get; set; }
 
         public int CategoriaId { get; set; }
 

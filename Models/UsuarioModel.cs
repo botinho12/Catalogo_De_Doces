@@ -24,5 +24,13 @@ namespace CatalogoDeDoces.Models
         [Phone]
         [StringLength(20)]
         public string Telefone { get; set; } = string.Empty;
+
+        public void SetSenhaHash()
+        {
+            if (!string.IsNullOrEmpty(Senha))
+            {
+                Senha = Helper.CriptografiaSenha.GerarHash(Senha);
+            }
+        }
     }
 }

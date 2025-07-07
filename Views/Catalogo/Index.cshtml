@@ -1,1 +1,15 @@
-﻿
+﻿@model List<ProdutoModel>
+
+<h1>Catálogo de Produtos</h1>
+
+<div class="cards">
+    @foreach (var produto in Model)
+    {
+        <div class="card-img">
+            <a asp-action="Detalhes" asp-route-id="@produto.Id">
+                <img src="@Url.Content(produto.ImagemUrl ?? "~/Img/sem-imagem.png")" alt="@produto.Nome" />
+            </a>
+            <p>@produto.Nome</p>
+        </div>
+    }
+</div>

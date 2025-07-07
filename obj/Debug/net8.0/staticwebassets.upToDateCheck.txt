@@ -1,5 +1,7 @@
 wwwroot\css\site.css
 wwwroot\favicon.ico
+wwwroot\imagens\2b17b7a8-0371-4ad7-8132-f00a682f22db.jpg
+wwwroot\imagens\580bd5e4-2ca7-4cef-bfcf-a26f25099b9e.jpg
 wwwroot\Img\Banner.png
 wwwroot\Img\Banner2.png
 wwwroot\Img\Banner3.png

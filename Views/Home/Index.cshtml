@@ -28,28 +28,6 @@
 
 <!-- Seção de Destaques fixos -->
 <section class="quote">
-    <h4 class="text-black text-orange">Destaques do Catálogo</h4>
-    @{
-        var imagens = new List<string>
-    {
-    "~/Img/jujuba/img1.jpg",
-    "~/Img/jujuba/img2.jpg",
-    "~/Img/jujuba/img3.jpg",
-    "~/Img/jujuba/img4.jpg",
-    "~/Img/jujuba/img5.jpg",
-    "~/Img/jujuba/img6.jpg"
-    };
-    }
-
-    <div class="cards">
-        @foreach (var img in imagens)
-        {
-            <div class="card-img">
-                <img src="@Url.Content(img)" alt="Produto em destaque" />
-            </div>
-        }
-    </div>
-
     <h2>Veja nosso catálogo completo</h2>
     <form asp-controller="Catalogo" asp-action="Index" method="post">
         <button class="btn-purple" type="submit">Ver Catálogo</button>

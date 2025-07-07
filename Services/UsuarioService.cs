@@ -20,6 +20,7 @@ namespace CatalogoDeDoces.Services
 
         public async Task<UsuarioModel> CriarAsync(UsuarioModel usuario)
         {
+            usuario.SetSenhaHash();
             return await _usuarioRepository.CreateAsync(usuario);
         }
     }

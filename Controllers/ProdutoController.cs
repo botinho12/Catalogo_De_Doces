@@ -58,7 +58,26 @@ namespace CatalogoDeDoces.Controllers
             {
                 if (ModelState.IsValid)
                 {
-                    produto = await _produtoService.CriarAsync(produto);
+                    if (produto.ArquivoImagem != null && produto.ArquivoImagem.Length > 0)
+                    {
+                        var extensao = Path.GetExtension(produto.ArquivoImagem.FileName);
+                        var nomeImagem = $"{Guid.NewGuid()}{extensao}";
+                        var caminhoPasta = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "imagens");
+
+                        if (!Directory.Exists(caminhoPasta))
+                            Directory.CreateDirectory(caminhoPasta);
+
+                        var caminhoCompleto = Path.Combine(caminhoPasta, nomeImagem);
+
+                        using (var stream = new FileStream(caminhoCompleto, FileMode.Create))
+                        {
+                            await produto.ArquivoImagem.CopyToAsync(stream);
+                        }
+
+                        produto.ImagemUrl = $"/imagens/{nomeImagem}";
+                    }
+
+                    await _produtoService.CriarAsync(produto);
 
                     TempData["MensagemSucesso"] = "Produto cadastrado com sucesso!";
                     return RedirectToAction("Index");
@@ -66,12 +85,14 @@ namespace CatalogoDeDoces.Controllers
             }
             catch (Exception erro)
             {
-                TempData["MensagemErro"] = $"Ops, não conseguimos cadastrar seu produto, tente novamante, detalhe do erro: {erro.Message}";
-                return RedirectToAction("Index");
+                TempData["MensagemErro"] = $"Ops, não conseguimos cadastrar seu produto, tente novamente. Detalhes: {erro.Message}";
             }
 
-            return RedirectToAction("Index");
+            var categorias = _docesContext.Categorias.ToList();
+            ViewBag.Categorias = new SelectList(categorias, "Id", "Nome");
+            return View(produto);
         }
+
 
         public async Task<IActionResult> Editar(int? id)
         {
