@@ -10,6 +10,7 @@ using Microsoft.EntityFrameworkCore.Metadata.Internal;
 
 namespace CatalogoDeDoces.Controllers
 {
+    [Authorize(Policy = "EhAdministrador")]
     public class CategoriaController : Controller
     {
         private readonly DocesContext _docesContext;

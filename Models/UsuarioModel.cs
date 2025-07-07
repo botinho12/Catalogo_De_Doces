@@ -25,6 +25,8 @@ namespace CatalogoDeDoces.Models
         [StringLength(20)]
         public string Telefone { get; set; } = string.Empty;
 
+        public bool EhAdministrador { get; set; }
+
         public void SetSenhaHash()
         {
             if (!string.IsNullOrEmpty(Senha))

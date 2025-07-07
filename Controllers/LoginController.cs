@@ -2,6 +2,10 @@
 using CatalogoDeDoces.Database;
 using Microsoft.AspNetCore.Mvc;
 using CatalogoDeDoces.Services.Interfaces;
+using CatalogoDeDoces.Helper;
+using System.Security.Claims;
+using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.AspNetCore.Authentication;
 
 namespace CatalogoDeDoces.Controllers
 {
@@ -23,19 +27,29 @@ namespace CatalogoDeDoces.Controllers
         }
 
         [HttpPost]
-        public IActionResult Login(UsuarioModel login)
+        public async Task<IActionResult> Login(UsuarioModel login)
         {
-            var usuario = _context.Usuarios
-                .FirstOrDefault(u => u.Email == login.Email && u.Senha == login.Senha);
-
-            if (usuario != null)
+            var usuario = _context.Usuarios.FirstOrDefault(u => u.Email == login.Email);
+            if (usuario == null || !CriptografiaSenha.VerifyPassword(login.Senha, usuario.Senha))
             {
-                HttpContext.Session.SetString("UsuarioNome", usuario.NomeUsuario);
-                return RedirectToAction("Index", "Home");
+                ViewBag.Erro = "Email ou senha inválidos.";
+                return View("Index");
             }
 
-            ViewBag.Erro = "Email ou senha inválidos.";
-            return View("Index");
+            var claims = new List<Claim>
+            {
+                new Claim(ClaimTypes.Name, usuario.NomeUsuario),
+                new Claim(ClaimTypes.Email, usuario.Email),
+                new Claim("EhAdministrador", usuario.EhAdministrador ? "true" : "false")              
+            };
+
+            var claimsIdentity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
+
+            await HttpContext.SignInAsync(
+                CookieAuthenticationDefaults.AuthenticationScheme,
+                new ClaimsPrincipal(claimsIdentity));
+                
+            return RedirectToAction("Index", "Home");
         }
 
         public IActionResult Logout()

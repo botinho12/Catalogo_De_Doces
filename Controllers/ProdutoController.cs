@@ -2,12 +2,14 @@
 using CatalogoDeDoces.Models;
 using CatalogoDeDoces.Repository.Interfaces;
 using CatalogoDeDoces.Services.Interfaces;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 
 namespace CatalogoDeDoces.Controllers
 {
+    [Authorize(Policy = "EhAdministrador")]
     public class ProdutoController : Controller
     {
         private readonly DocesContext _docesContext;
