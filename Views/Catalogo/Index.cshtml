@@ -5,11 +5,15 @@
 <div class="cards">
     @foreach (var produto in Model)
     {
-        <div class="card-img">
-            <a asp-route-id="@produto.Id" asp-controller="Catalogo" asp-action="Detalhes">
-                <img src="@Url.Content(produto.ImagemUrl ?? "~/Img/sem-imagem.png")" alt="@produto.Nome" />
+        <div class="card-produto">
+            <a asp-action="Detalhes" asp-controller="Catalogo" asp-route-id="@produto.Id">
+                <img src="@Url.Content(produto.ImagemUrl ?? "~/Img/sem-imagem.png")"
+                     alt="@produto.Nome" />
             </a>
-            <p>@produto.Nome</p>
+
+            <h6 class="nome-produto">@produto.Nome</h6>
+            <p class="preco-produto">R$ @produto.Preco.ToString("F2")</p>
         </div>
     }
 </div>
+
