@@ -1,69 +1,52 @@
 ﻿@model IEnumerable<CatalogoDeDoces.Models.ProdutoModel>
 @{
-	Layout = "~/Views/Shared/_Layout.cshtml";
-	ViewBag.Title = "Catálogo de Doces";
-	var categorias = ViewBag.Categorias as List<CatalogoDeDoces.Models.CategoriaModel>;
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "Catálogo de Doces";
+    var categorias = ViewBag.Categorias as List<CatalogoDeDoces.Models.CategoriaModel>;
 }
 
 <div class="text-center">
 
-	<div class="d-grid gap-2 d-md-flex justify-content-md-start">
-		<a class="btn btn-primary"  role="button" asp-controller="Produto" asp-action="Criar">Adicionar novo Produto</a>
-	</div>
+    <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+        <a class="btn btn-primary" role="button" asp-controller="Produto" asp-action="Criar">Adicionar novo Produto</a>
+    </div>
 
-	<h1 class="display-4 mb-4"> Listagem de Produtos</h1>
+    <h1 class="display-4 mb-4">Listagem de Produtos</h1>
 
-
-	<table class="table mt-5" id="table-produtos">
-		<thead>
-			<tr>
-				<th>
-					@Html.DisplayNameFor(model => model.Nome)
-				</th>
-				<th>
-					@Html.DisplayNameFor(model => model.Preco)
-				</th>
-				<th>
-					@Html.DisplayNameFor(model => model.Descricao)
-				</th>
-				<th>
-					@Html.DisplayNameFor(model => model.Categoria)
-				</th>
-				<th>Ações</th>
-			</tr>
-		</thead>
-		<tbody>
-			@if (Model != null && Model.Any())
-			{
-				foreach (ProdutoModel produto in Model)
-				{
-					<tr>
-						<td>
-							@Html.DisplayFor(modelItem => produto.Nome)
-						</td>
-						<td>
-							@Html.DisplayFor(modelItem => produto.Preco)
-						</td>
-						<td>
-							@Html.DisplayFor(modelItem => produto.Descricao)
-						</td>
-						<td>
-							@Html.DisplayFor(modelItem => produto.Categoria.Nome)
-						</td>
-						<td>
-							<div class="btn-group" role="group">
-								<a role="button" class="btn btn-primary" asp-route-id="@produto.Id" asp-controller="Produto" asp-action="Editar">Editar</a>
-								<a role="button" class="btn btn-success" asp-route-id="@produto.Id" asp-controller="Produto" asp-action="Detalhes">Detalhes</a>
-								<a role="button" class="btn btn-danger" asp-route-id="@produto.Id" asp-controller="Produto" asp-action="Deletar">Apagar</a>
-							</div>
-						</td>
-					</tr>
-				}
-			}
-			else
-			{
-				<tr class="odd"><td valign="top" colspan="5">Nenhum produto encontrado</td></tr>
-			}
-		</tbody>
-	</table>
+    @if (Model != null && Model.Any())
+    {
+        <table class="table mt-5" id="table-produtos">
+            <thead>
+                <tr>
+                    <th>@Html.DisplayNameFor(model => model.Nome)</th>
+                    <th>@Html.DisplayNameFor(model => model.Preco)</th>
+                    <th>@Html.DisplayNameFor(model => model.Descricao)</th>
+                    <th>@Html.DisplayNameFor(model => model.Categoria)</th>
+                    <th>Ações</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var produto in Model)
+                {
+                    <tr>
+                        <td>@produto.Nome</td>
+                        <td>@produto.Preco</td>
+                        <td>@produto.Descricao</td>
+                        <td>@produto.Categoria?.Nome</td>
+                        <td>
+                            <div class="btn-group" role="group">
+                                <a class="btn btn-primary" asp-route-id="@produto.Id" asp-controller="Produto" asp-action="Editar">Editar</a>
+                                <a class="btn btn-success" asp-route-id="@produto.Id" asp-controller="Produto" asp-action="Detalhes">Detalhes</a>
+                                <a class="btn btn-danger" asp-route-id="@produto.Id" asp-controller="Produto" asp-action="Deletar">Apagar</a>
+                            </div>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+    else
+    {
+        <div class="alert alert-warning mt-4">Nenhum produto encontrado.</div>
+    }
 </div>

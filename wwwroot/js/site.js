@@ -8,7 +8,8 @@ $(document).ready(function () {
 	let table = new DataTable('#table-produtos', {
 		language: {
 			url: '//cdn.datatables.net/plug-ins/1.13.6/i18n/pt-BR.json'
-		}
+		},
+		errorMode: 'none'
 	});
 });
 
