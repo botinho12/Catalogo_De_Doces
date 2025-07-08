@@ -1,6 +1,8 @@
 ﻿using System.Collections.Generic;
+using CatalogoDeDoces.Helper;
 using CatalogoDeDoces.Models;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration.UserSecrets;
 
 namespace CatalogoDeDoces.Database
 {
@@ -14,5 +16,21 @@ namespace CatalogoDeDoces.Database
         public DbSet<ProdutoModel> Produtos { get; set; }
         public DbSet<CategoriaModel> Categorias { get; set; }
         public DbSet<UsuarioModel> Usuarios { get; set; }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            base.OnModelCreating(modelBuilder);
+
+            modelBuilder.Entity<UsuarioModel>().HasData(new UsuarioModel
+            {
+                UsuarioId = 1,
+                NomeUsuario = "Admin",
+                Email = "admin@admin.com",
+                Senha = CriptografiaSenha.GerarHash("123456"), 
+                Telefone = "11999999999",
+                EhAdministrador = true
+            });
+        }
+
     }
 }

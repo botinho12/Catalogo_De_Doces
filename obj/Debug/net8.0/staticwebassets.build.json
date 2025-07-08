@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "1MJq3OgEu8PKBgMGr5/OOY5TnDuJyLi4TFrLegrs0eQ=",
+  "Hash": "erGToWrLZSZ/kw/i/4TyFiFT2mw6ZHJec3Wwhcw6sFo=",
   "Source": "CatalogoDeDoces",
   "BasePath": "_content/CatalogoDeDoces",
   "Mode": "Default",
@@ -99,6 +99,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\botiv\\source\\repos\\CatalogoDeDoces\\CatalogoDeDoces\\CatalogoDeDoces\\wwwroot\\imagens\\0a0e241b-d3f2-43dc-9c11-5bd9af6e25a1.jpeg",
+      "SourceId": "CatalogoDeDoces",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\botiv\\source\\repos\\CatalogoDeDoces\\CatalogoDeDoces\\CatalogoDeDoces\\wwwroot\\",
+      "BasePath": "_content/CatalogoDeDoces",
+      "RelativePath": "imagens/0a0e241b-d3f2-43dc-9c11-5bd9af6e25a1#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "6fn3cz03u0",
+      "Integrity": "rq4MMrxnru6UwBsCDGaJrYRvai8XLJMlOorFBPSi17A=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imagens\\0a0e241b-d3f2-43dc-9c11-5bd9af6e25a1.jpeg"
     },
     {
       "Identity": "C:\\Users\\botiv\\source\\repos\\CatalogoDeDoces\\CatalogoDeDoces\\CatalogoDeDoces\\wwwroot\\imagens\\2b17b7a8-0371-4ad7-8132-f00a682f22db.jpg",
@@ -1918,6 +1939,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM="
+        }
+      ]
+    },
+    {
+      "Route": "imagens/0a0e241b-d3f2-43dc-9c11-5bd9af6e25a1.6fn3cz03u0.jpeg",
+      "AssetFile": "C:\\Users\\botiv\\source\\repos\\CatalogoDeDoces\\CatalogoDeDoces\\CatalogoDeDoces\\wwwroot\\imagens\\0a0e241b-d3f2-43dc-9c11-5bd9af6e25a1.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "90079"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rq4MMrxnru6UwBsCDGaJrYRvai8XLJMlOorFBPSi17A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 08 Jul 2025 01:17:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6fn3cz03u0"
+        },
+        {
+          "Name": "label",
+          "Value": "imagens/0a0e241b-d3f2-43dc-9c11-5bd9af6e25a1.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-rq4MMrxnru6UwBsCDGaJrYRvai8XLJMlOorFBPSi17A="
+        }
+      ]
+    },
+    {
+      "Route": "imagens/0a0e241b-d3f2-43dc-9c11-5bd9af6e25a1.jpeg",
+      "AssetFile": "C:\\Users\\botiv\\source\\repos\\CatalogoDeDoces\\CatalogoDeDoces\\CatalogoDeDoces\\wwwroot\\imagens\\0a0e241b-d3f2-43dc-9c11-5bd9af6e25a1.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "90079"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rq4MMrxnru6UwBsCDGaJrYRvai8XLJMlOorFBPSi17A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 08 Jul 2025 01:17:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-rq4MMrxnru6UwBsCDGaJrYRvai8XLJMlOorFBPSi17A="
         }
       ]
     },
