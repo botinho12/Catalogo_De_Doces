@@ -17,5 +17,17 @@ namespace CatalogoDeDoces.Controllers
             var produtos = _context.Produtos.ToList();
             return View(produtos); 
         }
+
+        public IActionResult Detalhes(int id)
+        {
+            var produto = _context.Produtos
+                .Include(p => p.Categoria)
+                .FirstOrDefault(p => p.Id == id);
+
+            if (produto == null)
+                return NotFound();
+
+            return View(produto);
+        }
     }
 }

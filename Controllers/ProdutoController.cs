@@ -9,7 +9,6 @@ using Microsoft.EntityFrameworkCore;
 
 namespace CatalogoDeDoces.Controllers
 {
-    [Authorize(Policy = "EhAdministrador")]
     public class ProdutoController : Controller
     {
         private readonly DocesContext _docesContext;
@@ -21,6 +20,7 @@ namespace CatalogoDeDoces.Controllers
             _produtoService = produtoService;
         }
 
+        [Authorize(Policy = "EhAdministrador")]
         public IActionResult Index(int? categoriaId)
         {
             var categorias = _docesContext.Categorias.ToList();
@@ -36,6 +36,7 @@ namespace CatalogoDeDoces.Controllers
             return View(produtos.ToList());
         }
 
+        [Authorize(Policy = "EhAdministrador")]
         public async Task<IActionResult> FiltrarPorCategoria(int id)
         {
             var produtos = await _docesContext.Produtos
@@ -46,6 +47,7 @@ namespace CatalogoDeDoces.Controllers
             return View("Index", produtos);
         }
 
+        [Authorize(Policy = "EhAdministrador")]
         public IActionResult Criar()
         {
             var categorias = _docesContext.Categorias.ToList();
@@ -53,6 +55,7 @@ namespace CatalogoDeDoces.Controllers
             return View();
         }
 
+        [Authorize(Policy = "EhAdministrador")]
         [HttpPost]
         public async Task<IActionResult> Criar(ProdutoModel produto)
         {
@@ -95,7 +98,7 @@ namespace CatalogoDeDoces.Controllers
             return View(produto);
         }
 
-
+        [Authorize(Policy = "EhAdministrador")]
         public async Task<IActionResult> Editar(int? id)
         {
             if (id == null)
@@ -115,6 +118,7 @@ namespace CatalogoDeDoces.Controllers
 
         }
 
+        [Authorize(Policy = "EhAdministrador")]
         [HttpPost]
         public async Task<IActionResult> Editar(ProdutoModel produto, int id)
         {
@@ -157,6 +161,7 @@ namespace CatalogoDeDoces.Controllers
             return View(produto);
         }
 
+        [Authorize(Policy = "EhAdministrador")]
         public async Task<IActionResult> Deletar(int? id)
         {
             if (id == null)
@@ -175,6 +180,7 @@ namespace CatalogoDeDoces.Controllers
             return View(produto);
         }
 
+        [Authorize(Policy = "EhAdministrador")]
         [HttpPost]
         public async Task<IActionResult> Deletar(int id)
         {

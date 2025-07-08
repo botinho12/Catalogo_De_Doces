@@ -6,7 +6,7 @@
     @foreach (var produto in Model)
     {
         <div class="card-img">
-            <a asp-action="Detalhes" asp-route-id="@produto.Id">
+            <a asp-route-id="@produto.Id" asp-controller="Catalogo" asp-action="Detalhes">
                 <img src="@Url.Content(produto.ImagemUrl ?? "~/Img/sem-imagem.png")" alt="@produto.Nome" />
             </a>
             <p>@produto.Nome</p>

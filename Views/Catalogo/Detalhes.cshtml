@@ -1,0 +1,57 @@
+﻿@model CatalogoDeDoces.Models.ProdutoModel
+
+@{
+    ViewData["Title"] = "Detalhes do Produto";
+}
+@{
+    bool ehAdmin = User.Identity.IsAuthenticated &&
+                   User.Claims.Any(c => c.Type == "EhAdministrador" && c.Value == "true");
+}
+
+<div class="container mt-5 mb-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8 col-lg-6">
+            <div class="card shadow p-4 rounded-4">
+                <h2 class="text-center mb-4" style="color: #3F2E87;">@Model.Nome</h2>
+
+                @if (!string.IsNullOrEmpty(Model.ImagemUrl))
+                {
+                        <div class="text-center mb-4">
+                            <img src="@Url.Content(Model.ImagemUrl)" alt="@Model.Nome" class="img-fluid rounded" style="max-height: 300px;" />
+                        </div>
+                }
+
+                <div class="mb-3">
+                    <strong>Descrição:</strong>
+                    <p>@Model.Descricao</p>
+                </div>
+
+                <div class="mb-3">
+                    <strong>Preço:</strong>
+                    <p style="color: #ff6b00; font-size: 1.3rem;">R$ @Model.Preco.ToString("F2")</p>
+                </div>
+
+                <div class="mb-4">
+                    <strong>Categoria:</strong>
+                    <p>@Model.Categoria?.Nome</p>
+                </div>
+
+                <div class="text-end">
+                    <a asp-action="Index" class="btn btn-purple">Voltar</a>
+                    @if (User.Identity.IsAuthenticated)
+                    {
+                        <a asp-action="AdicionarLista" asp-controller="ListaDesejos" asp-route-id="@Model.Id" class="btn btn-purple">
+                            Adicionar à Lista
+                        </a>
+                    }
+                    else
+                    {
+                        <a asp-controller="Login" asp-action="Index" class="btn btn-purple">
+                            Faça login para adicionar
+                        </a>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -52,9 +52,9 @@ namespace CatalogoDeDoces.Controllers
             return RedirectToAction("Index", "Home");
         }
 
-        public IActionResult Logout()
+        public async Task<IActionResult> LogoutAsync()
         {
-            HttpContext.Session.Clear();
+            await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
             return RedirectToAction("Index", "Home");
         }
 
