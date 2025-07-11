@@ -1,7 +1,9 @@
-﻿namespace CatalogoDeDoces.Services.Interfaces
+﻿using CatalogoDeDoces.Models;
+
+namespace CatalogoDeDoces.Services.Interfaces
 {
     public interface IJwtService
     {
-        string GerarToken(string userId, string userRole);
+        string GerarToken(UsuarioModel usuario);
     }
 }

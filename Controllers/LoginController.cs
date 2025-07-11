@@ -35,23 +35,29 @@ namespace CatalogoDeDoces.Controllers
         public async Task<IActionResult> Login(UsuarioModel login)
         {
             var usuario = _context.Usuarios.FirstOrDefault(u => u.Email == login.Email);
+           
             if (usuario == null || !CriptografiaSenha.VerifyPassword(login.Senha, usuario.Senha))
             {
                 ViewBag.Erro = "Email ou senha inválidos.";
                 return View("Index");
             }
 
-            bool senhaValida = CriptografiaSenha.VerifyPassword(login.Senha, usuario.Senha);
-            if (!senhaValida)
-                return Unauthorized("Senha inválida.");
+            var token = _jwtService.GerarToken(usuario);
 
-            var token = _jwtService.GerarToken(usuario.UsuarioId.ToString(), usuario.EhAdministrador ? "admin" : "user");
+            Response.Cookies.Append("X-Access-Token", token, new CookieOptions
+            {
+                HttpOnly = true,
+                Secure = true,
+                SameSite = SameSiteMode.Strict,
+                Expires = DateTimeOffset.UtcNow.AddHours(2)
+            });
+
             return RedirectToAction("Index", "Home");
         }
 
         public async Task<IActionResult> LogoutAsync()
         {
-            await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
+            Response.Cookies.Delete("X-Access-Token");
             return RedirectToAction("Index", "Home");
         }
 
@@ -88,7 +94,7 @@ namespace CatalogoDeDoces.Controllers
 
             await _emailService.EnviarEmailAsync(usuario.Email, "Redefinição de Senha", corpoEmail);
 
-            TempData["SucessMensage"] = "Um link de redefinição foi enviado para o seu e-mail.";
+            TempData["MensagemSucesso"] = "Um link de redefinição foi enviado para o seu e-mail.";
             return RedirectToAction("Index", "Login");
         }
 
@@ -131,7 +137,7 @@ namespace CatalogoDeDoces.Controllers
 
             await _usuarioService.SalvarAlteracoesAsync();
 
-            TempData["SucessMensage"] = "Senha redefinida com sucesso!";
+            TempData["MensagemSucesso"] = "Senha redefinida com sucesso!";
             return RedirectToAction("Index", "Login");
         }
     }

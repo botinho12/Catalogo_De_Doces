@@ -35,6 +35,14 @@ namespace CatalogoDeDoces.Controllers
             {
                 if (ModelState.IsValid)
                 {
+                    var usuarioExistente = await _usuarioService.BuscarUsuarioPorEmailAsync(usuario.Email);
+
+                    if (usuarioExistente != null)
+                    {
+                        TempData["MensagemErro"] = "Email já cadastrado, tente outro email!";
+                        return RedirectToAction("Index", "Login");
+                    }
+
                     await _usuarioService.CriarAsync(usuario);
 
                     TempData["MensagemSucesso"] = "Usuario cadastrado com sucesso! ";
