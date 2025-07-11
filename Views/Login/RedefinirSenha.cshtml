@@ -16,17 +16,12 @@
 		<div class="card shadow p-4" style="max-width: 400px; width: 100%;">
 			<h2 class="text-center mb-4">Redefinir Senha</h2>
 			<div class="mb-3">
-				<label asp-for="NomeUsuario" class="form-label">NomeUsuario</label>
-				<input asp-for="NomeUsuario" class="form-control" placeholder="Digite o nome de usuario" />
-				<span asp-validation-for="NomeUsuario" class="text-danger"></span>
-			</div>
-			<div class="mb-3">
 				<label asp-for="Email" class="form-label">Email</label>
 				<input asp-for="Email" class="form-control" placeholder="Digite seu email" />
 				<span asp-validation-for="Email" class="text-danger"></span>
 			</div>
 
-			<button type="submit" class="btn btn-primary  btn-block">Redefinir Senha</button>
+			<button type="submit" class="btn btn-primary  btn-block">Enviar Link</button>
 			<a class="btn btn-secondary btn-block " asp-controller="Login" asp-action="Index" role="button">Voltar</a>
 		</div>
 	</div>

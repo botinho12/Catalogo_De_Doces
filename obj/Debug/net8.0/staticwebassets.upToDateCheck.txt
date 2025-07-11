@@ -2,7 +2,9 @@ wwwroot\css\site.css
 wwwroot\favicon.ico
 wwwroot\imagens\0a0e241b-d3f2-43dc-9c11-5bd9af6e25a1.jpeg
 wwwroot\imagens\2b17b7a8-0371-4ad7-8132-f00a682f22db.jpg
+wwwroot\imagens\56c17be2-1a36-474f-948a-3f5c30e28795.jpg
 wwwroot\imagens\580bd5e4-2ca7-4cef-bfcf-a26f25099b9e.jpg
+wwwroot\imagens\a6914cbb-6eb7-4978-93e4-a8f6595315bd.png
 wwwroot\Img\Banner.png
 wwwroot\Img\Banner2.png
 wwwroot\Img\Banner3.png

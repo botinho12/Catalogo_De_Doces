@@ -2,6 +2,7 @@ using CatalogoDeDoces.Database;
 using CatalogoDeDoces.Infra;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Authentication.Cookies;
+using CatalogoDeDoces.Dtos;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -9,6 +10,9 @@ builder.Services.AddInfrastructure(builder.Configuration);
 
 builder.Services.AddDbContext<DocesContext>(option =>
     option.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+builder.Services.Configure<JwtSettingDto>(
+    builder.Configuration.GetSection("JwtSettings"));
 
 builder.Services.AddHttpContextAccessor();
 

@@ -28,6 +28,8 @@ namespace CatalogoDeDoces.Infra
             services.AddScoped<IProdutoService, ProdutoService>();
             services.AddScoped<ICategoriaService, CategoriaService>();
             services.AddScoped<IUsuarioService, UsuarioService>();
+            services.AddScoped<EmailService>();
+            services.AddScoped<IJwtService, JwtService>();
             #endregion
 
             return services;

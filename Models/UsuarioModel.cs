@@ -27,6 +27,10 @@ namespace CatalogoDeDoces.Models
 
         public bool EhAdministrador { get; set; }
 
+        public string? TokenRedefinicaoSenha { get; set; }
+
+        public DateTime? ExpiracaoToken { get; set; }
+
         public void SetSenhaHash()
         {
             if (!string.IsNullOrEmpty(Senha))

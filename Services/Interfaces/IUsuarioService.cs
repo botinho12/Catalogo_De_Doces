@@ -6,5 +6,8 @@ namespace CatalogoDeDoces.Services.Interfaces
     {
         Task<UsuarioModel> CriarAsync(UsuarioModel usuario);
         Task<UsuarioModel> BuscarUsuarioPorEmailAsync(string email);
+        Task<UsuarioModel?> BuscarUsuarioPorTokenAsync(string token);
+        Task AtualizarSenhaAsync(UsuarioModel usuario, string novaSenhaHash);
+        Task SalvarAlteracoesAsync();
     }
 }

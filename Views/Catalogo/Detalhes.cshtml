@@ -40,7 +40,7 @@
                     <a asp-action="Index" class="btn btn-purple">Voltar</a>
                     @if (User.Identity.IsAuthenticated)
                     {
-                        <a asp-action="AdicionarLista" asp-controller="ListaDesejos" asp-route-id="@Model.Id" class="btn btn-purple">
+                        <a asp-action="Index" asp-controller="ListaProduto" asp-route-id="@Model.Id" class="btn btn-purple">
                             Adicionar à Lista
                         </a>
                     }

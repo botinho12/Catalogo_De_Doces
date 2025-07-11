@@ -11,15 +11,17 @@
 <form asp-controller="Categoria" asp-action="Criar" method="post">
 	@Html.AntiForgeryToken()
 
-	<div class="form-group">
-		<label for="nome">Nome</label>
-		<input type="text" asp-for="Nome" class="form-control" placeholder="Digite o nome do produto">
-		<span asp-validation-for="Nome" class="text-danger"></span>
+	<div class="container">
+		<div class="form-group">
+			<label for="nome">Nome</label>
+			<input type="text" asp-for="Nome" class="form-control" placeholder="Digite o nome do produto">
+			<span asp-validation-for="Nome" class="text-danger"></span>
+		</div>
+
+		<button type="submit" class="btn btn-primary  w-100">Adicionar</button>
+		<a class="btn btn-secondary w-100 " asp-controller="Categoria" asp-action="Index" role="button">Voltar</a>
+
 	</div>
-
-	<button type="submit" class="btn btn-primary  w-100">Adicionar</button>
-	<a class="btn btn-secondary w-100 " asp-controller="Categoria" asp-action="Index" role="button">Voltar</a>
-
 </form>
 
 @section Scripts {

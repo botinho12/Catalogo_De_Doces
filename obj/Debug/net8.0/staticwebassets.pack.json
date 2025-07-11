@@ -65,8 +65,16 @@
       "PackagePath": "staticwebassets\\imagens\\2b17b7a8-0371-4ad7-8132-f00a682f22db.jpg"
     },
     {
+      "Id": "C:\\Users\\botiv\\source\\repos\\CatalogoDeDoces\\CatalogoDeDoces\\CatalogoDeDoces\\wwwroot\\imagens\\56c17be2-1a36-474f-948a-3f5c30e28795.jpg",
+      "PackagePath": "staticwebassets\\imagens\\56c17be2-1a36-474f-948a-3f5c30e28795.jpg"
+    },
+    {
       "Id": "C:\\Users\\botiv\\source\\repos\\CatalogoDeDoces\\CatalogoDeDoces\\CatalogoDeDoces\\wwwroot\\imagens\\580bd5e4-2ca7-4cef-bfcf-a26f25099b9e.jpg",
       "PackagePath": "staticwebassets\\imagens\\580bd5e4-2ca7-4cef-bfcf-a26f25099b9e.jpg"
+    },
+    {
+      "Id": "C:\\Users\\botiv\\source\\repos\\CatalogoDeDoces\\CatalogoDeDoces\\CatalogoDeDoces\\wwwroot\\imagens\\a6914cbb-6eb7-4978-93e4-a8f6595315bd.png",
+      "PackagePath": "staticwebassets\\imagens\\a6914cbb-6eb7-4978-93e4-a8f6595315bd.png"
     },
     {
       "Id": "C:\\Users\\botiv\\source\\repos\\CatalogoDeDoces\\CatalogoDeDoces\\CatalogoDeDoces\\wwwroot\\js\\site.js",

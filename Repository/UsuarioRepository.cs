@@ -13,12 +13,21 @@ namespace CatalogoDeDoces.Repository
 
         public async Task<UsuarioModel> BuscarUsuarioPorEmailAsync(string email)
         {
-           await _context.Usuarios.FirstOrDefaultAsync(u => u.Email == email);
+            return await _context.Usuarios.FirstOrDefaultAsync(u => u.Email == email);
+        }
 
-            return new UsuarioModel
-            {
-                Email = email,
-            };
+        public async Task<UsuarioModel?> BuscarUsuarioPorTokenAsync(string token)
+        {
+            return await _context.Usuarios
+               .FirstOrDefaultAsync(u =>
+                   u.TokenRedefinicaoSenha == token &&
+                   u.ExpiracaoToken.HasValue &&
+                   u.ExpiracaoToken > DateTime.Now);
+        }
+
+        public async Task SalvarAlteracoesAsync()
+        {
+            await _context.SaveChangesAsync();
         }
     }
 }
