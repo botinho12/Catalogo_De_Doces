@@ -151,5 +151,5 @@ C:\Users\botiv\source\repos\CatalogoDeDoces\CatalogoDeDoces\CatalogoDeDoces\bin\
 C:\Users\botiv\source\repos\CatalogoDeDoces\CatalogoDeDoces\CatalogoDeDoces\bin\Debug\net8.0\MimeKit.dll
 C:\Users\botiv\source\repos\CatalogoDeDoces\CatalogoDeDoces\CatalogoDeDoces\bin\Debug\net8.0\System.Security.Cryptography.Pkcs.dll
 C:\Users\botiv\source\repos\CatalogoDeDoces\CatalogoDeDoces\CatalogoDeDoces\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
-C:\Users\botiv\source\repos\CatalogoDeDoces\CatalogoDeDoces\CatalogoDeDoces\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\botiv\source\repos\CatalogoDeDoces\CatalogoDeDoces\CatalogoDeDoces\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\botiv\source\repos\CatalogoDeDoces\CatalogoDeDoces\CatalogoDeDoces\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

@@ -12,7 +12,7 @@ namespace CatalogoDeDoces.Models
         [StringLength(50, ErrorMessage = "O nome deve ter no máximo 50 caracteres.")]
         public string Nome { get; set; }
 
-        [StringLength(50, ErrorMessage = "A descrição deve ter no máximo 50 caracteres.")]
+        [StringLength(300, ErrorMessage = "A descrição deve ter no máximo 300 caracteres.")]
         public string? Descricao { get; set; }
 
         public string? ImagemUrl { get; set; }
@@ -24,7 +24,7 @@ namespace CatalogoDeDoces.Models
         [NotMapped]
         public IFormFile? ArquivoImagem { get; set; }
 
-        public int CategoriaId { get; set; }
+        public int? CategoriaId { get; set; }
 
         public virtual CategoriaModel? Categoria { get; set; }
     }

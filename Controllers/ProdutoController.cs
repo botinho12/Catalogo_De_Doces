@@ -52,6 +52,7 @@ namespace CatalogoDeDoces.Controllers
         {
             var categorias = _docesContext.Categorias.ToList();
             ViewBag.Categorias = new SelectList(categorias, "Id", "Nome");
+
             return View();
         }
 
@@ -94,7 +95,7 @@ namespace CatalogoDeDoces.Controllers
             }
 
             var categorias = _docesContext.Categorias.ToList();
-            ViewBag.Categorias = new SelectList(categorias, "Id", "Nome");
+            ViewBag.Categorias = new SelectList(categorias, "Id", "Nome", produto.CategoriaId);
             return View(produto);
         }
 
