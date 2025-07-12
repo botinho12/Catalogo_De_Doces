@@ -108,6 +108,24 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagens\2b17b7a8-0371-4ad7-8132-f00a682f22db.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagens\422ecbde-a8a1-4369-9da5-5f09c83169c0.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>CatalogoDeDoces</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/CatalogoDeDoces</BasePath>
+      <RelativePath>imagens/422ecbde-a8a1-4369-9da5-5f09c83169c0.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>d8engoxzwp</Fingerprint>
+      <Integrity>MxgOXY+6iwWhEwQL8ZZ7WzmFCBkYePlPThz0yXkuJX0=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagens\422ecbde-a8a1-4369-9da5-5f09c83169c0.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagens\56c17be2-1a36-474f-948a-3f5c30e28795.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>CatalogoDeDoces</SourceId>
@@ -179,6 +197,24 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagens\a6914cbb-6eb7-4978-93e4-a8f6595315bd.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagens\a756bf34-e157-4938-b854-46bdc27e7476.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>CatalogoDeDoces</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/CatalogoDeDoces</BasePath>
+      <RelativePath>imagens/a756bf34-e157-4938-b854-46bdc27e7476.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>d8engoxzwp</Fingerprint>
+      <Integrity>MxgOXY+6iwWhEwQL8ZZ7WzmFCBkYePlPThz0yXkuJX0=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagens\a756bf34-e157-4938-b854-46bdc27e7476.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagens\f4ee11e0-3dcb-4675-9751-10325275db24.jpg'))">
       <SourceType>Package</SourceType>
