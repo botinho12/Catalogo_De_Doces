@@ -1,0 +1,59 @@
+﻿@model List<CatalogoDeDoces.Dtos.ProdutoListaDto>
+@{
+	ViewData["Title"] = "Lista de Produtos";
+}
+
+@if (TempData["Mensagem"] != null)
+{
+	<div class="alert alert-success">@TempData["Mensagem"]</div>
+}
+
+<h2 class="mb-4">Minha Lista de Produtos</h2>
+
+@if (Model != null && Model.Any())
+{
+	<table class="table table-bordered">
+		<thead>
+			<tr>
+				<th>Imagem</th>
+				<th>Nome</th>
+				<th>Preço</th>
+				<th>Ações</th>
+			</tr>
+		</thead>
+		<tbody>
+			@foreach (var produto in Model)
+			{
+				<tr>
+					<td>
+						@if (!string.IsNullOrEmpty(produto.ImagemUrl))
+						{
+							<img src="@produto.ImagemUrl" alt="Imagem do Produto" width="100" />
+						}
+						else
+						{
+							<span>Sem imagem</span>
+						}
+					</td>
+					<td>@produto.Nome</td>
+					<td>R$ @produto.Preco.ToString("N2")</td>
+					<td>
+						<form asp-action="RemoverLista" asp-controller="ListaProduto" method="post">
+							<input type="hidden" name="id" value="@produto.ProdutoId" />
+							<button type="submit" class="btn btn-danger">Remover</button>
+						</form>
+					</td>
+				</tr>
+			}
+		</tbody>
+	</table>
+}
+else
+{
+	<div class="alert alert-info">Sua lista está vazia.</div>
+}
+
+<form>
+	<a asp-action="Index" asp-controller="Catalogo" class="btn btn-primary">Voltar ao Catálogo</a>
+	<a asp-action="Index" asp-controller="Orcamento" class="btn btn-warning">Solicitar orçamento</a>
+</form>
