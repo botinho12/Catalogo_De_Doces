@@ -3942,11 +3942,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\botiv\\source\\repos\\CatalogoDeDoces\\CatalogoDeDoces\\CatalogoDeDoces\\CatalogoDeDoces.csproj",
+      "projectUniqueName": "C:\\Users\\botiv\\Desktop\\CatalogoDeDoces\\CatalogoDeDoces.csproj",
       "projectName": "CatalogoDeDoces",
-      "projectPath": "C:\\Users\\botiv\\source\\repos\\CatalogoDeDoces\\CatalogoDeDoces\\CatalogoDeDoces\\CatalogoDeDoces.csproj",
+      "projectPath": "C:\\Users\\botiv\\Desktop\\CatalogoDeDoces\\CatalogoDeDoces.csproj",
       "packagesPath": "C:\\Users\\botiv\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\botiv\\source\\repos\\CatalogoDeDoces\\CatalogoDeDoces\\CatalogoDeDoces\\obj\\",
+      "outputPath": "C:\\Users\\botiv\\Desktop\\CatalogoDeDoces\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
