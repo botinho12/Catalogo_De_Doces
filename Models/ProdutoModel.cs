@@ -15,6 +15,8 @@ namespace CatalogoDeDoces.Models
         [StringLength(300, ErrorMessage = "A descrição deve ter no máximo 300 caracteres.")]
         public string? Descricao { get; set; }
 
+        public int? Quantidade { get; set; }
+
         public string? ImagemUrl { get; set; }
 
         [Required(ErrorMessage = "O preço é obrigatório.")]

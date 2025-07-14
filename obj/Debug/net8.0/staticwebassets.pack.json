@@ -37,30 +37,6 @@
       "PackagePath": "staticwebassets\\Img\\LogoWhatssap.png"
     },
     {
-      "Id": "C:\\Users\\botiv\\RiderProjects\\Catalogo_De_Doces\\wwwroot\\Img\\jujuba\\img1.jpg",
-      "PackagePath": "staticwebassets\\Img\\jujuba\\img1.jpg"
-    },
-    {
-      "Id": "C:\\Users\\botiv\\RiderProjects\\Catalogo_De_Doces\\wwwroot\\Img\\jujuba\\img2.jpg",
-      "PackagePath": "staticwebassets\\Img\\jujuba\\img2.jpg"
-    },
-    {
-      "Id": "C:\\Users\\botiv\\RiderProjects\\Catalogo_De_Doces\\wwwroot\\Img\\jujuba\\img3.jpg",
-      "PackagePath": "staticwebassets\\Img\\jujuba\\img3.jpg"
-    },
-    {
-      "Id": "C:\\Users\\botiv\\RiderProjects\\Catalogo_De_Doces\\wwwroot\\Img\\jujuba\\img4.jpg",
-      "PackagePath": "staticwebassets\\Img\\jujuba\\img4.jpg"
-    },
-    {
-      "Id": "C:\\Users\\botiv\\RiderProjects\\Catalogo_De_Doces\\wwwroot\\Img\\jujuba\\img5.jpg",
-      "PackagePath": "staticwebassets\\Img\\jujuba\\img5.jpg"
-    },
-    {
-      "Id": "C:\\Users\\botiv\\RiderProjects\\Catalogo_De_Doces\\wwwroot\\Img\\jujuba\\img6.jpg",
-      "PackagePath": "staticwebassets\\Img\\jujuba\\img6.jpg"
-    },
-    {
       "Id": "C:\\Users\\botiv\\RiderProjects\\Catalogo_De_Doces\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
@@ -69,44 +45,8 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\botiv\\RiderProjects\\Catalogo_De_Doces\\wwwroot\\imagens\\0a0e241b-d3f2-43dc-9c11-5bd9af6e25a1.jpeg",
-      "PackagePath": "staticwebassets\\imagens\\0a0e241b-d3f2-43dc-9c11-5bd9af6e25a1.jpeg"
-    },
-    {
-      "Id": "C:\\Users\\botiv\\RiderProjects\\Catalogo_De_Doces\\wwwroot\\imagens\\17fc0a66-35ab-4b35-8db4-efbe29a77053.jpg",
-      "PackagePath": "staticwebassets\\imagens\\17fc0a66-35ab-4b35-8db4-efbe29a77053.jpg"
-    },
-    {
-      "Id": "C:\\Users\\botiv\\RiderProjects\\Catalogo_De_Doces\\wwwroot\\imagens\\2b17b7a8-0371-4ad7-8132-f00a682f22db.jpg",
-      "PackagePath": "staticwebassets\\imagens\\2b17b7a8-0371-4ad7-8132-f00a682f22db.jpg"
-    },
-    {
-      "Id": "C:\\Users\\botiv\\RiderProjects\\Catalogo_De_Doces\\wwwroot\\imagens\\422ecbde-a8a1-4369-9da5-5f09c83169c0.jpg",
-      "PackagePath": "staticwebassets\\imagens\\422ecbde-a8a1-4369-9da5-5f09c83169c0.jpg"
-    },
-    {
-      "Id": "C:\\Users\\botiv\\RiderProjects\\Catalogo_De_Doces\\wwwroot\\imagens\\56c17be2-1a36-474f-948a-3f5c30e28795.jpg",
-      "PackagePath": "staticwebassets\\imagens\\56c17be2-1a36-474f-948a-3f5c30e28795.jpg"
-    },
-    {
-      "Id": "C:\\Users\\botiv\\RiderProjects\\Catalogo_De_Doces\\wwwroot\\imagens\\580bd5e4-2ca7-4cef-bfcf-a26f25099b9e.jpg",
-      "PackagePath": "staticwebassets\\imagens\\580bd5e4-2ca7-4cef-bfcf-a26f25099b9e.jpg"
-    },
-    {
-      "Id": "C:\\Users\\botiv\\RiderProjects\\Catalogo_De_Doces\\wwwroot\\imagens\\681c9418-9047-4856-b366-5f591aedcbb9.jpg",
-      "PackagePath": "staticwebassets\\imagens\\681c9418-9047-4856-b366-5f591aedcbb9.jpg"
-    },
-    {
-      "Id": "C:\\Users\\botiv\\RiderProjects\\Catalogo_De_Doces\\wwwroot\\imagens\\a6914cbb-6eb7-4978-93e4-a8f6595315bd.png",
-      "PackagePath": "staticwebassets\\imagens\\a6914cbb-6eb7-4978-93e4-a8f6595315bd.png"
-    },
-    {
-      "Id": "C:\\Users\\botiv\\RiderProjects\\Catalogo_De_Doces\\wwwroot\\imagens\\a756bf34-e157-4938-b854-46bdc27e7476.jpg",
-      "PackagePath": "staticwebassets\\imagens\\a756bf34-e157-4938-b854-46bdc27e7476.jpg"
-    },
-    {
-      "Id": "C:\\Users\\botiv\\RiderProjects\\Catalogo_De_Doces\\wwwroot\\imagens\\f4ee11e0-3dcb-4675-9751-10325275db24.jpg",
-      "PackagePath": "staticwebassets\\imagens\\f4ee11e0-3dcb-4675-9751-10325275db24.jpg"
+      "Id": "C:\\Users\\botiv\\RiderProjects\\Catalogo_De_Doces\\wwwroot\\js\\AlterarQuantidade.js",
+      "PackagePath": "staticwebassets\\js\\AlterarQuantidade.js"
     },
     {
       "Id": "C:\\Users\\botiv\\RiderProjects\\Catalogo_De_Doces\\wwwroot\\js\\site.js",

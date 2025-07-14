@@ -10,12 +10,13 @@
 
 <h2 class="mb-4">Minha Lista de Produtos</h2>
 
-@if (Model != null && Model.Any())
+@if (Model.Any())
 {
 	<table class="table table-bordered">
 		<thead>
 			<tr>
 				<th>Imagem</th>
+				<th>Quantidade</th>
 				<th>Nome</th>
 				<th>Preço</th>
 				<th>Ações</th>
@@ -24,7 +25,7 @@
 		<tbody>
 			@foreach (var produto in Model)
 			{
-				<tr>
+				<tr class="produto-item" data-nome="@produto.Nome">
 					<td>
 						@if (!string.IsNullOrEmpty(produto.ImagemUrl))
 						{
@@ -34,6 +35,17 @@
 						{
 							<span>Sem imagem</span>
 						}
+					</td>
+					<td>
+						<form class="d-flex align-items-center">
+							<input type="hidden" name="ProdutoId" value="@produto.ProdutoId" />
+
+							<div class="input-group" style="width: 140px;">
+								<button class="btn btn-outline-secondary" type="button" onclick="alterarQuantidade(this, -1)">-</button>
+								<input type="number" class="form-control text-center quantidade" name="Quantidade"value="@(produto.Quantidade > 0 ? produto.Quantidade : 1)" min="1" style="min-width: 40px; padding: 0.375rem 0.5rem;" />
+								<button class="btn btn-outline-secondary" type="button" onclick="alterarQuantidade(this, 1)">+</button>
+							</div>
+						</form>
 					</td>
 					<td>@produto.Nome</td>
 					<td>R$ @produto.Preco.ToString("N2")</td>
@@ -53,7 +65,24 @@ else
 	<div class="alert alert-info">Sua lista está vazia.</div>
 }
 
-<form>
-	<a asp-action="Index" asp-controller="Catalogo" class="btn btn-primary">Voltar ao Catálogo</a>
-	<a asp-action="Index" asp-controller="Orcamento" class="btn btn-warning">Solicitar orçamento</a>
+<a asp-action="Index" asp-controller="Catalogo" class="btn btn-primary">Voltar ao Catálogo</a>
+<form asp-action="EnviarOrcamento" asp-controller="ListaProduto" method="post" class="d-inline">
+	@Html.AntiForgeryToken()
+	<button type="submit" class="btn btn-success">Solicitar orçamento via WhatsApp</button>
 </form>
+
+@section Scripts {
+	<script src="~/js/AlterarQuantidade.js"></script>
+	@if (TempData["AbrirWhatsApp"] != null)
+	{
+		var mensagem = System.Text.Encodings.Web.JavaScriptEncoder.Default.Encode(TempData["AbrirWhatsApp"].ToString());
+		<script>
+            document.addEventListener("DOMContentLoaded", function () {
+                const numeroLoja = '551436444490';
+                const mensagem = "@Html.Raw(mensagem)";
+                const url = `https://wa.me/${numeroLoja}?text=${encodeURIComponent(mensagem)}`;
+                window.open(url, '_blank');
+            });
+        </script>
+	}
+}

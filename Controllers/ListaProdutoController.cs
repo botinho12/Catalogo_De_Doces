@@ -1,4 +1,5 @@
-﻿using CatalogoDeDoces.Dtos;
+﻿using System.Text;
+using CatalogoDeDoces.Dtos;
 using CatalogoDeDoces.Helper;
 using CatalogoDeDoces.Services.Interfaces;
 using Microsoft.AspNetCore.Mvc;
@@ -55,5 +56,32 @@ namespace CatalogoDeDoces.Controllers
             }
             return RedirectToAction("Index");
         }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult EnviarOrcamento()
+        {
+            var lista = HttpContext.Session.GetObjectFromJson<List<ProdutoListaDto>>("ListaProdutos") ?? new List<ProdutoListaDto>();
+
+            if (lista.Count == 0)
+            {
+                TempData["Mensagem"] = "Sua lista está vazia!";
+                return RedirectToAction("Index");
+            }
+
+            var mensagemBuilder = new StringBuilder();
+            mensagemBuilder.AppendLine("Olá! Gostaria de solicitar um orçamento com os seguintes itens:");
+            foreach (var produto in lista)
+            {
+                mensagemBuilder.AppendLine($"- {produto.Nome} (x{produto.Quantidade})");
+            }
+
+            HttpContext.Session.Remove("ListaProdutos");
+            TempData["Mensagem"] = "Orçamento enviado com sucesso!";
+            TempData["AbrirWhatsApp"] = mensagemBuilder.ToString();
+
+            return RedirectToAction("Index");
+        }
+
     }
 }

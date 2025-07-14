@@ -47,6 +47,7 @@ namespace CatalogoDeDoces.Migrations
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Nome = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: false),
                     Descricao = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: true),
+                    Quantidade = table.Column<int>(type: "int", nullable: true),
                     ImagemUrl = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Preco = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
                     CategoriaId = table.Column<int>(type: "int", nullable: false)

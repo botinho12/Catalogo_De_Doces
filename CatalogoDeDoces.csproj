@@ -33,4 +33,18 @@
     </Content>
   </ItemGroup>
 
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="Views\Orcamento\Index.cshtml" />
+    <_ContentIncludedByDefault Remove="wwwroot\imagens\0a0e241b-d3f2-43dc-9c11-5bd9af6e25a1.jpeg" />
+    <_ContentIncludedByDefault Remove="wwwroot\imagens\17fc0a66-35ab-4b35-8db4-efbe29a77053.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\imagens\2b17b7a8-0371-4ad7-8132-f00a682f22db.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\imagens\422ecbde-a8a1-4369-9da5-5f09c83169c0.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\imagens\56c17be2-1a36-474f-948a-3f5c30e28795.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\imagens\580bd5e4-2ca7-4cef-bfcf-a26f25099b9e.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\imagens\681c9418-9047-4856-b366-5f591aedcbb9.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\imagens\a6914cbb-6eb7-4978-93e4-a8f6595315bd.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\imagens\a756bf34-e157-4938-b854-46bdc27e7476.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\imagens\f4ee11e0-3dcb-4675-9751-10325275db24.jpg" />
+  </ItemGroup>
+
 </Project>
