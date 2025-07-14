@@ -87,6 +87,35 @@ Com o projeto aberto no Visual Studio, procure na parte superior, na barra de fe
 * O Visual Studio irá compilar (preparar) o projeto e, em seguida, uma janela do seu navegador de internet padrão (como Chrome, Edge ou Firefox) será aberta automaticamente.
 
 * Pronto! Você verá o Catálogo de Doces funcionando no seu navegador.
+
+## Segui algumas imagens do site ##
+
+## Tela Inicial ##
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/beaabb13-77ba-4dcf-a3ff-1e43a6bb2fd3" width="600">
+</p>
+
+## Tela Do Catalogo de Produtos ##
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/d01c50c1-d1c8-4cd9-8bab-bf36cbd967d5" width="600">
+</p>
+
+## Lista de Produtos Adicionados ##
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/1bd05626-164c-400d-bd2d-a362739bd096" width="600">
+</p>
+
+## Tela do Admin mostrando produtos existentes ##
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/75036294-7242-40db-989e-b77bc4d37a69" width="600">
+</p>
+
+
+
+
+
+
+
   
 
 
