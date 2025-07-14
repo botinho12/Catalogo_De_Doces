@@ -121,7 +121,7 @@ namespace CatalogoDeDoces.Migrations
                             EhAdministrador = true,
                             Email = "admin@admin.com",
                             NomeUsuario = "Admin",
-                            Senha = "Wa+o92zo2I4AVsm5h0WJlrgL4gby3eHu9A8CF4ZFVsPdTFPI82fFpTaXF7TBFrna",
+                            Senha = "Rbv0hYH+5wjYnBLDO//7URhe2Z+NvpKpEV4f9ugCFqkIdIV3WUIXlcS1jKyr1BvW",
                             Telefone = "11999999999"
                         });
                 });

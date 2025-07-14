@@ -4,23 +4,17 @@ using Microsoft.EntityFrameworkCore;
 
 namespace CatalogoDeDoces.Controllers
 {
-    public class CatalogoController : Controller
+    public class CatalogoController(DocesContext context) : Controller
     {
-        private readonly DocesContext _context;
-
-        public CatalogoController(DocesContext context)
-        {
-            _context = context;
-        }
         public IActionResult Index()
         {
-            var produtos = _context.Produtos.ToList();
+            var produtos = context.Produtos.ToList();
             return View(produtos); 
         }
 
         public IActionResult Detalhes(int id)
         {
-            var produto = _context.Produtos
+            var produto = context.Produtos
                 .Include(p => p.Categoria)
                 .FirstOrDefault(p => p.Id == id);
 
@@ -28,6 +22,7 @@ namespace CatalogoDeDoces.Controllers
                 return NotFound();
 
             return View(produto);
+            
         }
     }
 }

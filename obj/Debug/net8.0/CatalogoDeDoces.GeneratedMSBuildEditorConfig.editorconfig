@@ -9,121 +9,121 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = CatalogoDeDoces
 build_property.RootNamespace = CatalogoDeDoces
-build_property.ProjectDir = C:\Users\botiv\Desktop\CatalogoDeDoces\
+build_property.ProjectDir = C:\Users\botiv\RiderProjects\Catalogo_De_Doces\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\botiv\Desktop\CatalogoDeDoces
+build_property.MSBuildProjectDirectory = C:\Users\botiv\RiderProjects\Catalogo_De_Doces
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/botiv/Desktop/CatalogoDeDoces/Views/Catalogo/Detalhes.cshtml]
+[C:/Users/botiv/RiderProjects/Catalogo_De_Doces/Views/Catalogo/Detalhes.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0YWxvZ29cRGV0YWxoZXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/botiv/Desktop/CatalogoDeDoces/Views/Catalogo/Index.cshtml]
+[C:/Users/botiv/RiderProjects/Catalogo_De_Doces/Views/Catalogo/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0YWxvZ29cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/botiv/Desktop/CatalogoDeDoces/Views/Categoria/Criar.cshtml]
+[C:/Users/botiv/RiderProjects/Catalogo_De_Doces/Views/Categoria/Criar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhXENyaWFyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/botiv/Desktop/CatalogoDeDoces/Views/Categoria/Deletar.cshtml]
+[C:/Users/botiv/RiderProjects/Catalogo_De_Doces/Views/Categoria/Deletar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhXERlbGV0YXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/botiv/Desktop/CatalogoDeDoces/Views/Categoria/Editar.cshtml]
+[C:/Users/botiv/RiderProjects/Catalogo_De_Doces/Views/Categoria/Editar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhXEVkaXRhci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/botiv/Desktop/CatalogoDeDoces/Views/Categoria/Index.cshtml]
+[C:/Users/botiv/RiderProjects/Catalogo_De_Doces/Views/Categoria/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/botiv/Desktop/CatalogoDeDoces/Views/Home/Index.cshtml]
+[C:/Users/botiv/RiderProjects/Catalogo_De_Doces/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/botiv/Desktop/CatalogoDeDoces/Views/Home/Privacy.cshtml]
+[C:/Users/botiv/RiderProjects/Catalogo_De_Doces/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/botiv/Desktop/CatalogoDeDoces/Views/Home/QuemSomos.cshtml]
+[C:/Users/botiv/RiderProjects/Catalogo_De_Doces/Views/Home/QuemSomos.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxRdWVtU29tb3MuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/botiv/Desktop/CatalogoDeDoces/Views/ListaProduto/Index.cshtml]
+[C:/Users/botiv/RiderProjects/Catalogo_De_Doces/Views/ListaProduto/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlzdGFQcm9kdXRvXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/botiv/Desktop/CatalogoDeDoces/Views/Login/EnviarLinkParaRedefinirSenha.cshtml]
+[C:/Users/botiv/RiderProjects/Catalogo_De_Doces/Views/Login/EnviarLinkParaRedefinirSenha.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cRW52aWFyTGlua1BhcmFSZWRlZmluaXJTZW5oYS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/botiv/Desktop/CatalogoDeDoces/Views/Login/Index.cshtml]
+[C:/Users/botiv/RiderProjects/Catalogo_De_Doces/Views/Login/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/botiv/Desktop/CatalogoDeDoces/Views/Login/NovaSenha.cshtml]
+[C:/Users/botiv/RiderProjects/Catalogo_De_Doces/Views/Login/NovaSenha.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cTm92YVNlbmhhLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/botiv/Desktop/CatalogoDeDoces/Views/Login/RedefinirSenha.cshtml]
+[C:/Users/botiv/RiderProjects/Catalogo_De_Doces/Views/Login/RedefinirSenha.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cUmVkZWZpbmlyU2VuaGEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/botiv/Desktop/CatalogoDeDoces/Views/Orcamento/Index.cshtml]
+[C:/Users/botiv/RiderProjects/Catalogo_De_Doces/Views/Orcamento/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JjYW1lbnRvXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/botiv/Desktop/CatalogoDeDoces/Views/Produto/Criar.cshtml]
+[C:/Users/botiv/RiderProjects/Catalogo_De_Doces/Views/Produto/Criar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHV0b1xDcmlhci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/botiv/Desktop/CatalogoDeDoces/Views/Produto/Deletar.cshtml]
+[C:/Users/botiv/RiderProjects/Catalogo_De_Doces/Views/Produto/Deletar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHV0b1xEZWxldGFyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/botiv/Desktop/CatalogoDeDoces/Views/Produto/Detalhes.cshtml]
+[C:/Users/botiv/RiderProjects/Catalogo_De_Doces/Views/Produto/Detalhes.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHV0b1xEZXRhbGhlcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/botiv/Desktop/CatalogoDeDoces/Views/Produto/Editar.cshtml]
+[C:/Users/botiv/RiderProjects/Catalogo_De_Doces/Views/Produto/Editar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHV0b1xFZGl0YXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/botiv/Desktop/CatalogoDeDoces/Views/Produto/Index.cshtml]
+[C:/Users/botiv/RiderProjects/Catalogo_De_Doces/Views/Produto/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHV0b1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/botiv/Desktop/CatalogoDeDoces/Views/Shared/Components/CategoriasMenu/Default.cshtml]
+[C:/Users/botiv/RiderProjects/Catalogo_De_Doces/Views/Shared/Components/CategoriasMenu/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcQ2F0ZWdvcmlhc01lbnVcRGVmYXVsdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/botiv/Desktop/CatalogoDeDoces/Views/Shared/Error.cshtml]
+[C:/Users/botiv/RiderProjects/Catalogo_De_Doces/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/botiv/Desktop/CatalogoDeDoces/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/botiv/RiderProjects/Catalogo_De_Doces/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/botiv/Desktop/CatalogoDeDoces/Views/Usuario/Criar.cshtml]
+[C:/Users/botiv/RiderProjects/Catalogo_De_Doces/Views/Usuario/Criar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xDcmlhci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/botiv/Desktop/CatalogoDeDoces/Views/_ViewImports.cshtml]
+[C:/Users/botiv/RiderProjects/Catalogo_De_Doces/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/botiv/Desktop/CatalogoDeDoces/Views/_ViewStart.cshtml]
+[C:/Users/botiv/RiderProjects/Catalogo_De_Doces/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/botiv/Desktop/CatalogoDeDoces/Views/Shared/_Layout.cshtml]
+[C:/Users/botiv/RiderProjects/Catalogo_De_Doces/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-veqzamcnxz

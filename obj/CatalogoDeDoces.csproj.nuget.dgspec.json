@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\botiv\\Desktop\\CatalogoDeDoces\\CatalogoDeDoces.csproj": {}
+    "C:\\Users\\botiv\\RiderProjects\\Catalogo_De_Doces\\CatalogoDeDoces.csproj": {}
   },
   "projects": {
-    "C:\\Users\\botiv\\Desktop\\CatalogoDeDoces\\CatalogoDeDoces.csproj": {
+    "C:\\Users\\botiv\\RiderProjects\\Catalogo_De_Doces\\CatalogoDeDoces.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\botiv\\Desktop\\CatalogoDeDoces\\CatalogoDeDoces.csproj",
+        "projectUniqueName": "C:\\Users\\botiv\\RiderProjects\\Catalogo_De_Doces\\CatalogoDeDoces.csproj",
         "projectName": "CatalogoDeDoces",
-        "projectPath": "C:\\Users\\botiv\\Desktop\\CatalogoDeDoces\\CatalogoDeDoces.csproj",
+        "projectPath": "C:\\Users\\botiv\\RiderProjects\\Catalogo_De_Doces\\CatalogoDeDoces.csproj",
         "packagesPath": "C:\\Users\\botiv\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\botiv\\Desktop\\CatalogoDeDoces\\obj\\",
+        "outputPath": "C:\\Users\\botiv\\RiderProjects\\Catalogo_De_Doces\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,12 +1,9 @@
 ﻿using CatalogoDeDoces.Database;
 using CatalogoDeDoces.Models;
-using CatalogoDeDoces.Repository.Interfaces;
 using CatalogoDeDoces.Services.Interfaces;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Metadata.Internal;
 
 namespace CatalogoDeDoces.Controllers
 {

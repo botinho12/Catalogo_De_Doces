@@ -1,8 +1,5 @@
-﻿using System;
-using System.Linq.Expressions;
-using CatalogoDeDoces.Dtos;
+﻿using CatalogoDeDoces.Dtos;
 using CatalogoDeDoces.Helper;
-using CatalogoDeDoces.Models;
 using CatalogoDeDoces.Services.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 
@@ -27,12 +24,10 @@ namespace CatalogoDeDoces.Controllers
         public async Task<IActionResult> AdicionarLista(int id)
         {
             var produto = await _produtoService.ObterPorIdAsync(p => p.Id == id);
-            if (produto == null)
-                return NotFound();
 
             var lista = HttpContext.Session.GetObjectFromJson<List<ProdutoListaDto>>("ListaProdutos") ?? new List<ProdutoListaDto>();
 
-            if (!lista.Any(p => p.ProdutoId == produto.Id))
+            if (lista.All(p => p.ProdutoId != produto.Id))
             {
                 lista.Add(new ProdutoListaDto
                 {
