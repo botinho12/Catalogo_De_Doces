@@ -88,27 +88,7 @@ Com o projeto aberto no Visual Studio, procure na parte superior, na barra de fe
 
 * Pronto! Você verá o Catálogo de Doces funcionando no seu navegador.
   
-### Aqui vai algumas imagens dos resultados obtidos com o site ###
 
-### Tela Inicial ###
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/8f77a034-5605-4b82-aa63-eb206377553f" width="600">
-</p>
-
-### Tela do Catalogo de Produtos ###
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/2702b227-f390-4d2d-b404-e56e908dfa83" width="600">
-</p>
-
-### Tela do Quem Somos ###
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/2617adcf-59e2-4319-9146-5f28589661ee" width="600">
-</p>
-
-### Detalhes do Produto ###
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/ffde5424-6cd5-4281-86ad-f6c79a331702" width="600">
-</p>
 
 
 
