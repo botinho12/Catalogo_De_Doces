@@ -17,6 +17,18 @@
       "PackagePath": "staticwebassets\\Img\\Banner3.png"
     },
     {
+      "Id": "C:\\Users\\botiv\\RiderProjects\\Catalogo_De_Doces\\wwwroot\\Img\\ImagensCatalogo\\Brigadeiro.jpg",
+      "PackagePath": "staticwebassets\\Img\\ImagensCatalogo\\Brigadeiro.jpg"
+    },
+    {
+      "Id": "C:\\Users\\botiv\\RiderProjects\\Catalogo_De_Doces\\wwwroot\\Img\\ImagensCatalogo\\PacocaClamel.jpg",
+      "PackagePath": "staticwebassets\\Img\\ImagensCatalogo\\PacocaClamel.jpg"
+    },
+    {
+      "Id": "C:\\Users\\botiv\\RiderProjects\\Catalogo_De_Doces\\wwwroot\\Img\\ImagensCatalogo\\beijinho.jpg",
+      "PackagePath": "staticwebassets\\Img\\ImagensCatalogo\\beijinho.jpg"
+    },
+    {
       "Id": "C:\\Users\\botiv\\RiderProjects\\Catalogo_De_Doces\\wwwroot\\Img\\LogoJujuba.png",
       "PackagePath": "staticwebassets\\Img\\LogoJujuba.png"
     },

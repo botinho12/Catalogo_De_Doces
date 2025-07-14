@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CatalogoDeDoces")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c787ec00afa0908504644df08cd7e33091d474de")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e049738da1b0650b93d6f0e6a6f80b5d2c8237d2")]
 [assembly: System.Reflection.AssemblyProductAttribute("CatalogoDeDoces")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CatalogoDeDoces")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
