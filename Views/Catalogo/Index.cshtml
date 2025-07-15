@@ -1,19 +1,22 @@
 ﻿@model List<ProdutoModel>
 
-<h1>Catálogo de Produtos</h1>
+<div class="catalogo-wrapper">
+    <h1 class="text-center">Catálogo de Produtos</h1>
 
-<div class="cards">
-    @foreach (var produto in Model)
-    {
-        <div class="card-produto">
-            <a asp-action="Detalhes" asp-controller="Catalogo" asp-route-id="@produto.Id">
-                <img src="@Url.Content(produto.ImagemUrl ?? "~/Img/sem-imagem.png")"
-                     alt="@produto.Nome" />
-            </a>
+    <div class="cards">
+        @foreach (var produto in Model)
+        {
+            <div class="card-produto">
+                <a asp-action="Detalhes" asp-controller="Catalogo" asp-route-id="@produto.Id">
+                    <img src="@Url.Content(produto.ImagemUrl ?? "~/Img/sem-imagem.png")"
+                         alt="@produto.Nome"/>
+                </a>
 
-            <h6 class="nome-produto">@produto.Nome</h6>
-            <p class="preco-produto">R$ @produto.Preco.ToString("F2")</p>
-        </div>
-    }
+                <h6 class="nome-produto">@produto.Nome</h6>
+                <p class="preco-produto">R$ @produto.Preco.ToString("F2")</p>
+            </div>
+        }
+    </div>
 </div>
+
 

@@ -2,10 +2,12 @@
 using CatalogoDeDoces.Dtos;
 using CatalogoDeDoces.Helper;
 using CatalogoDeDoces.Services.Interfaces;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace CatalogoDeDoces.Controllers
 {
+    [Authorize]
     public class ListaProdutoController : Controller
     {
         private readonly IProdutoService _produtoService;

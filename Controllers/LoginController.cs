@@ -3,9 +3,6 @@ using CatalogoDeDoces.Database;
 using Microsoft.AspNetCore.Mvc;
 using CatalogoDeDoces.Services.Interfaces;
 using CatalogoDeDoces.Helper;
-using System.Security.Claims;
-using Microsoft.AspNetCore.Authentication.Cookies;
-using Microsoft.AspNetCore.Authentication;
 using CatalogoDeDoces.Services;
 
 namespace CatalogoDeDoces.Controllers
@@ -32,14 +29,14 @@ namespace CatalogoDeDoces.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> Login(UsuarioModel login)
+        public Task<IActionResult> Login(UsuarioModel login)
         {
             var usuario = _context.Usuarios.FirstOrDefault(u => u.Email == login.Email);
            
             if (usuario == null || !CriptografiaSenha.VerifyPassword(login.Senha, usuario.Senha))
             {
                 ViewBag.Erro = "Email ou senha inválidos.";
-                return View("Index");
+                return Task.FromResult<IActionResult>(View("Index"));
             }
 
             var token = _jwtService.GerarToken(usuario);
@@ -52,13 +49,13 @@ namespace CatalogoDeDoces.Controllers
                 Expires = DateTimeOffset.UtcNow.AddHours(2)
             });
 
-            return RedirectToAction("Index", "Home");
+            return Task.FromResult<IActionResult>(RedirectToAction("Index", "Home"));
         }
 
-        public async Task<IActionResult> LogoutAsync()
+        public Task<IActionResult> LogoutAsync()
         {
             Response.Cookies.Delete("X-Access-Token");
-            return RedirectToAction("Index", "Home");
+            return Task.FromResult<IActionResult>(RedirectToAction("Index", "Home"));
         }
 
         public IActionResult RedefinirSenha()
@@ -72,12 +69,6 @@ namespace CatalogoDeDoces.Controllers
             if (!ModelState.IsValid) return View(model);
 
             var usuario = await _usuarioService.BuscarUsuarioPorEmailAsync(model.Email);
-
-            if (usuario == null)
-            {
-                TempData["MensagemErro"] = "E-mail não encontrado.";
-                return View(model);
-            }
 
             var token = Guid.NewGuid().ToString();
             usuario.TokenRedefinicaoSenha = token;
@@ -125,7 +116,7 @@ namespace CatalogoDeDoces.Controllers
 
             var usuario = await _usuarioService.BuscarUsuarioPorEmailAsync(model.Email);
 
-            if (usuario == null || usuario.ExpiracaoToken < DateTime.Now)
+            if (usuario.ExpiracaoToken < DateTime.Now)
             {
                 TempData["MensagemErro"] = "Token expirado ou usuário inválido.";
                 return RedirectToAction("Index", "Login");

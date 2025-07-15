@@ -181,6 +181,14 @@ nav a {
 /* ========================================================================
    Componentes de Card (quando usados isoladamente)
    ======================================================================== */
+.catalogo-wrapper {
+    background-color: #fff1e6;
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.08);
+    max-width: 1200px;
+    margin: 30px auto;
+}
 .card h3 {
     font-size: 1.2rem;
     color: #4a004e;

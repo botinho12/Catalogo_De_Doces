@@ -38,11 +38,9 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
         };
     });
 
-builder.Services.AddAuthorization(option =>
-{
-    option.AddPolicy("EhAdministrador", policy =>
+builder.Services.AddAuthorizationBuilder()
+    .AddPolicy("EhAdministrador", policy =>
     policy.RequireClaim("EhAdministrador", "true"));
-});
 
 var app = builder.Build();
 
