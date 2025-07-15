@@ -88,6 +88,19 @@ Com o projeto aberto no Visual Studio, procure na parte superior, na barra de fe
 
 * Pronto! Você verá o Catálogo de Doces funcionando no seu navegador.
 
+### Usuário Administrador para Testes ###
+Para facilitar o teste e demonstração das funcionalidades administrativas do sistema, já incluímos um usuário administrador padrão no banco de dados.
+
+Esse usuário tem as seguintes credenciais:
+
+- Usuário: Admin
+
+- Email: admin@admin.com
+
+- Senha: 123456
+
+Com esse usuário, você poderá fazer login e acessar todas as funcionalidades que são exclusivas do administrador.
+
 ## Segui algumas imagens do site ##
 
 ## Tela Inicial ##
@@ -97,7 +110,7 @@ Com o projeto aberto no Visual Studio, procure na parte superior, na barra de fe
 
 ## Tela Do Catalogo de Produtos ##
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/d01c50c1-d1c8-4cd9-8bab-bf36cbd967d5" width="600">
+  <img src="https://github.com/user-attachments/assets/9a34bca5-7e1d-40f0-bac7-1e1e8ec940a8" width="600">
 </p>
 
 ## Lista de Produtos Adicionados ##
@@ -109,6 +122,7 @@ Com o projeto aberto no Visual Studio, procure na parte superior, na barra de fe
 <p align="center">
   <img src="https://github.com/user-attachments/assets/75036294-7242-40db-989e-b77bc4d37a69" width="600">
 </p>
+
 
 
 
