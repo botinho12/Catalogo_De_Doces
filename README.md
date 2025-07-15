@@ -88,6 +88,19 @@ Com o projeto aberto no Visual Studio, procure na parte superior, na barra de fe
 
 * Pronto! Você verá o Catálogo de Doces funcionando no seu navegador.
 
+### Usuário Administrador para Testes ###
+* Para facilitar o teste e demonstração das funcionalidades administrativas do sistema, já incluímos um usuário administrador padrão no banco de dados.
+
+* Esse usuário tem as seguintes credenciais:
+
+- suário: Admin
+
+- Email: admin@admin.com
+
+- Senha: 123456
+
+Com esse usuário, você poderá fazer login e acessar todas as funcionalidades que são exclusivas do administrador.
+
 ## Segui algumas imagens do site ##
 
 ## Tela Inicial ##
