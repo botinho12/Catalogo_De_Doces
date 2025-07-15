@@ -93,7 +93,7 @@ Para facilitar o teste e demonstração das funcionalidades administrativas do s
 
 Esse usuário tem as seguintes credenciais:
 
-- suário: Admin
+- Usuário: Admin
 
 - Email: admin@admin.com
 
