@@ -110,7 +110,7 @@ Com esse usuário, você poderá fazer login e acessar todas as funcionalidades 
 
 ## Tela Do Catalogo de Produtos ##
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/d01c50c1-d1c8-4cd9-8bab-bf36cbd967d5" width="600">
+  <img src="https://github.com/user-attachments/assets/9a34bca5-7e1d-40f0-bac7-1e1e8ec940a8" width="600">
 </p>
 
 ## Lista de Produtos Adicionados ##
@@ -122,6 +122,7 @@ Com esse usuário, você poderá fazer login e acessar todas as funcionalidades 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/75036294-7242-40db-989e-b77bc4d37a69" width="600">
 </p>
+
 
 
 
