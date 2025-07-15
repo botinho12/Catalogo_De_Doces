@@ -3,12 +3,6 @@
 	ViewData["title"] = "Redefinir senha do usuário";
 }
 
-<div class="text-center">
-
-	<h1 class="display-4"> Alterar Senha</h1>
-
-</div>
-
 <form asp-controller="Login" asp-action="EnviarLinkParaRedefinirSenha" method="post">
 	@Html.AntiForgeryToken()
 

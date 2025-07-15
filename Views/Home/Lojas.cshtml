@@ -1,0 +1,108 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Mapa com Rota Manual</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <style>
+        #map {
+            height: 400px;
+            width: 100%;
+            margin-top: 10px;
+        }
+        #form {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+<h2>Como chegar à loja</h2>
+
+<div id="form">
+    <label for="endereco">Seu endereço:</label>
+    <input type="text" id="endereco" placeholder="Ex: Rua Tal, Igaraçu do Tietê, SP" size="50" />
+    <button onclick="traçarRota()">Traçar Rota</button>
+</div>
+
+<div id="map"></div>
+
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+<script>
+    const lojaLat = -22.518137;
+    const lojaLon = -48.561686;
+    
+    const map = L.map('map').setView([lojaLat, lojaLon], 13);
+
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '© OpenStreetMap contributors'
+    }).addTo(map);
+
+    L.marker([lojaLat, lojaLon])
+        .addTo(map)
+        .bindPopup(`Casa de Doces Jujuba<br>Lat: ${lojaLat}, Lon: ${lojaLon}`)
+        .openPopup();
+
+    let userMarker = null;    
+    let routeLayer = null;   
+
+    function traçarRota() {
+        const enderecoUsuario = document.getElementById("endereco").value;
+
+        if (!enderecoUsuario.trim()) {
+            alert("Digite seu endereço.");
+            return;
+        }
+        
+        fetch(`https://nominatim.openstreetmap.org/search?format=json&q=${encodeURIComponent(enderecoUsuario)}`)
+            .then(response => response.json())
+            .then(data => {
+                if (data.length > 0) {
+                    const userLat = parseFloat(data[0].lat);
+                    const userLon = parseFloat(data[0].lon);
+
+                    if (userMarker) {
+                        map.removeLayer(userMarker);
+                    }
+
+                    userMarker = L.marker([userLat, userLon])
+                        .addTo(map)
+                        .bindPopup("Você está aqui")
+                        .openPopup();
+
+                    const bounds = L.latLngBounds([[userLat, userLon], [lojaLat, lojaLon]]);
+                    map.fitBounds(bounds);
+
+                    const rotaUrl = `https://router.project-osrm.org/route/v1/driving/${userLon},${userLat};${lojaLon},${lojaLat}?overview=full&geometries=geojson`;
+
+                    fetch(rotaUrl)
+                        .then(res => res.json())
+                        .then(rotaData => {
+                            if (rotaData.routes && rotaData.routes.length > 0) {
+                                const routeGeoJson = rotaData.routes[0].geometry;
+
+                                if (routeLayer) {
+                                    map.removeLayer(routeLayer);
+                                }
+
+                                routeLayer = L.geoJSON(routeGeoJson, {
+                                    style: {
+                                        color: 'blue',
+                                        weight: 4
+                                    }
+                                }).addTo(map);
+                            } else {
+                                alert("Não foi possível calcular a rota.");
+                            }
+                        });
+                } else {
+                    alert("Endereço do usuário não encontrado.");
+                }
+            })
+            .catch(error => {
+                console.error("Erro ao buscar endereço:", error);
+                alert("Erro ao buscar endereço.");
+            });
+    }
+</script>
+</body>
+</html>

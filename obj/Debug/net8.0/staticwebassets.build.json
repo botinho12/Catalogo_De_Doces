@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "v03PZHohBfzErL2VAJikVXsjKCFcd02lxqcQxLugUqA=",
+  "Hash": "M5YiAhgNyBhhO1OfAV1aigF/zIMjSxT7f6kXKB8gSDQ=",
   "Source": "CatalogoDeDoces",
   "BasePath": "_content/CatalogoDeDoces",
   "Mode": "Default",
@@ -73,8 +73,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "r170y1x8yq",
-      "Integrity": "rznvuDKu2cM4uYfzFG/n8lOmJh6U4I8V80wS8mBXk0w=",
+      "Fingerprint": "mue7c1hb7b",
+      "Integrity": "7kbj378KAVpbJu5q1kt4puh7+dJ7x+hcuUwyIWabNJE=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -164,6 +164,27 @@
       "OriginalItemSpec": "wwwroot\\Img\\Banner3.png"
     },
     {
+      "Identity": "C:\\Users\\botiv\\RiderProjects\\Catalogo_De_Doces\\wwwroot\\Img\\facebook-logo.png",
+      "SourceId": "CatalogoDeDoces",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\botiv\\RiderProjects\\Catalogo_De_Doces\\wwwroot\\",
+      "BasePath": "_content/CatalogoDeDoces",
+      "RelativePath": "Img/facebook-logo#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "289exhkyad",
+      "Integrity": "Mos8wTs5ZiEIbiNTS8HQsaoXfogMDyaQHXcSe5UwYlw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Img\\facebook-logo.png"
+    },
+    {
       "Identity": "C:\\Users\\botiv\\RiderProjects\\Catalogo_De_Doces\\wwwroot\\Img\\ImagensCatalogo\\beijinho.jpg",
       "SourceId": "CatalogoDeDoces",
       "SourceType": "Discovered",
@@ -225,6 +246,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Img\\ImagensCatalogo\\PacocaClamel.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\botiv\\RiderProjects\\Catalogo_De_Doces\\wwwroot\\Img\\LogoInstagram.png",
+      "SourceId": "CatalogoDeDoces",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\botiv\\RiderProjects\\Catalogo_De_Doces\\wwwroot\\",
+      "BasePath": "_content/CatalogoDeDoces",
+      "RelativePath": "Img/LogoInstagram#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "46xmdx6q12",
+      "Integrity": "lH39tAyZfUjnN2oQoI2iNO9Gz6iRL1jcAihp5/FavSg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Img\\LogoInstagram.png"
     },
     {
       "Identity": "C:\\Users\\botiv\\RiderProjects\\Catalogo_De_Doces\\wwwroot\\Img\\LogoJujuba.png",
@@ -1684,7 +1726,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "8039"
+          "Value": "7979"
         },
         {
           "Name": "Content-Type",
@@ -1692,11 +1734,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"rznvuDKu2cM4uYfzFG/n8lOmJh6U4I8V80wS8mBXk0w=\""
+          "Value": "\"7kbj378KAVpbJu5q1kt4puh7+dJ7x+hcuUwyIWabNJE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 14 Jul 2025 00:11:44 GMT"
+          "Value": "Tue, 15 Jul 2025 01:46:18 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1706,12 +1748,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-rznvuDKu2cM4uYfzFG/n8lOmJh6U4I8V80wS8mBXk0w="
+          "Value": "sha256-7kbj378KAVpbJu5q1kt4puh7+dJ7x+hcuUwyIWabNJE="
         }
       ]
     },
     {
-      "Route": "css/site.r170y1x8yq.css",
+      "Route": "css/site.mue7c1hb7b.css",
       "AssetFile": "C:\\Users\\botiv\\RiderProjects\\Catalogo_De_Doces\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -1721,7 +1763,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "8039"
+          "Value": "7979"
         },
         {
           "Name": "Content-Type",
@@ -1729,11 +1771,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"rznvuDKu2cM4uYfzFG/n8lOmJh6U4I8V80wS8mBXk0w=\""
+          "Value": "\"7kbj378KAVpbJu5q1kt4puh7+dJ7x+hcuUwyIWabNJE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 14 Jul 2025 00:11:44 GMT"
+          "Value": "Tue, 15 Jul 2025 01:46:18 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1743,7 +1785,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "r170y1x8yq"
+          "Value": "mue7c1hb7b"
         },
         {
           "Name": "label",
@@ -1751,7 +1793,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-rznvuDKu2cM4uYfzFG/n8lOmJh6U4I8V80wS8mBXk0w="
+          "Value": "sha256-7kbj378KAVpbJu5q1kt4puh7+dJ7x+hcuUwyIWabNJE="
         }
       ]
     },
@@ -2084,6 +2126,88 @@
       ]
     },
     {
+      "Route": "Img/facebook-logo.289exhkyad.png",
+      "AssetFile": "C:\\Users\\botiv\\RiderProjects\\Catalogo_De_Doces\\wwwroot\\Img\\facebook-logo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "56829"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Mos8wTs5ZiEIbiNTS8HQsaoXfogMDyaQHXcSe5UwYlw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 15 Jul 2025 00:02:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "289exhkyad"
+        },
+        {
+          "Name": "label",
+          "Value": "Img/facebook-logo.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Mos8wTs5ZiEIbiNTS8HQsaoXfogMDyaQHXcSe5UwYlw="
+        }
+      ]
+    },
+    {
+      "Route": "Img/facebook-logo.png",
+      "AssetFile": "C:\\Users\\botiv\\RiderProjects\\Catalogo_De_Doces\\wwwroot\\Img\\facebook-logo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "56829"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Mos8wTs5ZiEIbiNTS8HQsaoXfogMDyaQHXcSe5UwYlw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 15 Jul 2025 00:02:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Mos8wTs5ZiEIbiNTS8HQsaoXfogMDyaQHXcSe5UwYlw="
+        }
+      ]
+    },
+    {
       "Route": "Img/ImagensCatalogo/beijinho.d18bkeu0gj.jpg",
       "AssetFile": "C:\\Users\\botiv\\RiderProjects\\Catalogo_De_Doces\\wwwroot\\Img\\ImagensCatalogo\\beijinho.jpg",
       "Selectors": [],
@@ -2326,6 +2450,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-MxgOXY+6iwWhEwQL8ZZ7WzmFCBkYePlPThz0yXkuJX0="
+        }
+      ]
+    },
+    {
+      "Route": "Img/LogoInstagram.46xmdx6q12.png",
+      "AssetFile": "C:\\Users\\botiv\\RiderProjects\\Catalogo_De_Doces\\wwwroot\\Img\\LogoInstagram.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "472509"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lH39tAyZfUjnN2oQoI2iNO9Gz6iRL1jcAihp5/FavSg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 14 Jul 2025 22:06:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "46xmdx6q12"
+        },
+        {
+          "Name": "label",
+          "Value": "Img/LogoInstagram.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-lH39tAyZfUjnN2oQoI2iNO9Gz6iRL1jcAihp5/FavSg="
+        }
+      ]
+    },
+    {
+      "Route": "Img/LogoInstagram.png",
+      "AssetFile": "C:\\Users\\botiv\\RiderProjects\\Catalogo_De_Doces\\wwwroot\\Img\\LogoInstagram.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "472509"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lH39tAyZfUjnN2oQoI2iNO9Gz6iRL1jcAihp5/FavSg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 14 Jul 2025 22:06:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-lH39tAyZfUjnN2oQoI2iNO9Gz6iRL1jcAihp5/FavSg="
         }
       ]
     },

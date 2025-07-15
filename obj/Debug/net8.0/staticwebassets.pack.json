@@ -29,12 +29,20 @@
       "PackagePath": "staticwebassets\\Img\\ImagensCatalogo\\beijinho.jpg"
     },
     {
+      "Id": "C:\\Users\\botiv\\RiderProjects\\Catalogo_De_Doces\\wwwroot\\Img\\LogoInstagram.png",
+      "PackagePath": "staticwebassets\\Img\\LogoInstagram.png"
+    },
+    {
       "Id": "C:\\Users\\botiv\\RiderProjects\\Catalogo_De_Doces\\wwwroot\\Img\\LogoJujuba.png",
       "PackagePath": "staticwebassets\\Img\\LogoJujuba.png"
     },
     {
       "Id": "C:\\Users\\botiv\\RiderProjects\\Catalogo_De_Doces\\wwwroot\\Img\\LogoWhatssap.png",
       "PackagePath": "staticwebassets\\Img\\LogoWhatssap.png"
+    },
+    {
+      "Id": "C:\\Users\\botiv\\RiderProjects\\Catalogo_De_Doces\\wwwroot\\Img\\facebook-logo.png",
+      "PackagePath": "staticwebassets\\Img\\facebook-logo.png"
     },
     {
       "Id": "C:\\Users\\botiv\\RiderProjects\\Catalogo_De_Doces\\wwwroot\\css\\site.css",

@@ -26,5 +26,10 @@ namespace CatalogoDeDoces.Controllers
         {
             return View();
         }
+
+        public IActionResult Lojas()
+        {
+            return View();
+        }
     }
 }
