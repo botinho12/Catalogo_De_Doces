@@ -41,7 +41,7 @@ public class JwtTokenMiddleware
             }
             catch
             {
-                // Token inválido ou expirado - ignora
+                // ignored
             }
         }
 

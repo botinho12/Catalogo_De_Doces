@@ -4,6 +4,7 @@ namespace CatalogoDeDoces.Helper
 {
     public static class CriptografiaSenha
     {
+        // Gerar o hash da senha ultilizando SHA256
         public static string GerarHash(string password)
         {
             byte[] salt = RandomNumberGenerator.GetBytes(16);
@@ -18,6 +19,7 @@ namespace CatalogoDeDoces.Helper
             return Convert.ToBase64String(hashBytes);
         }
 
+        // Faz a verificação da senha sendo passado a senha salva no banco com a senha informada pelo usuário
         public static bool VerifyPassword(string password, string storedHash)
         {
             byte[] hashBytes = Convert.FromBase64String(storedHash);

@@ -19,13 +19,13 @@
    ======================================================================== */
 body {
     font-family: 'Poppins', sans-serif; /* Fonte principal do site */
-    margin: 50px; /* Espa�amento externo geral */
+    margin: 50px; /* Espaçamento externo geral */
     background-color: #fff6f0; /* Fundo bege claro */
     color: #4a004e; /* Cor de texto principal (roxinho) */
 }
 
 /* ========================================================================
-   Cabe�alho
+   Cabeçalho
    ======================================================================== */
 header {
     background-color: #fff; 
@@ -63,7 +63,7 @@ nav a {
 }
 
 /* ========================================================================
-   Se��o de Boas-vindas
+   Sessão de Boas-vindas
    ======================================================================== */
 .welcome-section {
     display: flex;
@@ -100,7 +100,7 @@ nav a {
     }
 
 /* ========================================================================
-   Bot�o Laranja
+   Botão Laranja
    ======================================================================== */
 .btn-orange {
     background-color: #ff6b00; 
@@ -125,7 +125,7 @@ nav a {
 /* ========================================================================
    Destaques em Cards
    ======================================================================== */
-/* grade de cart�es (mant�m) */
+/* grade de cartões*/
 .cards {
     display: flex;
     flex-wrap: wrap;
@@ -135,7 +135,7 @@ nav a {
     max-width: 100%;
 }
 
-/* card individual (antes era .cards div) */
+/* card individual*/
 .card-produto {
     width: 160px;
     border-radius: 12px;
@@ -169,7 +169,7 @@ nav a {
     text-align: center;
 }
 
-/* pre�o */
+/* Preço*/
 .preco-produto {
     font-size: 0.9rem;
     font-weight: 700;
@@ -205,7 +205,7 @@ nav a {
 }
 
 /* ========================================================================
-   Cita��o / Quote
+   Quote
    ======================================================================== */
 .quote {
     background-color: #fff0e6;
@@ -217,7 +217,7 @@ nav a {
 }
 
 /* ========================================================================
-   Chamada para A��o (CTA)
+   Chamada para Ação (CTA)
    ======================================================================== */
 .cta {
     background-color: #ff6b00;
@@ -227,7 +227,7 @@ nav a {
 }
 
 /* ========================================================================
-   Bot�o Roxo
+   Botão Roxo
    ======================================================================== */
 .btn-purple {
     background-color: #3F2E87;
@@ -240,19 +240,17 @@ nav a {
 }
 
     .btn-purple:hover {
-        background-color: #2e216a; /* Tom mais escuro no hover */
+        background-color: #2e216a; 
     }
 
 /* ========================================================================
-   Formul�rios e Foco
+   Formularios e Foco
    ======================================================================== */
 .btn:focus,
 .btn:active:focus,
 .btn-link.nav-link:focus,
 .form-control:focus,
-.form-check-input:focus {
-    /* Sombra azul ao focar em elementos interativos */
-    box-shadow: 0 0 0 0.1rem #fff, 0 0 0 0.25rem #258cfb;
+.form-check-input:focus {box-shadow: 0 0 0 0.1rem #fff, 0 0 0 0.25rem #258cfb;
 }
 
 /* ========================================================================
@@ -298,6 +296,10 @@ nav a {
         margin-bottom: 1rem;
         line-height: 1.6;
     }
+
+/* ========================================================================
+Pagina Quem Somos/ Icones das Redes Sociais
+======================================================================== */
 
 .social-icons {
     justify-content: center;

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "YUlQsSaiCHcSThadFmpl41tppFfMKknRSxhCiSFV0t0=",
+  "Hash": "26vpnd82Ht2K0km39V4hgAGeZWoi1BfQ0YqOebujWOw=",
   "Source": "CatalogoDeDoces",
   "BasePath": "_content/CatalogoDeDoces",
   "Mode": "Default",
@@ -73,8 +73,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "cya70p5mdr",
-      "Integrity": "NAfNVcsfu9U3Bjrt/6eZqlxU+Gmd+YXmQJflLOYrIL8=",
+      "Fingerprint": "3jbfcsa560",
+      "Integrity": "4buzKKk62yOnlMRv7qTUc1qKlLpzzqkJUHtKRkH5TNI=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -325,8 +325,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "ax6s4ghw5u",
-      "Integrity": "DuYpdy5rLwVwSqZdH4ikp+DuTkdmVCLMlh5b7XxDqg4=",
+      "Fingerprint": "b7jikpu1ms",
+      "Integrity": "t+kfir8wP7VZ14o4FwknJvrEPsJEF/FkhQYN8+T0hgU=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\AlterarQuantidade.js"
@@ -346,8 +346,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "r1arw9mkzw",
-      "Integrity": "YVD9UHhxfPutZBgnhdCK59vIyghH4RXyIk1uUlfGxOc=",
+      "Fingerprint": "smupml6h4f",
+      "Integrity": "rK7Nj/efQjLXWgIsMpdMqr6VYhMrGSxuW4skoKBBJro=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\site.js"
@@ -1716,6 +1716,51 @@
       ]
     },
     {
+      "Route": "css/site.3jbfcsa560.css",
+      "AssetFile": "C:\\Users\\botiv\\RiderProjects\\Catalogo_De_Doces\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8221"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4buzKKk62yOnlMRv7qTUc1qKlLpzzqkJUHtKRkH5TNI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 16 Jul 2025 10:00:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3jbfcsa560"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-4buzKKk62yOnlMRv7qTUc1qKlLpzzqkJUHtKRkH5TNI="
+        }
+      ]
+    },
+    {
       "Route": "css/site.css",
       "AssetFile": "C:\\Users\\botiv\\RiderProjects\\Catalogo_De_Doces\\wwwroot\\css\\site.css",
       "Selectors": [],
@@ -1726,7 +1771,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "8176"
+          "Value": "8221"
         },
         {
           "Name": "Content-Type",
@@ -1734,11 +1779,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"NAfNVcsfu9U3Bjrt/6eZqlxU+Gmd+YXmQJflLOYrIL8=\""
+          "Value": "\"4buzKKk62yOnlMRv7qTUc1qKlLpzzqkJUHtKRkH5TNI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 15 Jul 2025 10:17:12 GMT"
+          "Value": "Wed, 16 Jul 2025 10:00:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1748,52 +1793,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-NAfNVcsfu9U3Bjrt/6eZqlxU+Gmd+YXmQJflLOYrIL8="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.cya70p5mdr.css",
-      "AssetFile": "C:\\Users\\botiv\\RiderProjects\\Catalogo_De_Doces\\wwwroot\\css\\site.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "8176"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"NAfNVcsfu9U3Bjrt/6eZqlxU+Gmd+YXmQJflLOYrIL8=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 15 Jul 2025 10:17:12 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "cya70p5mdr"
-        },
-        {
-          "Name": "label",
-          "Value": "css/site.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-NAfNVcsfu9U3Bjrt/6eZqlxU+Gmd+YXmQJflLOYrIL8="
+          "Value": "sha256-4buzKKk62yOnlMRv7qTUc1qKlLpzzqkJUHtKRkH5TNI="
         }
       ]
     },
@@ -2700,7 +2700,7 @@
       ]
     },
     {
-      "Route": "js/AlterarQuantidade.ax6s4ghw5u.js",
+      "Route": "js/AlterarQuantidade.b7jikpu1ms.js",
       "AssetFile": "C:\\Users\\botiv\\RiderProjects\\Catalogo_De_Doces\\wwwroot\\js\\AlterarQuantidade.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -2710,7 +2710,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "309"
+          "Value": "403"
         },
         {
           "Name": "Content-Type",
@@ -2718,11 +2718,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"DuYpdy5rLwVwSqZdH4ikp+DuTkdmVCLMlh5b7XxDqg4=\""
+          "Value": "\"t+kfir8wP7VZ14o4FwknJvrEPsJEF/FkhQYN8+T0hgU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 14 Jul 2025 10:25:49 GMT"
+          "Value": "Wed, 16 Jul 2025 10:00:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2732,7 +2732,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "ax6s4ghw5u"
+          "Value": "b7jikpu1ms"
         },
         {
           "Name": "label",
@@ -2740,7 +2740,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-DuYpdy5rLwVwSqZdH4ikp+DuTkdmVCLMlh5b7XxDqg4="
+          "Value": "sha256-t+kfir8wP7VZ14o4FwknJvrEPsJEF/FkhQYN8+T0hgU="
         }
       ]
     },
@@ -2755,7 +2755,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "309"
+          "Value": "403"
         },
         {
           "Name": "Content-Type",
@@ -2763,11 +2763,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"DuYpdy5rLwVwSqZdH4ikp+DuTkdmVCLMlh5b7XxDqg4=\""
+          "Value": "\"t+kfir8wP7VZ14o4FwknJvrEPsJEF/FkhQYN8+T0hgU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 14 Jul 2025 10:25:49 GMT"
+          "Value": "Wed, 16 Jul 2025 10:00:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2777,7 +2777,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-DuYpdy5rLwVwSqZdH4ikp+DuTkdmVCLMlh5b7XxDqg4="
+          "Value": "sha256-t+kfir8wP7VZ14o4FwknJvrEPsJEF/FkhQYN8+T0hgU="
         }
       ]
     },
@@ -2792,7 +2792,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "436"
+          "Value": "432"
         },
         {
           "Name": "Content-Type",
@@ -2800,11 +2800,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"YVD9UHhxfPutZBgnhdCK59vIyghH4RXyIk1uUlfGxOc=\""
+          "Value": "\"rK7Nj/efQjLXWgIsMpdMqr6VYhMrGSxuW4skoKBBJro=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 14 Jul 2025 00:11:44 GMT"
+          "Value": "Wed, 16 Jul 2025 10:01:39 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2814,12 +2814,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-YVD9UHhxfPutZBgnhdCK59vIyghH4RXyIk1uUlfGxOc="
+          "Value": "sha256-rK7Nj/efQjLXWgIsMpdMqr6VYhMrGSxuW4skoKBBJro="
         }
       ]
     },
     {
-      "Route": "js/site.r1arw9mkzw.js",
+      "Route": "js/site.smupml6h4f.js",
       "AssetFile": "C:\\Users\\botiv\\RiderProjects\\Catalogo_De_Doces\\wwwroot\\js\\site.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -2829,7 +2829,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "436"
+          "Value": "432"
         },
         {
           "Name": "Content-Type",
@@ -2837,11 +2837,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"YVD9UHhxfPutZBgnhdCK59vIyghH4RXyIk1uUlfGxOc=\""
+          "Value": "\"rK7Nj/efQjLXWgIsMpdMqr6VYhMrGSxuW4skoKBBJro=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 14 Jul 2025 00:11:44 GMT"
+          "Value": "Wed, 16 Jul 2025 10:01:39 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2851,7 +2851,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "r1arw9mkzw"
+          "Value": "smupml6h4f"
         },
         {
           "Name": "label",
@@ -2859,7 +2859,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-YVD9UHhxfPutZBgnhdCK59vIyghH4RXyIk1uUlfGxOc="
+          "Value": "sha256-rK7Nj/efQjLXWgIsMpdMqr6VYhMrGSxuW4skoKBBJro="
         }
       ]
     },

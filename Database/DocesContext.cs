@@ -16,7 +16,9 @@ namespace CatalogoDeDoces.Database
         public DbSet<ProdutoModel> Produtos { get; set; }
         public DbSet<CategoriaModel> Categorias { get; set; }
         public DbSet<UsuarioModel> Usuarios { get; set; }
-
+        
+        
+// Inserindo um Usuario Admin para que o usuario possa acessar a tela de administrador
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
