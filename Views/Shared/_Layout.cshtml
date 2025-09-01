@@ -80,6 +80,30 @@
         </main>
 
         <footer class="cta">
+            <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center">
+                <!-- Contato -->
+                <div>
+                    <strong>📞 (14) 3644-4490</strong>
+                </div>
+
+                <!-- Redes sociais -->
+                <div class="social-icons">
+                    <a href="https://wa.me/+551436444490" target="_blank">
+                        <img src="~/Img/LogoWhatssap.png" alt="Logo WhatsApp" class="whatsapp-icon"/>
+                    </a>
+                    <a href="https://www.instagram.com/casadedocesjujuba" target="_blank">
+                        <img src="~/Img/LogoInstagram.png" alt="Logo Instagram" class="instagram-icon"/>
+                    </a>
+                    <a href="https://www.facebook.com/casadedocesjujub4" target="_blank">
+                        <img src="~/Img/facebook-logo.png" alt="Logo Facebook" class="facebook-icon"/>
+                    </a>
+                </div>
+
+                <!-- Quem somos -->
+                <div class="mt-2 mt-md-0">
+                    <a href="@Url.Action("QuemSomos", "Home")" class="text-white">Quem Somos</a>
+                </div>
+            </div>
         </footer>
     </div>
 
@@ -90,5 +114,5 @@
     <script src="~/js/site.js"></script>
 
     @RenderSection("Scripts", required: false)
-</body>
+    </body>
 </html>

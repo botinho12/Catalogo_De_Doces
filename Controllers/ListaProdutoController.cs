@@ -37,6 +37,7 @@ namespace CatalogoDeDoces.Controllers
                     ProdutoId = produto.Id,
                     Nome = produto.Nome,
                     Preco = produto.Preco,
+                    Quantidade = produto.Quantidade,
                     ImagemUrl = produto.ImagemUrl
                 });
 
@@ -58,14 +59,27 @@ namespace CatalogoDeDoces.Controllers
             }
             return RedirectToAction("Index");
         }
+        
+        [HttpPost]
+        public IActionResult AtualizarQuantidade([FromBody] ProdutoListaDto produtoAtualizado)
+        {
+            var lista = HttpContext.Session.GetObjectFromJson<List<ProdutoListaDto>>("ListaProdutos");
+            var produto = lista.FirstOrDefault(p => p.ProdutoId == produtoAtualizado.ProdutoId);
+
+            if (produto != null)
+            {
+                produto.Quantidade = produtoAtualizado.Quantidade;
+                HttpContext.Session.SetObjectAsJson("ListaProdutos", lista);
+            }
+
+            return Ok();
+        }
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult EnviarOrcamento()
+        public IActionResult EnviarOrcamento(List<ProdutoListaDto> produtos)
         {
-            var lista = HttpContext.Session.GetObjectFromJson<List<ProdutoListaDto>>("ListaProdutos") ?? new List<ProdutoListaDto>();
-
-            if (lista.Count == 0)
+            if (produtos == null || !produtos.Any())
             {
                 TempData["Mensagem"] = "Sua lista está vazia!";
                 return RedirectToAction("Index");
@@ -73,17 +87,21 @@ namespace CatalogoDeDoces.Controllers
 
             var mensagemBuilder = new StringBuilder();
             mensagemBuilder.AppendLine("Olá! Gostaria de solicitar um orçamento com os seguintes itens:");
-            foreach (var produto in lista)
+
+            foreach (var produto in produtos)
             {
-                mensagemBuilder.AppendLine($"- {produto.Nome} (x{produto.Quantidade})");
+                mensagemBuilder.AppendLine($"- {produto.Nome} ({produto.Quantidade})");
             }
 
+            // se ainda quiser limpar da sessão:
             HttpContext.Session.Remove("ListaProdutos");
+
             TempData["Mensagem"] = "Orçamento enviado com sucesso!";
             TempData["AbrirWhatsApp"] = mensagemBuilder.ToString();
 
             return RedirectToAction("Index");
         }
+
 
     }
 }

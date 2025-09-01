@@ -246,8 +246,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>b7jikpu1ms</Fingerprint>
-      <Integrity>t+kfir8wP7VZ14o4FwknJvrEPsJEF/FkhQYN8+T0hgU=</Integrity>
+      <Fingerprint>odqug6xi63</Fingerprint>
+      <Integrity>9KZ8MZmG7WPlKbLnVBrE6a3lMcnJ2dM+ctc/JDe6TY4=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\AlterarQuantidade.js'))</OriginalItemSpec>
