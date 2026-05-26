@@ -26,41 +26,71 @@
 <body>
     <div id="Cor-Borda">
         <header>
-            <div class="logo">
-                <img src="~/Img/LogoJujuba.png" alt="Logo Jujuba" class="logo-img" />
-            </div>
-            <nav>
-                <a asp-controller="Home" asp-action="Index">Início</a>
-                <a asp-controller="Catalogo" asp-action="Index">Catalogo</a>
-                <a asp-controller="Home" asp-action="QuemSomos">Quem Somos</a>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white px-3">
+        
+        <!-- Logo -->
+        <a class="navbar-brand d-flex align-items-center" href="/">
+            <img src="~/Img/LogoJujuba.png" alt="Logo Jujuba" style="height:50px;" />
+        </a>
+
+        <!-- Botão mobile -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Conteúdo colapsável -->
+        <div class="collapse navbar-collapse" id="navbarContent">
+
+            <!-- Links -->
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                <li class="nav-item">
+                    <a class="nav-link" asp-controller="Home" asp-action="Index">Início</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" asp-controller="Catalogo" asp-action="Index">Catálogo</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" asp-controller="Home" asp-action="QuemSomos">Quem Somos</a>
+                </li>
 
                 @if (User.Identity.IsAuthenticated)
                 {
-                    <a asp-controller="ListaProduto" asp-action="Index">Lista de Produtos</a>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-controller="ListaProduto" asp-action="Index">Lista de Produtos</a>
+                    </li>
                 }
 
                 @if (ehAdmin)
                 {
-                    <a asp-controller="Produto" asp-action="Index">Produtos</a>
-                    <a asp-controller="Categoria" asp-action="Index">Categorias</a>
-                }
-            </nav>
-
-            <ul class="navbar-nav d-flex flex-row">
-                @{
-                    var nomeUsuario = User.Identity.IsAuthenticated ? User.Identity.Name : null;
+                    <li class="nav-item">
+                        <a class="nav-link" asp-controller="Produto" asp-action="Index">Produtos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-controller="Categoria" asp-action="Index">Categorias</a>
+                    </li>
                 }
 
-                @if (!string.IsNullOrEmpty(nomeUsuario))
+            </ul>
+
+            <!-- Usuário -->
+            <ul class="navbar-nav">
+
+                @if (User.Identity.IsAuthenticated)
                 {
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle text-dark" href="#" id="userDropdown" role="button" data-bs-toggle="dropdown">
-                            <i class="bi bi-person-circle"></i> @nomeUsuario
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">
+                            <i class="bi bi-person-circle"></i> @User.Identity.Name
                         </a>
+
                         <ul class="dropdown-menu dropdown-menu-end">
                             <li>
-                                <a class="dropdown-item text-danger" asp-controller="Login" asp-action="Logout">
-                                    <i class="bi bi-box-arrow-right"></i> Sair
+                                <a class="dropdown-item text-danger"
+                                   asp-controller="Login"
+                                   asp-action="Logout">
+                                    Sair
                                 </a>
                             </li>
                         </ul>
@@ -69,11 +99,14 @@
                 else
                 {
                     <li class="nav-item">
-                        <a class="nav-link text-dark" asp-controller="Login" asp-action="Index">Entrar</a>
+                        <a class="nav-link" asp-controller="Login" asp-action="Index">Entrar</a>
                     </li>
                 }
+
             </ul>
-        </header>
+        </div>
+    </nav>
+</header>
 
         <main>
             @RenderBody()
